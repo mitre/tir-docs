@@ -1,61 +1,159 @@
 # Test Ingest Repository (TIR) Privileged User Guide
 
-# Purpose
+## Purpose
 
-The purpose of this document is to provide a guide for Administrative
-functions for Test Ingest Repository (TIR). TIR is a MITRE Security
-Assessment Framework (SAF) tool that is used to support boundary and
-software compliance and continuous monitoring.
+The purpose of this document is to provide a guide for Administrative functions for Test Ingest Repository (TIR). TIR is a MITRE Security Assessment Framework (SAF) tool that is used to support boundary and software compliance and continuous monitoring.
 
-TIR Administrators only have access to certain features in the software.
-Administrators can configure TIR, and change permissions on Companies
-and Boundaries. Administrators cannot edit boundary details. This helps
-maintain required separation of roles and responsibilities within the
-TIR.
+TIR Administrators only have access to certain features in the software. Administrators can configure TIR, and change permissions on Companies and Boundaries. Administrators cannot edit boundary details. This helps maintain required separation of roles and responsibilities within the TIR.
 
-# Account Permissions
+## Account Permissions
 
-TIR has two types of users, Administrators and Users. Administrators
-have access to the **Administration,** **Libraries**, and **Boundary**
-tabs. Users only have access to Libraries and Boundary tabs. TIR is
-setup as a hierarchical system with Companies and Boundaries. Users can
-be granted permissions to be Owners, Reviewers, and Editors for
-Companies and Boundaries. A summary of permissions is show in Table 1,
-below.
+TIR has two types of users, Administrators and Users. Administrators have access to the **Administration,** **Libraries**, and **Boundary** tabs. Users only have access to Libraries and Boundary tabs. TIR is setup as a hierarchical system with Companies and Boundaries. Users can be granted permissions to be Owners, Reviewers, and Editors for
+Companies and Boundaries. A summary of permissions is show in Table 1, below.
 
-<img src="./assets/admin-guide/image1.png"
-style="width:5.41685in;height:2.35425in" />
+<p>
+<img 
+    style="display: block; margin-left: auto; margin-right: auto; "
+    src="./assets/admin-guide/image1.png" 
+    alt="Table 1: Access Control – User Permissions">
+</img>
+</p>
+<p style="text-align: center;"><em>Table 1: Access Control – User Permissions</em></p>
 
-# Configuration
+### Changing Company and Boundary Permissions
 
-## Administrator Login
+To add or modify Company and Boundary permissions, select the 3 buttons to the far right of the Company or Boundary and select Manage Members.
 
-The default Local Administrator Username is admin@tir.local. The initial
-password will be provided. Enter your admin@tir.local and the initial
-**Password**, then review the **IS User Agreement** and acknowledge that
-you have read it by clicking the check box. Then, click **Sign in**.
+<p>
+<img 
+    style="display: block; margin-left: auto; margin-right: auto; "
+    src="./assets/user-guide/ModifyCompanyPermissions.png" 
+    alt="Figure 1: Modify Company/Boundary Permissions">
+</img>
+</p>
+<p style="text-align: center;"><em>Figure 1: Modify Company/Boundary Permissions</em></p>
 
-<img src="./assets/admin-guide/image2.png"
-style="width:3.4621in;height:2.99749in" />
+#### Adding Users
 
--   After successfully logging in for the first time, please change the
-    TIR Admin password by completing the following:
+Clicking the **Manage Members** will display the Members dialog box, enter the username in the **Search Users** box.
 
--   Click the Profile Icon in the upper right corner of the welcome
-    screen.
+<p>
+<img 
+    style="display: block; margin-left: auto; margin-right: auto; "
+    src="./assets/user-guide/ModifyCompanyPermissions2.png" 
+    alt="Figure 2: Adding Members – Search Users">
+</img>
+</p>
+<p style="text-align: center;"><em>Figure 2: Adding Members – Search Users</em></p>
 
-<img src="./assets/admin-guide/image3.png"
-style="width:6.5in;height:2.44514in" />
+The Search Users box should provide a list of similar usernames. Select the user account you wish to add. Once selected click the down arrow next to Co-Owner and select the level of permission you wish to grant.
+
+<p>
+<img 
+    style="display: block; margin-left: auto; margin-right: auto; "
+    src="./assets/user-guide/ModifyCompanyPermissions3.png" 
+    alt="Figure 3: Manage Members – Choose level of Access">
+</img>
+</p>
+<p style="text-align: center;"><em>Figure 3: Manage Members – Choose level of Access</em></p>
+
+Once the level of access you wish to grant is selected, click **Add Member**. You will see the account added to the user permissions list for the applicable company/boundary.
+
+<p>
+<img 
+    style="display: block; margin-left: auto; margin-right: auto; "
+    src="./assets/user-guide/ModifyCompanyPermissions4.png" 
+    alt="Figure 4: Member Access – User Added with Editor Role">
+</img>
+</p>
+<p style="text-align: center;"><em>Figure 4: Member Access – User Added with Co-owner Role</em></p>
+
+Member access can be edited or removed from this view as well. This process is the same for both Companies and Boundaries.
+
+#### Editing User Permissions
+
+Clicking the **Manage Members** will display the Members dialog box. Click the **Edit** button next to the user you wish change permissions for.
+
+<p>
+<img 
+    style="display: block; margin-left: auto; margin-right: auto; "
+    src="./assets/user-guide/EditUserPermissions.png" 
+    alt="Figure 5: Edit User Permissions">
+</img>
+</p>
+<p style="text-align: center;"><em>Figure 5: Edit User Permissions</em></p>
+
+This will enable the drop-down menu for the role field. To change the user's role, select the new role and click the **Save** button for that user. There is one limitation when editing roles, and that is that each boundary needs to have an Owner. If you are changing the role of user from Owner to Editor, you will first need to assign another user the Owner role.
+
+<p>
+<img 
+    style="display: block; margin-left: auto; margin-right: auto; "
+    src="./assets/user-guide/EditUserPermissions2.png" 
+    alt="Figure 6: Edit User Role">
+</img>
+</p>
+<p style="text-align: center;"><em>Figure 6: Edit User Role</em></p>
+
+To remove a user, click the **Remove** button for that user. Owners can not be removed. If you wish to remove an owner from a Company or Boundary you must first grant another user the Owner role.
+
+<p>
+<img 
+    style="display: block; margin-left: auto; margin-right: auto; "
+    src="./assets/user-guide/RemoveUser.png" 
+    alt="Figure 7: Remove User">
+</img>
+</p>
+<p style="text-align: center;"><em>Figure 7: Remove User</em></p>
+
+## Configuration
+
+### Administrator Login
+
+The default Local Administrator Username is admin@tir.local. The initial password will be provided. Enter your admin@tir.local and the initial **Password**, then review the **IS User Agreement** and acknowledge that you have read it by clicking the check box. Then, click **Sign in**.
+
+<p>
+<img 
+    style="display: block; margin-left: auto; margin-right: auto; "
+    src="./assets/admin-guide/image2.png" 
+    alt="Figure 8: Login Page">
+</img>
+</p>
+<p style="text-align: center;"><em>Figure 8: Login Page</em></p>
+
+-   After successfully logging in for the first time, please change the TIR Admin password by completing the following:
+
+-   Click the Profile Icon in the upper right corner of the welcome screen.
+
+<p>
+<img 
+    style="display: block; margin-left: auto; margin-right: auto; "
+    src="./assets/admin-guide/image3.png" 
+    alt="Figure 9:  Selecting Your Profile">
+</img>
+</p>
+<p style="text-align: center;"><em>Figure 9:  Selecting Your Profile</em></p>
 
 -   Click Your **Profile** to bring up the TIR Admin profile.
 
-<img src="./assets/admin-guide/image4.png"
-style="width:4.66403in;height:2.82981in" />
+<p>
+<img 
+    style="display: block; margin-left: auto; margin-right: auto; "
+    src="./assets/admin-guide/image4.png" 
+    alt="Figure 10: Changing The Local Admin Password">
+</img>
+</p>
+<p style="text-align: center;"><em>Figure 10: Changing The Local Admin Password</em></p>
 
 -   In the **Password** row select **Change**
 
-<img src="./assets/admin-guide/image5.png"
-style="width:4.77808in;height:3.26656in" />
+<p>
+<img 
+    style="display: block; margin-left: auto; margin-right: auto; "
+    src="./assets/admin-guide/image5.png" 
+    alt="Figure 11: Changing the Local Admin Password">
+</img>
+</p>
+<p style="text-align: center;"><em>Figure 11: Changing the Local Admin Password</em></p>
 
 -   Enter **New password**
 
@@ -63,91 +161,147 @@ style="width:4.77808in;height:3.26656in" />
 
 -   Select Save
 
-## Administrative Functions
+### Administrative Functions
 
-The TIR Local Administrator account is allowed to perform a number of
-configuration tasks, like creating local accounts, setting up LDAP,
-uploading certificates, and configurating centralized Logging. These
-functions are executed in the **Administration** Tab.
+The TIR Local Administrator account is allowed to perform a number of configuration tasks, like creating local accounts, setting up LDAP, uploading certificates, and configurating centralized Logging. These functions are executed in the **Administration** Tab.
 
-1.  **The Administration Tab**
+#### The Administration Tab
 
-The **Administration** tab is only available through Administrators. You
-access the **Administration** tab by selecting **Administration** at the
-top center of the web interface.
+The **Administration** tab is only available through Administrators. You access the **Administration** tab by selecting **Administration** at the top center of the web interface.
 
-<img src="./assets/admin-guide/image6.png"
-style="width:3.23721in;height:2.36877in" />
+<p>
+<img 
+    style="display: block; margin-left: auto; margin-right: auto; "
+    src="./assets/admin-guide/image6.png" 
+    alt="Figure 12:  Location of the Administration Tab">
+</img>
+</p>
+<p style="text-align: center;"><em>Figure 12:  Location of the Administration Tab</em></p>
 
-The four major **Administration** tab functions are configuration,
-Notifications, Users, and Logs.
+The four major **Administration** tab functions are configuration, Notifications, Users, and Logs.
 
 A view of the **Administration** tab is below:
 
-<img src="./assets/admin-guide/image7.png"
-style="width:3.17226in;height:2.34293in" />
+<p>
+<img 
+    style="display: block; margin-left: auto; margin-right: auto; "
+    src="./assets/admin-guide/AdministrationTab_General.png" 
+    alt="Figure 13: Administration Tab">
+</img>
+</p>
+<p style="text-align: center;"><em>Figure 13: Administration Tab</em></p>
 
-#### Configuring LDAP
+##### Configuring LDAP
 
-LDAP is configured during TIR deployment. Please see the TIR Deployment
-Guide for LDAP configuration procedures.
+LDAP is configured during TIR deployment. Please see the TIR Deployment Guide for LDAP configuration procedures.
 
-#### Configuration
+##### Configuration
 
-Within the **Configuration** section an Administrator can change
-standard **Terminology** and import a **CA Certificate.**
+Within the **Configuration** section an Administrator can change standard **Terminology** and import a **CA Certificate.**
 
-<img src="./assets/admin-guide/image8.png"
-style="width:3.94403in;height:2.00994in" />
+<p>
+<img 
+    style="display: block; margin-left: auto; margin-right: auto; "
+    src="./assets/admin-guide/AdministrationTab_Configuration.png" 
+    alt="Figure 14: Configuration Functions">
+</img>
+</p>
+<p style="text-align: center;"><em>Figure 14: Configuration Functions</em></p>
 
 ##### Certificate Import and Verification
 
--   Click on the **CA Certificate** **Choose File** box to open a File
-    dialog window and choose your signed x509 formatted .crt file and
-    hit **Open** - the name of the file will appear in the **CA
-    Certificate** Text Box
+-   Click on the **CA Certificate** **Choose File** box to open a File dialog window and choose your signed x509 formatted .crt file and hit **Open** - the name of the file will appear in the **CA Certificate** Text Box
 
-<img src="./assets/admin-guide/image9.png"
-style="width:3.82994in;height:3in" />
+<p>
+<img 
+    style="display: block; margin-left: auto; margin-right: auto; "
+    src="./assets/admin-guide/image9.png" 
+    alt="Figure 15: Import Certificates">
+</img>
+</p>
+<p style="text-align: center;"><em>Figure 15: Import Certificates</em></p>
 
-<img src="./assets/admin-guide/image10.png"
-style="width:3.99504in;height:3.12932in" />
+<p>
+<img 
+    style="display: block; margin-left: auto; margin-right: auto; "
+    src="./assets/admin-guide/image10.png" 
+    alt="Figure 16: Choosing Certificate">
+</img>
+</p>
+<p style="text-align: center;"><em>Figure 16: Choosing Certificate</em></p>
 
 -   Note name of .crt file shows up in text field.
 
-<img src="./assets/admin-guide/image11.png"
-style="width:4.31969in;height:3.38362in" />
+<p>
+<img 
+    style="display: block; margin-left: auto; margin-right: auto; "
+    src="./assets/admin-guide/image11.png" 
+    alt="Figure 17: CA Certificate Updated">
+</img>
+</p>
+<p style="text-align: center;"><em>Figure 17: CA Certificate Updated</em></p>
 
--   Click on the **Site Certificate** Choose File box to open a File
-    dialog window and choose your .pem formatted site key and hit Open -
-    the name of the file will appear in the Site Certificate Text Box
+-   Click on the **Site Certificate** Choose File box to open a File dialog window and choose your .pem formatted site key and hit Open - the name of the file will appear in the Site Certificate Text Box
 
-<img src="./assets/admin-guide/image12.png"
-style="width:4.18862in;height:3.28095in" />
+<p>
+<img 
+    style="display: block; margin-left: auto; margin-right: auto; "
+    src="./assets/admin-guide/image12.png" 
+    alt="Figure 18: Choose Site Certificate">
+</img>
+</p>
+<p style="text-align: center;"><em>Figure 18: Choose Site Certificate</em></p>
 
-<img src="./assets/admin-guide/image13.png"
-style="width:4.57162in;height:3.58095in" />
+<p>
+<img 
+    style="display: block; margin-left: auto; margin-right: auto; "
+    src="./assets/admin-guide/image13.png" 
+    alt="Figure 19: Select Site Certificate File">
+</img>
+</p>
+<p style="text-align: center;"><em>Figure 19: Select Site Certificate File</em></p>
 
-<img src="./assets/admin-guide/image14.png"
-style="width:4.64457in;height:3.63809in" />
+<p>
+<img 
+    style="display: block; margin-left: auto; margin-right: auto; "
+    src="./assets/admin-guide/image14.png" 
+    alt="Figure 20: Site Certificate Updated">
+</img>
+</p>
+<p style="text-align: center;"><em>Figure 20: Site Certificate Updated</em></p>
 
 -   Select **Import**
 
-<img src="./assets/admin-guide/image14.png"
-style="width:4.99057in;height:3.90912in" />
+<p>
+<img 
+    style="display: block; margin-left: auto; margin-right: auto; "
+    src="./assets/admin-guide/image14.png" 
+    alt="Figure 21: Import Certificates">
+</img>
+</p>
+<p style="text-align: center;"><em>Figure 21: Import Certificates</em></p>
 
--   A modal window saying "Checking Certificates Please Wait... Circle"
-    will appear while the files are being loaded.
+-   A modal window saying "Checking Certificates Please Wait... Circle" will appear while the files are being loaded.
 
-<img src="./assets/admin-guide/image15.png"
-style="width:4.45003in;height:3.48571in" />
+<p>
+<img 
+    style="display: block; margin-left: auto; margin-right: auto; "
+    src="./assets/admin-guide/image15.png" 
+    alt="Figure 22: Certificate Import Process">
+</img>
+</p>
+<p style="text-align: center;"><em>Figure 22: Certificate Import Process</em></p>
 
--   A message underneath the Certificate Import form Text Fields will
-    appear saying "Certificate Import Successful!" if the certs are
-    accepted.
+-   A message underneath the Certificate Import form Text Fields will appear saying "Certificate Import Successful!" if the certs are accepted.
 
-<img src="./assets/admin-guide/image16.png"
-style="width:4.07103in;height:3.18884in" />
+<p>
+<img 
+    style="display: block; margin-left: auto; margin-right: auto; "
+    src="./assets/admin-guide/image16.png" 
+    alt="Figure 23: Successful Certificate Import Notification">
+</img>
+</p>
+<p style="text-align: center;"><em>Figure 23: Successful Certificate Import Notification</em></p>
 
 Notes:
 
@@ -161,13 +315,18 @@ Notes:
 
     -   CRT Common Name matching NGINX\_HOST variable value
 
--   If invalid certificate files are loaded, an error will appear saying
-    **Error in Cert Response** in the top right of the window
+-   If invalid certificate files are loaded, an error will appear saying **Error in Cert Response** in the top right of the window
 
-<img src="./assets/admin-guide/image17.png"
-style="width:4.46984in;height:3.09317in" />
+<p>
+<img 
+    style="display: block; margin-left: auto; margin-right: auto; "
+    src="./assets/admin-guide/image17.png" 
+    alt="Figure 24: Invalid Certificate Notification">
+</img>
+</p>
+<p style="text-align: center;"><em>Figure 24: Invalid Certificate Notification</em></p>
 
-#### Notifications
+##### Notifications
 
 Notifications are automatically generated at login for the following:
 
@@ -177,96 +336,138 @@ Notifications are automatically generated at login for the following:
 
 -   Milestone Dates coming due or overdue
 
-#### Users
+##### Users
 
-The **User** functions allow an administrator to add local User or
-Administrator accounts and change passwords.
+The **User** functions allow an administrator to add local User or Administrator accounts and change passwords.
 
-<img src="./assets/admin-guide/image18.png"
-style="width:4.90757in;height:2.19478in" />
+<p>
+<img 
+    style="display: block; margin-left: auto; margin-right: auto; "
+    src="./assets/admin-guide/AdministrationTab_Users.png" 
+    alt="Figure 25: Administration - Users Functions">
+</img>
+</p>
+<p style="text-align: center;"><em>Figure 25: Administration - Users Functions</em></p>
 
-##### Adding a local Account
+###### Adding a local Account
 
 To add a local account, select **Add Users**
 
-<img src="./assets/admin-guide/image18.png"
-style="width:4.98081in;height:2.22753in" />
+<p>
+<img 
+    style="display: block; margin-left: auto; margin-right: auto; "
+    src="./assets/admin-guide/AdministrationTab_AddUsers.png" 
+    alt="Figure 26: Add Users">
+</img>
+</p>
+<p style="text-align: center;"><em>Figure 26: Add Users</em></p>
 
-This will bring up the **Add User** dialog Box. Complete the relevant
-data, to include **First Name**, **Last Name**, **Email Address**
-(username), set a unique password, and change the time zone.
+This will bring up the **Add User** dialog Box. Complete the relevant data, to include **First Name**, **Last Name**, **Email Address** (username), set a unique password, and change the time zone. Select the **Role** from the drop-down menu. You have the option between **Admin** or **User**. Once you have finished, click the **Save** button to create the user.
 
-<img src="./assets/admin-guide/image19.png"
-style="width:4.08792in;height:2.95981in" />
+<p>
+<img 
+    style="display: block; margin-left: auto; margin-right: auto; "
+    src="./assets/admin-guide/AdministrationTab_AddUsersPanel.png" 
+    alt="Figure 27: Add User Dialog Box">
+</img>
+</p>
+<p style="text-align: center;"><em>Figure 27: Add User Dialog Box</em></p>
 
-##### Change User Password
+###### Change User Password
 
-To change a user’s password. Select the 3 buttons to the far right of
-the user account and select Edit.
+To change a user’s password. Select the 3 buttons to the far right of the user account and select Edit.
 
-<img src="./assets/admin-guide/image20.png"
-style="width:5.13895in;height:2.12915in" />
+<p>
+<img 
+    style="display: block; margin-left: auto; margin-right: auto; "
+    src="./assets/admin-guide/AdministrationTab_EditUsers.png" 
+    alt="Figure 28: Change User Password – Edit Account">
+</img>
+</p>
+<p style="text-align: center;"><em>Figure 28: Change User Password – Edit Account</em></p>
 
-The **Edit User** dialog box will appear on the right side of the
-screen. Enter a value for **New Password** and **Confirm Password** and
-click **Save**.
+The **Edit User** dialog box will appear on the right side of the screen. Enter a value for **New Password** and **Confirm Password** and click **Save**.
 
-<img src="./assets/admin-guide/image21.png"
-style="width:1.80118in;height:6.80365in" />
+<p>
+<img 
+    style="display: block; margin-left: auto; margin-right: auto; "
+    src="./assets/admin-guide/AdministrationTab_EditUsers2.png" 
+    alt="Figure 29: Change Password – Edit User Dialog Box">
+</img>
+</p>
+<p style="text-align: center;"><em>Figure 29: Change Password – Edit User Dialog Box</em></p>
 
-##### Unlock Account
+##### Logs
 
-Unlock account feature is not currently available.
-
-#### Logs
-
-Centralized logging can be configured from the **Logs** function within
-the Administration tab.
+Centralized logging can be configured from the **Logs** function within the Administration tab.
 
 To setup logging, select **Logs** from the **Administration** tab menu.
 
-<img src="./assets/admin-guide/image26.png"
-style="width:5.76195in;height:3.66154in" />
+<p>
+<img 
+    style="display: block; margin-left: auto; margin-right: auto; "
+    src="./assets/admin-guide/AdministrationTab_Logs.png" 
+    alt="Figure 30: Log Configuration">
+</img>
+</p>
+<p style="text-align: center;"><em>Figure 30: Log Configuration</em></p>
 
--   **PATH** is the local logging path.
+There are three sections on the logging page: **Console**, **File**, and **Syslog**. The **Console** section will adjust which level of logs get outputed to the console on the host machine. The **File** section, will control which application logs are being saved off onto the system. The **Syslog** section will be used to configure the forwarding of your logs to a central location for storage and analysis.
+
+Once properly configured click **Save**.
+
+###### Console
+
+-   **Log Level** controls which type of logs are sent to the console. There are eight different log levels to choose from (listed below). The higher level logs are inherited into all of the lower level logs. For example; if **Debug** selected, you will received logs from all eight of the log levels. If **Critical (crit)** is selected, you will receive logs from Emergency (emerg), Alert, and Critical (crit). The default setting of **Warning** should meet all required logging for SP 800-53 based authorizations.
+
+    1. Emergency (emerg)
+    2. Alert
+    3. Critical (crit)
+    4. Error
+    5. Warning
+    6. Notice
+    7. Info
+    8. Debug
+
+###### File
+
+-   **Enabled** can be toggled on/off to enable and disable logging to files.
+-   **Log Level** determines which logs will be saved to files. See **Log Level** in the **Console** section (above) for details on the log levels.
+-   **Path** is the directory to which the logs will be stored.
+-   **Max File Size (MB)** is an adjustable setting to define the max size, in megabytes, of each log file being created.
+-   **Days to Retain** is the amount of time you wish to keep the TIR logs before they are allowed to be deleted on the system
+-   **Zip Archive** is a toggle option that (when enabled) will zip your log files into an archive. 
+
+###### Syslog
 
 -   **Syslog Target** is the centralized log server, like Splunk.
+-   **Syslog Port** is the port being used to forward logs.
+-   **Log Level** determines which logs will be forwarded to the centralized log server. 
 
--   **Port** is the port being used to forward logs
+### Libraries
 
--   **Log Level** determines which logs will be forwarded to the
-    centralized log server. The default setting of **Warning** should
-    meet all required logging for SP 800-53 based authorizations.
+The **Libraries** tab provides the ability to import new STIG libraries and updated Control Correlation Identifiers (CCI) mappings for different NIST SP 800-53 revisions.
 
--   Once properly configured select **Save**
+#### STIG Libraries
 
-## Libraries
+The Department of Defense (DoD) releases quarterly updates to the STIG benchmarks. These quarterly updates are released as .zip files. Once downloaded, the .zip files can be uploaded to TIR and made available to all users.
 
-The **Libraries** tab provides the ability to import new STIG libraries
-and updated Control Correlation Identifiers (CCI) mappings for different
-NIST SP 800-53 revisions.
+##### View STIG Libraries 
 
-1.  **STIG Libraries**
+Please navigate to the **Libraries** tab by clicking the **Libraries** button at the top on the page.
 
-The Department of Defense (DoD) releases quarterly updates to the STIG
-benchmarks. These quarterly updates are released as .zip files. Once
-downloaded, the .zip files can be uploaded to TIR and made available to
-all users.
+Note: The **Libraries** tab will display all of the STIG libraries that have been uploaded to your TIR instance.
 
-#### View STIG Libraries 
+<p>
+<img 
+    style="display: block; margin-left: auto; margin-right: auto; "
+    src="./assets/admin-guide/image27.png" 
+    alt="Figure 31: STIG Libraries">
+</img>
+</p>
+<p style="text-align: center;"><em>Figure 31: STIG Libraries</em></p>
 
-Please navigate to the **Libraries** tab by clicking the **Libraries**
-button at the top on the page.
-
-Note: The **Libraries** tab will display all of the STIG libraries that
-have been uploaded to your TIR instance.
-
-<img src="./assets/admin-guide/image27.png"
-style="width:6.5in;height:1.51111in" />
-
-Once imported, the STIG libraries will follow a standardized naming
-convention. The naming convention will follow this template:
-**U\_SRG-STIG\_Library\_{year}\_{month}{revision}.zip**.
+Once imported, the STIG libraries will follow a standardized naming convention. The naming convention will follow this template: **U\_SRG-STIG\_Library\_{year}\_{month}{revision}.zip**.
 
 Please refer to the table below for more examples.
 
@@ -313,102 +514,27 @@ Please refer to the table below for more examples.
 </tr>
 </tbody>
 </table>
+<p style="text-align: center;"><em>Table 2: STIG Library Naming Conventions</em></p>
 
-Table 1: Access Control – User Permissions
+#### Import STIG Libraries
 
-1.  **Import STIG Libraries**
+To import a new STIG library, please navigate to the **Libraries** page and click the **Import** button inside the **STIG Libraries** section, as seen in Figure 14. For reference, this button can be found in the top right of *Figur*e 14: STIG Libraries.
 
-To import a new STIG library, please navigate to the **Libraries** page
-and click the **Import** button inside the **STIG Libraries** section,
-as seen in Figure 14. For reference, this button can be found in the top
-right of *Figur*e 14: STIG Libraries.
+The **Import** button will open a file navigation window. Please navigate to the .zip file containing the STIG Library and click **Open**.
 
-The **Import** button will open a file navigation window. Please
-navigate to the .zip file containing the STIG Library and click
-**Open**.
+#### CCI Matrix
 
-1.  **CCI Matrix**
+CCI mappings are provided by NIST and updated as necessary. CCI mappings different between SP 800-53 Rev 4 and Rev 5. Keeping this updated ensure more granular mapping of STIGs to applicable CCIs.
 
-CCI mappings are provided by NIST and updated as necessary. CCI mappings
-different between SP 800-53 Rev 4 and Rev 5. Keeping this updated ensure
-more granular mapping of STIGs to applicable CCIs.
+<p>
+<img 
+    style="display: block; margin-left: auto; margin-right: auto; "
+    src="./assets/admin-guide/image28.png" 
+    alt="Figure 32: CCI Matrix">
+</img>
+</p>
+<p style="text-align: center;"><em>Figure 32: CCI Matrix</em></p>
 
-<img src="./assets/admin-guide/image28.png"
-style="width:6.5in;height:1.62361in" />
+##### Import CCI Matrix Updates 
 
-#### Import CCI Matrix Updates 
-
-To import a new CCI Matrix, please navigate to the Libraries page and
-click the **Import** button inside the CCI Matrix section. For
-reference, this button can be found in the top right of Figure 6: CCI
-Matrix.
-
-1.  **Changing Boundary and/or Company Permissions**
-
-    1.  **Modify Company Permissions**
-
-To modify Company permissions select the 3 buttons to the far right of
-the Company and select Manage Users.
-
-<img src="./assets/admin-guide/image29.png"
-style="width:5.0939in;height:2.68845in" />
-
--   Then the Members dialog box comes up, enter the username in the
-    **Search Users** box.
-
-<img src="./assets/admin-guide/image30.png"
-style="width:4.85911in;height:2.09731in" />
-
--   The Search Users box should provide a list of similar usernames.
-    Select the user account you wish to add.
-
--   Once selected click the down arrow next to Co-Owner and select the
-    level of permission you wish to grant.
-
-<img src="./assets/admin-guide/image31.png"
-style="width:5.48201in;height:2.6104in" />
-
--   Once the level of access you wish to grant is selected, Click **Add
-    Member**
-
--   You will see the account added to the user permissions list for the
-    applicable company.
-
-<img src="./assets/admin-guide/image32.png"
-style="width:5.28126in;height:2.68916in" />
-
-Member access can be edited or removed from this view as well.
-
-1.  **Modify Boundary Permissions**
-
-To modify Boundary permissions select the 3 buttons to the far right of
-the Company and select Manage Users.
-
-<img src="./assets/admin-guide/image33.png"
-style="width:5.48769in;height:2.81186in" />
-
--   Then the Members dialog box comes up, enter the username in the
-    **Search Users** box.
-
-<img src="./assets/admin-guide/image34.png"
-style="width:5.2146in;height:2.79616in" />
-
--   The Search Users box should provide a list of similar usernames.
-    Select the user account you wish to add.
-
--   Once selected click the down arrow next to Co-Owner and select the
-    level of permission you wish to grant.
-
-<img src="./assets/admin-guide/image35.png"
-style="width:6.01658in;height:2.94723in" />
-
-Once the level of access you wish to grant is selected, Click **Add
-Member**
-
-You will see the account added to the user permissions list for the
-applicable company.
-
-<img src="./assets/admin-guide/image36.png"
-style="width:6.5in;height:3.52153in" />
-
-Member access can be edited or removed from this view as well.
+To import a new CCI Matrix, please navigate to the Libraries page and click the **Import** button inside the CCI Matrix section. For reference, this button can be found in the top right of Figure 32: CCI Matrix.
