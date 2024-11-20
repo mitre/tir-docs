@@ -17,7 +17,8 @@ export default hopeTheme({
   docsDir: "src",
   navbar,
   sidebar,
-  footer: "Apache-2.0 | Copyright © 2022 - The MITRE Corporation",
+  //footer: "Apache-2.0 | Copyright © 2022 - The MITRE Corporation",
+  footer: "© 2024 Lockheed Martin Corporation. This publication is licensed under the Creative Commons Attribution 4.0 International Public License (https://creativecommons.org/licenses/by/4.0/legalcode.en).  Except as expressly licensed, all right herein are reserved.",
   displayFooter: true,
   encrypt: {
     config: {

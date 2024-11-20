@@ -18,6 +18,14 @@ export default sidebar({
       // prefix: "",
       // children: "structure",
       collapsible: true
+    },
+    {
+      icon: "creative",
+      text: "Deployment Guide",
+      link: "tir_deployment_guide.md",
+      // prefix: "",
+      // children: "structure",
+      collapsible: true
     }
   ],
 });
