@@ -1,10 +1,10 @@
 ---
 home: true
 icon: home
-title: SAF Test Ingest Repository Documentation
-heroImage: /logo.svg
-heroText: TIR Documentation
-tagline: From Guidance Document to Automated Testing In No Time!
+title: Test Ingest Repository
+heroImage: /workspaces/tir-docs/src/assets/img/tir.svg
+heroText: Test Ingest Repository
+tagline: Full Collection of Training Guides and Videos
 actions:
   - text: User Guide
     link: /courses/tir_user_guide/
@@ -15,6 +15,10 @@ actions:
   - text: Deployment Guide
     link: /courses/tir_deployment_guide/
     type: primary
+  - text: Training Videos
+    type: primary
+    link: https://www.youtube.com/playlist?list=PLm1Nyfu8s-DeXpRg8B5bqnrLH7HXetzWn
+
   # - text: Guidance Development
   #   type: primary
   #   link: /courses/guidance/
@@ -24,7 +28,7 @@ actions:
  
 highlights:
   - header: What You Will Learn
-    description: Our classes cover a large range of topics from the MITRE Security Automation Framework.
+    description: Our guides include documentation and videos for standard users and privileged users.
     # image: /assets/image/markdown.svg
     bgImage: https://theme-hope-assets.vuejs.press/bg/2-light.svg
     bgImageDark: https://theme-hope-assets.vuejs.press/bg/2-dark.svg
