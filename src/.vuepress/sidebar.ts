@@ -6,25 +6,25 @@ export default sidebar({
     {
       icon: "creative",
       text: "User Guide",
-      link: "tir_user_guide.md",
-      // prefix: "",
-      // children: "structure",
+      link: "courses/tir_user_guide/README.md",
+      prefix: "courses/tir_user_guide",
+      children: "structure",
       collapsible: true
     },
     {
       icon: "creative",
       text: "Admin Guide",
-      link: "tir_admin_guide.md",
-      // prefix: "",
-      // children: "structure",
+      link: "courses/tir_admin_guide/README.md",
+      prefix: "courses/tir_admin_guide",
+      children: "structure",
       collapsible: true
     },
     {
       icon: "creative",
       text: "Deployment Guide",
-      link: "tir_deployment_guide.md",
-      // prefix: "",
-      // children: "structure",
+      link: "courses/tir_deployment_guide/README.md",
+      prefix: "courses/tir_deployment_guide",
+      children: "structure",
       collapsible: true
     }
   ],

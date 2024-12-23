@@ -14,7 +14,7 @@ Companies and Boundaries. A summary of permissions is show in Table 1, below.
 <p>
 <img 
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="./assets/admin-guide/image1.png" 
+    src="../../assets/admin-guide/image1.png" 
     alt="Table 1: Access Control – User Permissions">
 </img>
 </p>
@@ -27,7 +27,7 @@ To add or modify Company and Boundary permissions, select the 3 buttons to the f
 <p>
 <img 
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="./assets/user-guide/ModifyCompanyPermissions.png" 
+    src="../../assets/user-guide/ModifyCompanyPermissions.png" 
     alt="Figure 1: Modify Company/Boundary Permissions">
 </img>
 </p>
@@ -40,7 +40,7 @@ Clicking the **Manage Members** will display the Members dialog box, enter the u
 <p>
 <img 
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="./assets/user-guide/ModifyCompanyPermissions2.png" 
+    src="../../assets/user-guide/ModifyCompanyPermissions2.png" 
     alt="Figure 2: Adding Members – Search Users">
 </img>
 </p>
@@ -51,7 +51,7 @@ The Search Users box should provide a list of similar usernames. Select the user
 <p>
 <img 
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="./assets/user-guide/ModifyCompanyPermissions3.png" 
+    src="../../assets/user-guide/ModifyCompanyPermissions3.png" 
     alt="Figure 3: Manage Members – Choose level of Access">
 </img>
 </p>
@@ -62,7 +62,7 @@ Once the level of access you wish to grant is selected, click **Add Member**. Yo
 <p>
 <img 
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="./assets/user-guide/ModifyCompanyPermissions4.png" 
+    src="../../assets/user-guide/ModifyCompanyPermissions4.png" 
     alt="Figure 4: Member Access – User Added with Editor Role">
 </img>
 </p>
@@ -77,7 +77,7 @@ Clicking the **Manage Members** will display the Members dialog box. Click the *
 <p>
 <img 
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="./assets/user-guide/EditUserPermissions.png" 
+    src="../../assets/user-guide/EditUserPermissions.png" 
     alt="Figure 5: Edit User Permissions">
 </img>
 </p>
@@ -88,7 +88,7 @@ This will enable the drop-down menu for the role field. To change the user's rol
 <p>
 <img 
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="./assets/user-guide/EditUserPermissions2.png" 
+    src="../../assets/user-guide/EditUserPermissions2.png" 
     alt="Figure 6: Edit User Role">
 </img>
 </p>
@@ -99,7 +99,7 @@ To remove a user, click the **Remove** button for that user. Owners can not be r
 <p>
 <img 
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="./assets/user-guide/RemoveUser.png" 
+    src="../../assets/user-guide/RemoveUser.png" 
     alt="Figure 7: Remove User">
 </img>
 </p>
@@ -114,7 +114,7 @@ The default Local Administrator Username is admin@tir.local. The initial passwor
 <p>
 <img 
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="./assets/admin-guide/image2.png" 
+    src="../../assets/admin-guide/image2.png" 
     alt="Figure 8: Login Page">
 </img>
 </p>
@@ -127,7 +127,7 @@ The default Local Administrator Username is admin@tir.local. The initial passwor
 <p>
 <img 
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="./assets/admin-guide/image3.png" 
+    src="../../assets/admin-guide/image3.png" 
     alt="Figure 9:  Selecting Your Profile">
 </img>
 </p>
@@ -138,7 +138,7 @@ The default Local Administrator Username is admin@tir.local. The initial passwor
 <p>
 <img 
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="./assets/admin-guide/image4.png" 
+    src="../../assets/admin-guide/image4.png" 
     alt="Figure 10: Changing The Local Admin Password">
 </img>
 </p>
@@ -149,7 +149,7 @@ The default Local Administrator Username is admin@tir.local. The initial passwor
 <p>
 <img 
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="./assets/admin-guide/image5.png" 
+    src="../../assets/admin-guide/image5.png" 
     alt="Figure 11: Changing the Local Admin Password">
 </img>
 </p>
@@ -172,7 +172,7 @@ The **Administration** tab is only available through Administrators. You access 
 <p>
 <img 
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="./assets/admin-guide/image6.png" 
+    src="../../assets/admin-guide/image6.png" 
     alt="Figure 12:  Location of the Administration Tab">
 </img>
 </p>
@@ -185,7 +185,7 @@ A view of the **Administration** tab is below:
 <p>
 <img 
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="./assets/admin-guide/AdministrationTab_General.png" 
+    src="../../assets/admin-guide/AdministrationTab_General.png" 
     alt="Figure 13: Administration Tab">
 </img>
 </p>
@@ -202,7 +202,7 @@ Within the **Configuration** section an Administrator can change standard **Term
 <p>
 <img 
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="./assets/admin-guide/AdministrationTab_Configuration.png" 
+    src="../../assets/admin-guide/AdministrationTab_Configuration.png" 
     alt="Figure 14: Configuration Functions">
 </img>
 </p>
@@ -215,7 +215,7 @@ Within the **Configuration** section an Administrator can change standard **Term
 <p>
 <img 
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="./assets/admin-guide/image9.png" 
+    src="../../assets/admin-guide/image9.png" 
     alt="Figure 15: Import Certificates">
 </img>
 </p>
@@ -224,7 +224,7 @@ Within the **Configuration** section an Administrator can change standard **Term
 <p>
 <img 
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="./assets/admin-guide/image10.png" 
+    src="../../assets/admin-guide/image10.png" 
     alt="Figure 16: Choosing Certificate">
 </img>
 </p>
@@ -235,7 +235,7 @@ Within the **Configuration** section an Administrator can change standard **Term
 <p>
 <img 
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="./assets/admin-guide/image11.png" 
+    src="../../assets/admin-guide/image11.png" 
     alt="Figure 17: CA Certificate Updated">
 </img>
 </p>
@@ -246,7 +246,7 @@ Within the **Configuration** section an Administrator can change standard **Term
 <p>
 <img 
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="./assets/admin-guide/image12.png" 
+    src="../../assets/admin-guide/image12.png" 
     alt="Figure 18: Choose Site Certificate">
 </img>
 </p>
@@ -255,7 +255,7 @@ Within the **Configuration** section an Administrator can change standard **Term
 <p>
 <img 
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="./assets/admin-guide/image13.png" 
+    src="../../assets/admin-guide/image13.png" 
     alt="Figure 19: Select Site Certificate File">
 </img>
 </p>
@@ -264,7 +264,7 @@ Within the **Configuration** section an Administrator can change standard **Term
 <p>
 <img 
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="./assets/admin-guide/image14.png" 
+    src="../../assets/admin-guide/image14.png" 
     alt="Figure 20: Site Certificate Updated">
 </img>
 </p>
@@ -275,7 +275,7 @@ Within the **Configuration** section an Administrator can change standard **Term
 <p>
 <img 
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="./assets/admin-guide/image14.png" 
+    src="../../assets/admin-guide/image14.png" 
     alt="Figure 21: Import Certificates">
 </img>
 </p>
@@ -286,7 +286,7 @@ Within the **Configuration** section an Administrator can change standard **Term
 <p>
 <img 
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="./assets/admin-guide/image15.png" 
+    src="../../assets/admin-guide/image15.png" 
     alt="Figure 22: Certificate Import Process">
 </img>
 </p>
@@ -297,7 +297,7 @@ Within the **Configuration** section an Administrator can change standard **Term
 <p>
 <img 
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="./assets/admin-guide/image16.png" 
+    src="../../assets/admin-guide/image16.png" 
     alt="Figure 23: Successful Certificate Import Notification">
 </img>
 </p>
@@ -320,7 +320,7 @@ Notes:
 <p>
 <img 
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="./assets/admin-guide/image17.png" 
+    src="../../assets/admin-guide/image17.png" 
     alt="Figure 24: Invalid Certificate Notification">
 </img>
 </p>
@@ -343,7 +343,7 @@ The **User** functions allow an administrator to add local User or Administrator
 <p>
 <img 
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="./assets/admin-guide/AdministrationTab_Users.png" 
+    src="../../assets/admin-guide/AdministrationTab_Users.png" 
     alt="Figure 25: Administration - Users Functions">
 </img>
 </p>
@@ -356,7 +356,7 @@ To add a local account, select **Add Users**
 <p>
 <img 
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="./assets/admin-guide/AdministrationTab_AddUsers.png" 
+    src="../../assets/admin-guide/AdministrationTab_AddUsers.png" 
     alt="Figure 26: Add Users">
 </img>
 </p>
@@ -367,7 +367,7 @@ This will bring up the **Add User** dialog Box. Complete the relevant data, to i
 <p>
 <img 
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="./assets/admin-guide/AdministrationTab_AddUsersPanel.png" 
+    src="../../assets/admin-guide/AdministrationTab_AddUsersPanel.png" 
     alt="Figure 27: Add User Dialog Box">
 </img>
 </p>
@@ -380,7 +380,7 @@ To change a user’s password. Select the 3 buttons to the far right of the user
 <p>
 <img 
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="./assets/admin-guide/AdministrationTab_EditUsers.png" 
+    src="../../assets/admin-guide/AdministrationTab_EditUsers.png" 
     alt="Figure 28: Change User Password – Edit Account">
 </img>
 </p>
@@ -391,7 +391,7 @@ The **Edit User** dialog box will appear on the right side of the screen. Enter 
 <p>
 <img 
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="./assets/admin-guide/AdministrationTab_EditUsers2.png" 
+    src="../../assets/admin-guide/AdministrationTab_EditUsers2.png" 
     alt="Figure 29: Change Password – Edit User Dialog Box">
 </img>
 </p>
@@ -406,7 +406,7 @@ To setup logging, select **Logs** from the **Administration** tab menu.
 <p>
 <img 
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="./assets/admin-guide/AdministrationTab_Logs.png" 
+    src="../../assets/admin-guide/AdministrationTab_Logs.png" 
     alt="Figure 30: Log Configuration">
 </img>
 </p>
@@ -461,7 +461,7 @@ Note: The **Libraries** tab will display all of the STIG libraries that have bee
 <p>
 <img 
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="./assets/admin-guide/image27.png" 
+    src="../../assets/admin-guide/image27.png" 
     alt="Figure 31: STIG Libraries">
 </img>
 </p>
@@ -529,7 +529,7 @@ CCI mappings are provided by NIST and updated as necessary. CCI mappings differe
 <p>
 <img 
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="./assets/admin-guide/image28.png" 
+    src="../../assets/admin-guide/image28.png" 
     alt="Figure 32: CCI Matrix">
 </img>
 </p>

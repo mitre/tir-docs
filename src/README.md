@@ -1,26 +1,26 @@
 ---
 home: true
 icon: home
-title: MITRE SAF Training
+title: SAF Test Ingest Repository Documentation
 heroImage: /logo.svg
-heroText: MITRE SAF Training
+heroText: TIR Documentation
 tagline: From Guidance Document to Automated Testing In No Time!
 actions:
-  - text: User Class
-    link: /courses/user/
+  - text: User Guide
+    link: /courses/tir_user_guide/
     type: primary
-  - text: Beginner Security Automation
-    link: /courses/beginner/
+  - text: Admin Guide
+    link: /courses/tir_admin_guide/
     type: primary
-  - text: Advanced Security Automation
-    link: /courses/advanced/
+  - text: Deployment Guide
+    link: /courses/tir_deployment_guide/
     type: primary
-  - text: Guidance Development
-    type: primary
-    link: /courses/guidance/
-  - text: InSpec Profile Updating & Development
-    type: primary
-    link: /courses/profile-dev-test
+  # - text: Guidance Development
+  #   type: primary
+  #   link: /courses/guidance/
+  # - text: InSpec Profile Updating & Development
+  #   type: primary
+  #   link: /courses/profile-dev-test
  
 highlights:
   - header: What You Will Learn
