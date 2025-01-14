@@ -2,7 +2,7 @@
 home: true
 icon: home
 title: Test Ingest Repository
-heroImage: /workspaces/tir-docs/src/assets/img/tir.svg
+heroImage: /assets/img/tir.svg
 heroText: Test Ingest Repository
 tagline: Full Collection of Training Guides and Videos
 actions:
