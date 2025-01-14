@@ -22,7 +22,7 @@
     "cypress-each": "^1.13.3",
     "mermaid": "^11.4.1",
     "reveal.js": "^5.0.4",
-    "start-server-and-test": "^2.0.9",
+    "start-server-and-test": "^2.0.10",
     "vue": "^3.5.13",
     "vuepress": "2.0.0-rc.13",
     "vuepress-theme-hope": "2.0.0-rc.68"
