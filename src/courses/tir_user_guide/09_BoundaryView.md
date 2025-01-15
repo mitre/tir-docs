@@ -1,8 +1,8 @@
 ---
-order: 10
+order: 9
 next: 10_SystemView.md
 title: Boundary View
-shortTitle: 9. Boundary View
+shortTitle: 8. Boundary View
 author: Jason Kerbelis
 headerDepth: 2
 ---

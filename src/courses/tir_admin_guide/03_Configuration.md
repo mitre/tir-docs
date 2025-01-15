@@ -1,7 +1,7 @@
 ---
-order: 4
+order: 3
 title: Configuration
-shortTitle: 3. Configuration
+shortTitle: 2. Configuration
 author: Jason Kerbelis
 headerDepth: 2
 ---

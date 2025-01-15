@@ -1,8 +1,8 @@
 ---
-order: 4
+order: 3
 next: 03_CertificateImportAndVerification.md
 title: Certificate Import and Verification
-shortTitle: 3. Certificate Import and Verification
+shortTitle: 2. Certificate Import and Verification
 author: Jason Kerbelis
 headerDepth: 2
 ---

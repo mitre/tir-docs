@@ -1,8 +1,8 @@
 ---
-order: 6
+order: 5
 next: 06_ImportingScanData.md
 title: Creating your Work Environment
-shortTitle: 5. Creating your Work Environment
+shortTitle: 4. Creating your Work Environment
 author: Jason Kerbelis
 headerDepth: 2
 ---

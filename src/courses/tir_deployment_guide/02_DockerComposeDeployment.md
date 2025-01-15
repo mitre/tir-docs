@@ -1,8 +1,8 @@
 ---
-order: 3
+order: 2
 next: 03_CertificateImportAndVerification.md
 title: Deployment Using Docker-Compose
-shortTitle: 2. Docker Compose Deployment
+shortTitle: 1. Docker Compose Deployment
 author: Jason Kerbelis
 headerDepth: 2
 ---

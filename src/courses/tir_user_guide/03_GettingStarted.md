@@ -1,8 +1,8 @@
 ---
-order: 4
+order: 3
 next: 04_Interfaces.md
 title: Getting Started
-shortTitle: 3. Getting Started
+shortTitle: 2. Getting Started
 author: Jason Kerbelis
 headerDepth: 2
 ---

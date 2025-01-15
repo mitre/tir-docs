@@ -1,8 +1,8 @@
 ---
-order: 3
+order: 2
 next: 03_Configuration.md
 title: Account Permissions
-shortTitle: 2. Account Permissions
+shortTitle: 1. Account Permissions
 author: Jason Kerbelis
 headerDepth: 2
 ---

@@ -1,8 +1,8 @@
 ---
-order: 8
+order: 7
 next: 08_ChangingCompanyAndBoundaryPermissions.md
 title: Delta STIGs
-shortTitle: 7. Delta STIGs
+shortTitle: 6. Delta STIGs
 author: Jason Kerbelis
 headerDepth: 2
 ---

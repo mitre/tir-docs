@@ -1,8 +1,8 @@
 ---
-order: 5
+order: 3
 next: 05_CreatingYourWorkEnvironment.md
 title: Interfaces
-shortTitle: 4. Interfaces
+shortTitle: 3. Interfaces
 author: Jason Kerbelis
 headerDepth: 4
 ---

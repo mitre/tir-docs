@@ -1,7 +1,7 @@
 ---
-order: 16
+order: 15
 title: Backup and Restore
-shortTitle: 15. Backup and Restore
+shortTitle: 14. Backup and Restore
 author: Jason Kerbelis
 headerDepth: 2
 ---

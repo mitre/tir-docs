@@ -1,8 +1,8 @@
 ---
-order: 7
+order: 6
 next: 07_DeltaSTIGs.md
 title: Importing Scan Data
-shortTitle: 6. Importing Scan Data
+shortTitle: 5. Importing Scan Data
 author: Jason Kerbelis
 headerDepth: 2
 ---

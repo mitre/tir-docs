@@ -1,8 +1,8 @@
 ---
-order: 13
+order: 12
 next: 13_Exports.md
 title: System Statuses and Severities with Overrides
-shortTitle: 12. System Statuses and Severities with Overrides
+shortTitle: 11. System Statuses and Severities with Overrides
 author: Jason Kerbelis
 headerDepth: 2
 ---

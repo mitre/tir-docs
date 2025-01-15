@@ -1,8 +1,8 @@
 ---
-order: 15
+order: 14
 next: 15_BackupAndRestore.md
 title: POA&M Management
-shortTitle: 14. POA&M Management
+shortTitle: 13. POA&M Management
 author: Jason Kerbelis
 headerDepth: 2
 ---
