@@ -15,14 +15,7 @@ The **System** button is available in the **Boundary View** and **Vulnerability 
 
 To view the status of each of your systems, you will need to click the **Systems** button (highlighted in *Figure 52*). A pop-up window will appear that displays all of the systems where this finding applies and the current status for each system.
 
-<p>
-<img 
-    style="display: block; margin-left: auto; margin-right: auto; "
-    src="../../assets/user-guide/SystemsStatus.png" 
-    alt="Figure 59: Updating Statuses for Systems">
-</img>
-</p>
-<p style="text-align: center;"><em>Figure 59: Updating Statuses for Systems</em></p>
+![Figure 59: Updating Statuses for Systems](../../assets/user-guide/SystemsStatus.png "Figure 59: Updating Statuses for Systems")
 
 To make an update to a system; select the **checkbox** next to that system, change the status field using the drop-down menu, then click **Save**.
 
@@ -32,48 +25,20 @@ The lock button next to each status is for **Overrides**. To apply an override, 
 
 Once all of your changes have been made, click the **Save** button in the bottom-right corner of the pop-up window.
 
-<p>
-<img 
-    style="display: block; margin-left: auto; margin-right: auto; "
-    src="../../assets/user-guide/SystemOverrides_Status.png" 
-    alt="Figure 60: Applying Status Overrides">
-</img>
-</p>
-<p style="text-align: center;"><em>Figure 60: Applying Status Overrides</em></p>
+![Figure 60: Applying Status Overrides](../../assets/user-guide/SystemOverrides_Status.png "Figure 60: Applying Status Overrides")
 
 Once an override has been applied, an icon will be displayed next to the check that signifies that there is a override. See *Figure 61* for an example of the override icon.
 
-<p>
-<img 
-    style="display: block; margin-left: auto; margin-right: auto; "
-    src="../../assets/user-guide/OverrideIcon.png" 
-    alt="Figure 61: Override Icon">
-</img>
-</p>
-<p style="text-align: center;"><em>Figure 61: Override Icon</em></p>
+![Figure 61: Override Icon](../../assets/user-guide/OverrideIcon.png "Figure 61: Override Icon")
 
 ###  Updating Severities with Overrides
 
 Updating severities works identically like the status updates. To update the severity of a finding, click the **Systems** button, then click the **Severity** tab on the pop-up menu. Select the checkboxes next to each system the you are changing, then update the severity in the drop-down menu for each system. If you want to apply the same severity change to multiple systems, you can check the boxes for the systems you are updating and set the status in the **Select Severity** (at the top of the table) and click **Set**. This will apply the severity to each system that is checked.
 
-<p>
-<img 
-    style="display: block; margin-left: auto; margin-right: auto; "
-    src="../../assets/user-guide/SystemSeverity.png" 
-    alt="Figure 62: Updating Severities">
-</img>
-</p>
-<p style="text-align: center;"><em>Figure 62: Updating Severities</em></p>
+![Figure 62: Updating Severities](../../assets/user-guide/SystemSeverity.png "Figure 62: Updating Severities")
 
 To apply a severity override, select the severity that you wish to set from the drop-down menu. Then, click the **Lock** button directly next to that drop-down menu for each check that you are overriding. Once the **Lock** button is set to the locked state, this severity will be overriden each time new scan results are imported. Lastly, provide an Override Justification in the text box to the right of the stautses. 
 
-<p>
-<img 
-    style="display: block; margin-left: auto; margin-right: auto; "
-    src="../../assets/user-guide/SystemSeverity_Overrides.png" 
-    alt="Figure 63: Severity Overrides">
-</img>
-</p>
-<p style="text-align: center;"><em>Figure 63: Severity Overrides</em></p>
+![Figure 63: Severity Overrides](../../assets/user-guide/SystemSeverity_Overrides.png "Figure 63: Severity Overrides")
 
 Once all of your changes have been made, click the **Save** button in the bottom-right corner of the pop-up window.

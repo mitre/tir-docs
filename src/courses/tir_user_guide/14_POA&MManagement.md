@@ -21,13 +21,6 @@ From the **Boundary View** and **Vulnerability View**, each check will have a co
 
 After you’ve completed filling out the **POAM Fields** for an open finding, click the **Save** button at the bottom of the page.
 
-<p>
-<img 
-    style="display: block; margin-left: auto; margin-right: auto; "
-    src="../../assets/user-guide/image52.png" 
-    alt="Figure 79: POA&M Fields">
-</img>
-</p>
-<p style="text-align: center;"><em>Figure 79: POA&M Fields</em></p>
+![Figure 80: POA&M Fields](../../assets/user-guide/image52.png "Figure 80: POA&M Fields")
 
 As you continue to import more test results into your boundary during future scanning events, these POA&M fields will persist. As open items are worked, new milestones can be added and worked through your processes.

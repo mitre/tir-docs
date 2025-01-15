@@ -4,7 +4,7 @@ next: 05_CreatingYourWorkEnvironment.md
 title: Interfaces
 shortTitle: 4. Interfaces
 author: Jason Kerbelis
-headerDepth: 2
+headerDepth: 4
 ---
 
 ## Interfaces

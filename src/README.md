@@ -29,7 +29,7 @@ actions:
 highlights:
   - header: What You Will Learn
     description: Our guides include documentation and videos for standard users and privileged users.
-    # image: /assets/image/markdown.svg
+    image: /assets/image/markdown.svg
     bgImage: https://theme-hope-assets.vuejs.press/bg/2-light.svg
     bgImageDark: https://theme-hope-assets.vuejs.press/bg/2-dark.svg
     bgImageStyle:
