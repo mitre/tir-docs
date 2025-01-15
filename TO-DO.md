@@ -1,4 +1,3 @@
-0. Fix Figure 15 in the User Guide
 1. Finish Home Page
 2. Create page(s) for training videos so uses don't have to navigate away from the training docs
 3. Add reference links when referencing figures in the document

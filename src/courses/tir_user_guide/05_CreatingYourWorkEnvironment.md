@@ -23,7 +23,7 @@ The owner of each boundary will be responsible for creating their **Boundary** i
 
 To better illustrate this comparison to the traditional directory structure, please refer to the *Figure 15: Example Boundary Structures* below.
 
-![Figure 15: Example Boundary Structures](../../assets/user-guide/CompaniesAndBoundaries.png "Figure 15: Example Boundary Structures" =200x300)
+![Figure 15: Example Boundary Structures](../../assets/user-guide/CompaniesAndBoundaries.png "Figure 15: Example Boundary Structures" =300x700)
 
 With that illustration in mind, let’s get started with creating boundaries inside of TIR. Navigate to the **Boundaries** page by clicking the **Boundaries** button at the top on the page. To create a new company, click the **\[+\] Company** button as shown in Figure 16.
 

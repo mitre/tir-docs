@@ -67,6 +67,9 @@ export default hopeTheme({
       imgSize: true,
       include: true,
 
+      lazyload: true,
+      size: true,
+
       // install katex before enabling it
       // katex: true,
 
@@ -104,6 +107,7 @@ export default hopeTheme({
       sup: true,
       tabs: true,
       vPre: true,
+      level: [2, 4]
 
       // install @vue/repl before enabling it
       // vuePlayground: true,
