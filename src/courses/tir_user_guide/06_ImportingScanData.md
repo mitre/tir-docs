@@ -1,5 +1,5 @@
 ---
-order: 6
+order: 7
 next: 07_DeltaSTIGs.md
 title: Importing Scan Data
 shortTitle: 6. Importing Scan Data

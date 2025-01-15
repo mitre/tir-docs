@@ -1,5 +1,5 @@
 ---
-order: 7
+order: 8
 next: 08_ChangingCompanyAndBoundaryPermissions.md
 title: Delta STIGs
 shortTitle: 7. Delta STIGs

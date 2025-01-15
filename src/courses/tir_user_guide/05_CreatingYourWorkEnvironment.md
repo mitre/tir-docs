@@ -1,5 +1,5 @@
 ---
-order: 5
+order: 6
 next: 06_ImportingScanData.md
 title: Creating your Work Environment
 shortTitle: 5. Creating your Work Environment

@@ -1,5 +1,5 @@
 ---
-order: 2
+order: 3
 next: 03_GettingStarted.md
 title: Purpose
 shortTitle: 2. Purpose

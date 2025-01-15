@@ -1,5 +1,5 @@
 ---
-order: 9
+order: 10
 next: 10_SystemView.md
 title: Boundary View
 shortTitle: 9. Boundary View

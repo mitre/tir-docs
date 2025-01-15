@@ -1,5 +1,5 @@
 ---
-order: 8
+order: 9
 next: 09_BoundaryView.md
 title: Changing Company and Boundary Permissions
 shortTitle: 8. Changing Company and Boundary Permissions
