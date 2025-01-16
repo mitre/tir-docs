@@ -19,10 +19,10 @@ Please follow instructions defined by your program to request an account Adminis
 
 TIR has two types of users, Administrators and Users. Administrators have access to the **Administration,** **Libraries**, and **Boundary** tabs. Users only have access to Libraries and Boundary tabs. TIR is setup as a hierarchical system with Companies and Boundaries. Users can be granted permissions to be Owners, Reviewers, and Editors for Companies and Boundaries. A summary of permissions is show in Table 1, below.
 
-![Table 1: Access Control - User Permissions](../../assets/user-guide/image1.png "Table 1: Access Control - User Permissions")
+![Table 1: Access Control - User Permissions](./assets/admin-guide/image1.png "Table 1: Access Control - User Permissions")
 
 ### Login
 
 Once your account has been created, please navigate to the TIR home page. Enter your **Username** and P**assword**, then review the **IS User Agreement** and acknowledge that you have read it by clicking the check box. Then, click **Sign in**.
 
-![Figure 1: Login Page](../../assets/user-guide/image2.png "Figure 1: Login Page")
+![Figure 1: Login Page](./assets/admin-guide/image2.png "Figure 1: Login Page")
