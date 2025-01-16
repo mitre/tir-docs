@@ -8,4 +8,4 @@ Redistribution and use in source and binary forms, with or without modification,
 
 - Neither the name of The MITRE Corporation nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
 
-© 2024 Lockheed Martin Corporation. This publication is licensed under the Creative Commons Attribution 4.0 International Public License (https://creativecommons.org/licenses/by/4.0/legalcode.en).  Except as expressly licensed, all right herein are reserved.
+© 2024 Lockheed Martin Corporation. This publication is licensed under the Creative Commons Attribution 4.0 International Public License (https://creativecommons.org/licenses/by/4.0/legalcode.en). Except as expressly licensed, all right herein are reserved.

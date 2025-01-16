@@ -16,7 +16,8 @@
   },
   "devDependencies": {
     "@vuepress/bundler-vite": "2.0.0-rc.19",
-    "@vuepress/plugin-shiki": "^2.0.0-rc.70",
+    "@vuepress/plugin-markdown-image": "^2.0.0-rc.70",
+    "@vuepress/plugin-revealjs": "^2.0.0-rc.71",
     "cypress": "^13.16.0",
     "cypress-each": "^1.14.0",
     "flowchart.ts": "^3.0.1",
