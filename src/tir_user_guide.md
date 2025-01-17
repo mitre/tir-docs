@@ -29,7 +29,7 @@ TIR has two types of users, Administrators and Users. Administrators have access
 <p>
 <img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="./assets/admin-guide/image1.png"
+    src="./assets/user-guide/image1.png"
     alt="Table 1: Access Control - User Permissions">
 </img>
 </p>
@@ -42,7 +42,7 @@ Once your account has been created, please navigate to the TIR home page. Enter 
 <p>
 <img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="./assets/admin-guide/image2.png"
+    src="./assets/user-guide/image2.png"
     alt="Figure 1: Login Page">
 </img>
 </p>
@@ -59,7 +59,7 @@ The dashboard will show you the most recent changes to your TIR instance and wil
 <p>
 <img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="./assets/admin-guide/image3.png"
+    src="./assets/user-guide/image3.png"
     alt="Figure 2: Dashboard">
 </img>
 </p>
@@ -72,7 +72,7 @@ The Boundary tab contains “Companies” and “Boundaries” in a hierarchical
 <p>
 <img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="./assets/admin-guide/ admin-guide/BoundariesTab.png"
+    src="./assets/user-guide/BoundariesTab.png"
     alt="Figure 3: Companies in the Boundary Tab">
 </img>
 </p>
@@ -81,7 +81,7 @@ The Boundary tab contains “Companies” and “Boundaries” in a hierarchical
 <p>
 <img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="./assets/admin-guide/BoundariesTab_Nested.png"
+    src="./assets/user-guide/BoundariesTab_Nested.png"
     alt="Figure 4: Boundaries nested under Companies">
 </img>
 </p>
@@ -104,7 +104,7 @@ The **Libraries** page will display all of the STIG libraries that have been upl
 <p>
 <img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="./assets/admin-guide/image6.png"
+    src="./assets/user-guide/image6.png"
     alt="Figure 5: STIG Libraries">
 </img>
 </p>
@@ -171,7 +171,7 @@ CCI mappings are distributed by NIST and are updated as necessary. The latest CC
 <p>
 <img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="./assets/admin-guide/image7.png"
+    src="./assets/user-guide/image7.png"
     alt="Figure 6: CCI Matrix">
 </img>
 </p>
@@ -188,7 +188,7 @@ The **About Page** will let the user know what version of TIR they are currently
 <p>
 <img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="./assets/admin-guide/image8.png"
+    src="./assets/user-guide/image8.png"
     alt="Figure 7: About Page">
 </img>
 </p>
@@ -201,7 +201,7 @@ The User Profile icon looks like a person and is located in the top-right of the
 <p>
 <img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="./assets/admin-guide/UserProfile.png"
+    src="./assets/user-guide/UserProfile.png"
     alt="Figure 8: User Profile">
 </img>
 </p>
@@ -214,7 +214,7 @@ Your **User Profile** will display your **Username**, **Role**, **Hidden Passwor
 <p>
 <img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="./assets/admin-guide/User_ChangePassword.png"
+    src="./assets/user-guide/User_ChangePassword.png"
     alt="Figure 9: Change Password">
 </img>
 </p>
@@ -225,7 +225,7 @@ Your **User Profile** will display your **Username**, **Role**, **Hidden Passwor
 <p>
 <img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="./assets/admin-guide/image11.png"
+    src="./assets/user-guide/image11.png"
     alt="Figure 10: Time Zones">
 </img>
 </p>
@@ -236,7 +236,7 @@ Your **User Profile** will display your **Username**, **Role**, **Hidden Passwor
 <p>
 <img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="./assets/admin-guide/image12.png"
+    src="./assets/user-guide/image12.png"
     alt="Figure 11: Create API Token">
 </img>
 </p>
@@ -247,7 +247,7 @@ Your **User Profile** will display your **Username**, **Role**, **Hidden Passwor
 <p>
 <img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="./assets/admin-guide/image13.png"
+    src="./assets/user-guide/image13.png"
     alt="Figure 12: Light Mode vs Dark Mode">
 </img>
 </p>
@@ -260,7 +260,7 @@ Users will receive notifications about important dates related to their Boundari
 <p>
 <img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="./assets/admin-guide/image14.png"
+    src="./assets/user-guide/image14.png"
     alt="Figure 13: Notification Bell">
 </img>
 </p>
@@ -271,7 +271,7 @@ To view all of your notifications, press the **View all** button at the bottom o
 <p>
 <img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="./assets/admin-guide/image15.png"
+    src="./assets/user-guide/image15.png"
     alt="Figure 14: Notification Alert Center">
 </img>
 </p>
@@ -296,7 +296,7 @@ To better illustrate this comparison to the traditional directory structure, ple
 <p>
 <img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="./assets/admin-guide/CompaniesAndBoundaries.png" width= 250
+    src="./assets/user-guide/CompaniesAndBoundaries.png" width= 250
     alt="Figure 15: Example Boundary Structures">
 </img>
 </p>
@@ -307,7 +307,7 @@ With that illustration in mind, let’s get started with creating boundaries ins
 <p>
 <img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="./assets/admin-guide/CreateCompany.png"
+    src="./assets/user-guide/CreateCompany.png"
     alt="Figure 16: Creating a Company">
 </img>
 </p>
@@ -320,7 +320,7 @@ You should now see an item titled with the name you entered into the **Company N
 <p>
 <img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="./assets/admin-guide/CreateCompany2.png"
+    src="./assets/user-guide/CreateCompany2.png"
     alt="Figure 17: Companies Example">
 </img>
 </p>
@@ -393,7 +393,7 @@ Once you are ready to create a **Boundary**, navigate to an empty Company and cl
 <p>
 <img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="./assets/admin-guide/CreateBoundary.png"
+    src="./assets/user-guide/CreateBoundary.png"
     alt="Figure 18: Creating a Boundary">
 </img>
 </p>
@@ -404,7 +404,7 @@ Your newly created boundary will appear in the table, as shown in *Figure 19: Vi
 <p>
 <img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="./assets/admin-guide/CreateBoundary2.png"
+    src="./assets/user-guide/CreateBoundary2.png"
     alt="Figure 19: Viewing the list of created Boundaries">
 </img>
 </p>
@@ -415,7 +415,7 @@ When a Boundary is selected, you will be taken to the Overview sub-tab of the Bo
 <p>
 <img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="./assets/admin-guide/CreateBoundary3.png"
+    src="./assets/user-guide/CreateBoundary3.png"
     alt="Figure 20: Boundary Overview">
 </img>
 </p>
@@ -442,7 +442,7 @@ Navigate to the Boundary that you wish to add a system to. Click the **Add Syste
 <p>
 <img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="./assets/admin-guide/Boundary_AddingSystems.png"
+    src="./assets/user-guide/Boundary_AddingSystems.png"
     alt="Figure 21: Add System Options">
 </img>
 </p>
@@ -509,7 +509,7 @@ The remaining fields (Host Name, Host IP Address, Host MAC Address, Host Fully Q
 <p>
 <img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="./assets/admin-guide/Boundary_AddingSingleSystem.png"
+    src="./assets/user-guide/Boundary_AddingSingleSystem.png"
     alt="Figure 22: Add Single System">
 </img>
 </p>
@@ -532,7 +532,7 @@ Once you are satisfied with the new system(s) click the **Create Systems** butto
 <p>
 <img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="./assets/admin-guide/image24.png"
+    src="./assets/user-guide/image24.png"
     alt="Figure 23: Duplicate a System by using the Widget">
 </img>
 </p>
@@ -549,7 +549,7 @@ There is a standard format that your cyber scan data will need to be organized i
 <p>
 <img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="./assets/admin-guide/image25.png"
+    src="./assets/user-guide/image25.png"
     alt="Figure 24: Standardized Organizational Structure for Folder Imports">
 </img>
 </p>
@@ -560,7 +560,7 @@ To create systems by using cyber scan data, navigate inside of your boundary, cl
 <p>
 <img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="./assets/admin-guide/image26.png"
+    src="./assets/user-guide/image26.png"
     alt="Figure 25: Adding Systems via Folder(s)">
 </img>
 </p>
@@ -571,7 +571,7 @@ Once you click the **Upload** button, you will be prompted to confirm that you w
 <p>
 <img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="./assets/admin-guide/image27.png"
+    src="./assets/user-guide/image27.png"
     alt="Figure 26: Confirm Upload">
 </img>
 </p>
@@ -582,7 +582,7 @@ Once all of the files have been uploaded you will be able to view each system in
 <p>
 <img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="./assets/admin-guide/Boundary_VerifySystemCreation.png"
+    src="./assets/user-guide/Boundary_VerifySystemCreation.png"
     alt="Figure 27: Verifying Successful Creation of Systems">
 </img>
 </p>
@@ -595,7 +595,7 @@ Users have the option to zip up the results and import the .zip folder to create
 <p>
 <img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="./assets/admin-guide/image29.png"
+    src="./assets/user-guide/image29.png"
     alt="Figure 28: Adding System via .Zip Folder">
 </img>
 </p>
@@ -612,7 +612,7 @@ To add a blank STIG checklist to a system, navigate to your boundary and click *
 <p>
 <img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="./assets/admin-guide/image38.png"
+    src="./assets/user-guide/image38.png"
     alt="Figure 29: Import Scan Data">
 </img>
 </p>
@@ -625,7 +625,7 @@ Once you have the latest STIG Library uploaded, navigate to your System and clic
 <p>
 <img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="./assets/admin-guide/image39.png"
+    src="./assets/user-guide/image39.png"
     alt="Figure 30: Adding STIGs to your System">
 </img>
 </p>
@@ -636,7 +636,7 @@ Once the STIGs have been added, you will see them displayed in list of STIGs for
 <p>
 <img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="./assets/admin-guide/image40.png"
+    src="./assets/user-guide/image40.png"
     alt="Figure 31: Example of STIG Import Completion">
 </img>
 </p>
@@ -649,7 +649,7 @@ Once your Boundary and systems have been created, you will be able to import tes
 <p>
 <img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="./assets/admin-guide/Boundary_ImportResults.png"
+    src="./assets/user-guide/Boundary_ImportResults.png"
     alt="Figure 32: Import Scan Data">
 </img>
 </p>
@@ -666,7 +666,7 @@ This will launch a file navigation window. Navigate to the folder that contains 
 <p>
 <img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="./assets/admin-guide/Boundary_ImportResultsViaFolders.png"
+    src="./assets/user-guide/Boundary_ImportResultsViaFolders.png"
     alt="Figure 33: Import Results via Folder">
 </img>
 </p>
@@ -677,7 +677,7 @@ If you wish to import test results for a just one of your systems, navigate insi
 <p>
 <img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="./assets/admin-guide/Boundary_ImportResultsViaFolders-SingleSystem.png"
+    src="./assets/user-guide/Boundary_ImportResultsViaFolders-SingleSystem.png"
     alt="Figure 34: Import Results via Folder - Single System">
 </img>
 </p>
@@ -694,7 +694,7 @@ A file navigation window will be displayed. Navigate to the .zip folder that con
 <p>
 <img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="./assets/admin-guide/Boundary_ImportResultsViaZipFolder.png"
+    src="./assets/user-guide/Boundary_ImportResultsViaZipFolder.png"
     alt="Figure 35: Import Results via Zip Folder">
 </img>
 </p>
@@ -709,7 +709,7 @@ A file navigation window will be displayed. Navigate to the file(s) that you wis
 <p>
 <img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="./assets/admin-guide/Boundary_ImportResultsViaMultipleFileSelection.png"
+    src="./assets/user-guide/Boundary_ImportResultsViaMultipleFileSelection.png"
     alt="Figure 36: Import Results via Selecting Files">
 </img>
 </p>
@@ -720,7 +720,7 @@ A second window will be displayed to allow you to map the scan data to the syste
 <p>
 <img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="./assets/admin-guide/Boundary_ImportResultsViaMultipleFileSelection2.png"
+    src="./assets/user-guide/Boundary_ImportResultsViaMultipleFileSelection2.png"
     alt="Figure 37: Assigning a System to Each Imported File">
 </img>
 </p>
@@ -740,7 +740,7 @@ TIR has the ability to show you which STIG checks have been added or updated whe
 <p>
 <img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="./assets/admin-guide/Boundaries_STIGBaseline.png"
+    src="./assets/user-guide/Boundaries_STIGBaseline.png"
     alt="Figure 38: Updating STIG Baseline">
 </img>
 </p>
@@ -753,7 +753,7 @@ STIG Checks that have been added or modified will receive a status of **Not Revi
 <p>
 <img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="./assets/admin-guide/DeltaSTIGs-Pre.png"
+    src="./assets/user-guide/DeltaSTIGs-Pre.png"
     alt="Figure 39: Statuses before STIG Baseline Upgrade">
 </img>
 </p>
@@ -770,7 +770,7 @@ See *Figure 40* below.
 <p>
 <img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="./assets/admin-guide/DeltaSTIGs-Post.png"
+    src="./assets/user-guide/DeltaSTIGs-Post.png"
     alt="Figure 40: Statuses after STIG Baseline Upgrade">
 </img>
 </p>
@@ -785,7 +785,7 @@ To add or modify Company and Boundary permissions, select the 3 buttons to the f
 <p>
 <img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="./assets/admin-guide/ModifyCompanyPermissions.png"
+    src="./assets/user-guide/ModifyCompanyPermissions.png"
     alt="Figure 41: Modify Company/Boundary Permissions">
 </img>
 </p>
@@ -798,7 +798,7 @@ Clicking the **Manage Members** will display the Members dialog box, enter the u
 <p>
 <img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="./assets/admin-guide/ModifyCompanyPermissions2.png"
+    src="./assets/user-guide/ModifyCompanyPermissions2.png"
     alt="Figure 42: Adding Members – Search Users">
 </img>
 </p>
@@ -809,7 +809,7 @@ The Search Users box should provide a list of similar usernames. Select the user
 <p>
 <img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="./assets/admin-guide/ModifyCompanyPermissions3.png"
+    src="./assets/user-guide/ModifyCompanyPermissions3.png"
     alt="Figure 43: Manage Members – Choose level of Access">
 </img>
 </p>
@@ -820,7 +820,7 @@ Once the level of access you wish to grant is selected, click **Add Member**. Yo
 <p>
 <img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="./assets/admin-guide/ModifyCompanyPermissions4.png"
+    src="./assets/user-guide/ModifyCompanyPermissions4.png"
     alt="Figure 44:  Member Access – User Added with Co-owner Role">
 </img>
 </p>
@@ -835,7 +835,7 @@ Clicking the **Manage Members** will display the Members dialog box. Click the *
 <p>
 <img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="./assets/admin-guide/EditUserPermissions.png"
+    src="./assets/user-guide/EditUserPermissions.png"
     alt="Figure 45: Edit User Permissions">
 </img>
 </p>
@@ -846,7 +846,7 @@ This will enable the drop-down menu for the role field. To change the user's rol
 <p>
 <img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="./assets/admin-guide/EditUserPermissions2.png"
+    src="./assets/user-guide/EditUserPermissions2.png"
     alt="Figure 46: Edit User Role">
 </img>
 </p>
@@ -857,7 +857,7 @@ To remove a user, click the **Remove** button for that user. Owners can not be r
 <p>
 <img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="./assets/admin-guide/RemoveUser.png"
+    src="./assets/user-guide/RemoveUser.png"
     alt="Figure 47: Remove User">
 </img>
 </p>
@@ -872,7 +872,7 @@ Once you click the **Boundary View** tab, you will see a unique list of all the 
 <p>
 <img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="./assets/admin-guide/BoundaryView.png"
+    src="./assets/user-guide/BoundaryView.png"
     alt="Figure 48: Boundary View">
 </img>
 </p>
@@ -885,7 +885,7 @@ Once you open the STIG View, you will see a variety of information related to th
 <p>
 <img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="./assets/admin-guide/image47.png"
+    src="./assets/user-guide/image47.png"
     alt="Figure 49: STIG View Data Key">
 </img>
 </p>
@@ -896,7 +896,7 @@ On the left side of the screen, you will see a section titled **Filters** that c
 <p>
 <img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="./assets/admin-guide/image48.png"
+    src="./assets/user-guide/image48.png"
     alt="Figure 50: Filtering by Status">
 </img>
 </p>
@@ -907,7 +907,7 @@ In *Figure 51* you will see that the **Finding Details** and **Comment** fields 
 <p>
 <img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="./assets/admin-guide/image49.png"
+    src="./assets/user-guide/image49.png"
     alt="Figure 51: Finding Details and Comments inside of the Boundary View">
 </img>
 </p>
@@ -918,7 +918,7 @@ To view the status of each one of those systems, you will need to click the **Sy
 <p>
 <img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="./assets/admin-guide/BoundaryView_Systems.png"
+    src="./assets/user-guide/BoundaryView_Systems.png"
     alt="Figure 52: Systems Button">
 </img>
 </p>
@@ -929,7 +929,7 @@ A pop-up window will appear that displays all of the systems where this STIG che
 <p>
 <img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="./assets/admin-guide/BoundaryView_SystemStatuses.png"
+    src="./assets/user-guide/BoundaryView_SystemStatuses.png"
     alt="Figure 53: System Statues in the Boundary View">
 </img>
 </p>
@@ -946,7 +946,7 @@ The **System View** tab shows you a list of all the systems inside your boundary
 <p>
 <img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="./assets/admin-guide/SystemView.png"
+    src="./assets/user-guide/SystemView.png"
     alt="Figure 54: System View Tab">
 </img>
 </p>
@@ -957,7 +957,7 @@ To view and edit the data pertaining to one of these systems, click on the syste
 <p>
 <img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="./assets/admin-guide/image54.png"
+    src="./assets/user-guide/image54.png"
     alt="Figure 55: System View STIG List">
 </img>
 </p>
@@ -970,7 +970,7 @@ Unlike the **Boundary View**, the **System View** allows you to edit the **Findi
 <p>
 <img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="./assets/admin-guide/SystemView_StatusAndSeverity.png"
+    src="./assets/user-guide/SystemView_StatusAndSeverity.png"
     alt="Figure 56: Changing the Status and Severity from the System View">
 </img>
 </p>
@@ -985,7 +985,7 @@ The first column in the table is the **Vulnerability Name**. This field will dis
 <p>
 <img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="./assets/admin-guide/VulnerabilityView.png"
+    src="./assets/user-guide/VulnerabilityView.png"
     alt="Figure 57: Vulnerability View">
 </img>
 </p>
@@ -996,7 +996,7 @@ To display more information about any of the Nessus findings, simply click on th
 <p>
 <img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="./assets/admin-guide/VulnerabilityView_Detailed.png"
+    src="./assets/user-guide/VulnerabilityView_Detailed.png"
     alt="Figure 58: Vulnerability View Detailed Findinging">
 </img>
 </p>
@@ -1017,7 +1017,7 @@ To view the status of each of your systems, you will need to click the **Systems
 <p>
 <img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="./assets/admin-guide/SystemsStatus.png"
+    src="./assets/user-guide/SystemsStatus.png"
     alt="Figure 59: Updating Statuses for Systems">
 </img>
 </p>
@@ -1034,7 +1034,7 @@ Once all of your changes have been made, click the **Save** button in the bottom
 <p>
 <img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="./assets/admin-guide/SystemOverrides_Status.png"
+    src="./assets/user-guide/SystemOverrides_Status.png"
     alt="Figure 60: Applying Status Overrides">
 </img>
 </p>
@@ -1045,7 +1045,7 @@ Once an override has been applied, an icon will be displayed next to the check t
 <p>
 <img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="./assets/admin-guide/OverrideIcon.png"
+    src="./assets/user-guide/OverrideIcon.png"
     alt="Figure 61: Override Icon">
 </img>
 </p>
@@ -1058,7 +1058,7 @@ Updating severities works identically like the status updates. To update the sev
 <p>
 <img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="./assets/admin-guide/SystemSeverity.png"
+    src="./assets/user-guide/SystemSeverity.png"
     alt="Figure 62: Updating Severities">
 </img>
 </p>
@@ -1069,7 +1069,7 @@ To apply a severity override, select the severity that you wish to set from the 
 <p>
 <img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="./assets/admin-guide/SystemSeverity_Overrides.png"
+    src="./assets/user-guide/SystemSeverity_Overrides.png"
     alt="Figure 63: Severity Overrides">
 </img>
 </p>
@@ -1084,7 +1084,7 @@ Once you have uploaded all of the test data on for your boundary, you have the a
 <p>
 <img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="./assets/admin-guide/ExportData.png"
+    src="./assets/user-guide/ExportData.png"
     alt="Figure 64: Export Data">
 </img>
 </p>
@@ -1099,7 +1099,7 @@ To export a POA&M; navigate to your Boundary, click the **Export Data** button, 
 <p>
 <img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="./assets/admin-guide/ExportData_POAM.png"
+    src="./assets/user-guide/ExportData_POAM.png"
     alt="Figure 65: Export POA&M">
 </img>
 </p>
@@ -1110,7 +1110,7 @@ The POA&M will organize all of the findings data for each security control that 
 <p>
 <img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="./assets/admin-guide/image58.jpeg"
+    src="./assets/user-guide/image58.jpeg"
     alt="Figure 66: POA&M Export">
 </img>
 </p>
@@ -1123,7 +1123,7 @@ To export your data into a **Findings Worksheet**; navigate to your Boundary, cl
 <p>
 <img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="./assets/admin-guide/ExportData_Findings.png"
+    src="./assets/user-guide/ExportData_Findings.png"
     alt="Figure 67: Exporting Findings Spreadsheet">
 </img>
 </p>
@@ -1136,7 +1136,7 @@ The findings worksheet will create an item for each Vulnerability/Finding inside
 <p>
 <img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="./assets/admin-guide/image60.jpeg"
+    src="./assets/user-guide/image60.jpeg"
     alt="Figure 68: Findings Export">
 </img>
 </p>
@@ -1151,7 +1151,7 @@ For the default option, select **Export Data**, select the **Checklist tab**, an
 <p>
 <img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="./assets/admin-guide/ExportData_Checklists.png"
+    src="./assets/user-guide/ExportData_Checklists.png"
     alt="Figure 69: Exporting Checklists">
 </img>
 </p>
@@ -1162,7 +1162,7 @@ The output should look like the following:
 <p>
 <img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="./assets/admin-guide/image62.png"
+    src="./assets/user-guide/image62.png"
     alt="Figure 70: Checklist Export – Folders">
 </img>
 </p>
@@ -1171,7 +1171,7 @@ The output should look like the following:
 <p>
 <img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="./assets/admin-guide/image63.png"
+    src="./assets/user-guide/image63.png"
     alt="Figure 71: Checklist Export - Files">
 </img>
 </p>
@@ -1182,7 +1182,7 @@ For a single checklist per system, select the **Single STIG per checklist** box.
 <p>
 <img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="./assets/admin-guide/ExportData_Checklists2.png"
+    src="./assets/user-guide/ExportData_Checklists2.png"
     alt="Figure 72: Exporting Checklists - Single STIG per Checklist">
 </img>
 </p>
@@ -1193,7 +1193,7 @@ The output is as follows:
 <p>
 <img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="./assets/admin-guide/image65.png"
+    src="./assets/user-guide/image65.png"
     alt="Figure 73: Exporting Checklists - Single STIG per Checklist - Folders">
 </img>
 </p>
@@ -1202,7 +1202,7 @@ The output is as follows:
 <p>
 <img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="./assets/admin-guide/image66.png"
+    src="./assets/user-guide/image66.png"
     alt="Figure 74: Exporting Checklists - Single STIG per Checklist - Files">
 </img>
 </p>
@@ -1217,7 +1217,7 @@ To export a SSA, navigate to your Boundary and click Export Data. Next, click th
 <p>
 <img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="./assets/admin-guide/ExportData_SSA.png"
+    src="./assets/user-guide/ExportData_SSA.png"
     alt="Figure 75: SSA Export">
 </img>
 </p>
@@ -1230,7 +1230,7 @@ For an example, see *Figure 76* below.
 <p>
 <img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="./assets/admin-guide/SSA_CCICompliance.png"
+    src="./assets/user-guide/SSA_CCICompliance.png"
     alt="Figure 76: SSA - CCI Compliance Tab">
 </img>
 </p>
@@ -1243,7 +1243,7 @@ For an example, see *Figure 77* below.
 <p>
 <img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="./assets/admin-guide/SSA_ControlCompliance.png"
+    src="./assets/user-guide/SSA_ControlCompliance.png"
     alt="Figure 77: SSA - Control Compliance Tab">
 </img>
 </p>
@@ -1256,7 +1256,7 @@ For an example, see *Figure 78* below.
 <p>
 <img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="./assets/admin-guide/SSA_STIGTabs.png"
+    src="./assets/user-guide/SSA_STIGTabs.png"
     alt="Figure 78: SSA - STIG Tabs">
 </img>
 </p>
@@ -1269,7 +1269,7 @@ This section is not finished. Need the Nessus csv export to be completed.
 <p>
 <img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="./assets/admin-guide/ExportData_Nessus.png"
+    src="./assets/user-guide/ExportData_Nessus.png"
     alt="Figure X: Nessus Export">
 </img>
 </p>
@@ -1292,7 +1292,7 @@ After you’ve completed filling out the **POAM Fields** for an open finding, cl
 <p>
 <img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="./assets/admin-guide/image52.png"
+    src="./assets/user-guide/image52.png"
     alt="Figure 79: POA&M Fields">
 </img>
 </p>
@@ -1309,7 +1309,7 @@ To backup the data for a boundary, you will first need to navigate inside the bo
 <p>
 <img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="./assets/admin-guide/Boundary_Export.png"
+    src="./assets/user-guide/Boundary_Export.png"
     alt="Figure X: Boundary Export">
 </img>
 </p>
@@ -1322,7 +1322,7 @@ To restore the data for a boundary, you will first need to navigate inside the b
 <p>
 <img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="./assets/admin-guide/Boundary_Import.png"
+    src="./assets/user-guide/Boundary_Import.png"
     alt="Figure X: Boundary Import">
 </img>
 </p>

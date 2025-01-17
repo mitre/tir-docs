@@ -23,17 +23,17 @@ The owner of each boundary will be responsible for creating their **Boundary** i
 
 To better illustrate this comparison to the traditional directory structure, please refer to the *Figure 15: Example Boundary Structures* below.
 
-![Figure 15: Example Boundary Structures](./assets/admin-guide/CompaniesAndBoundaries.png "Figure 15: Example Boundary Structures" =300x700)
+![Figure 15: Example Boundary Structures](../../assets/user-guide/CompaniesAndBoundaries.png "Figure 15: Example Boundary Structures" =300x700)
 
 With that illustration in mind, let’s get started with creating boundaries inside of TIR. Navigate to the **Boundaries** page by clicking the **Boundaries** button at the top on the page. To create a new company, click the **\[+\] Company** button as shown in Figure 16.
 
-![Figure 16: Creating a Company](./assets/admin-guide/CreateCompany.png "Figure 16: Creating a Company")
+![Figure 16: Creating a Company](../../assets/user-guide/CreateCompany.png "Figure 16: Creating a Company")
 
 A side panel will open from the right of the screen. Enter the name of the company into the **Company Name** text field and click **Save**.
 
 You should now see an item titled with the name you entered into the **Company Name** field. For demonstration purposes, we’ll use the example from *Figure 15*. We’ll start by creating a company for Lockheed Martin and MITRE, as seen in *Figure 17*.
 
-![Figure 17: Companies Example](./assets/admin-guide/CreateCompany2.png "Figure 17: Companies Example")
+![Figure 17: Companies Example](../../assets/user-guide/CreateCompany2.png "Figure 17: Companies Example")
 
 Navigate inside of your newly created Company by clicking on the item (ex: Lockheed Martin). Once navigating inside a new Company, you will see the **\[+\] Company** and **\[+\] Boundary** buttons. You have the ability to create as many nested Companies as you see fit.
 
@@ -99,15 +99,15 @@ Once you are ready to create a **Boundary**, navigate to an empty Company and cl
 </table>
 <p style="text-align: center;"><em>Table 3:  Boundary Settings</em></p>
 
-![Figure 18: Creating a Boundary](./assets/admin-guide/CreateBoundary.png "Figure 18: Creating a Boundary")
+![Figure 18: Creating a Boundary](../../assets/user-guide/CreateBoundary.png "Figure 18: Creating a Boundary")
 
 Your newly created boundary will appear in the table, as shown in *Figure 19: Viewing the list of created Boundaries*. To view your boundary, click on the item in the table.
 
-![Figure 19: Viewing the list of created Boundaries](./assets/admin-guide/CreateBoundary2.png "Figure 19: Viewing the list of created Boundaries")
+![Figure 19: Viewing the list of created Boundaries](../../assets/user-guide/CreateBoundary2.png "Figure 19: Viewing the list of created Boundaries")
 
 When a Boundary is selected, you will be taken to the Overview sub-tab of the Boundary dashboard. The boundary overview sub-tab will display a high-level overview of your systems and the findings associated with each system.
 
-![Figure 20: Boundary Overview](./assets/admin-guide/CreateBoundary3.png "Figure 20: Boundary Overview")
+![Figure 20: Boundary Overview](../../assets/user-guide/CreateBoundary3.png "Figure 20: Boundary Overview")
 
 At the top of the Boundary Overview table you will find the **Path to your Boundary** with breadcrumbs that a linked back to each parent for easy navigation.
 
@@ -127,7 +127,7 @@ At the top of the Boundary Overview table you will find the **Path to your Bound
 
 Navigate to the Boundary that you wish to add a system to. Click the **Add System** sub-tab and view the available options.
 
-![Figure 21: Add System Options](./assets/admin-guide/Boundary_AddingSystems.png "Figure 21: Add System Options")
+![Figure 21: Add System Options](../../assets/user-guide/Boundary_AddingSystems.png "Figure 21: Add System Options")
 
 There are four options available when adding a system to your boundary:
 
@@ -187,7 +187,7 @@ The single system add feature will allow to create a new system inside of your b
 
 The remaining fields (Host Name, Host IP Address, Host MAC Address, Host Fully Qualified Domain Name) are important when mapping different types a scan results to this system. Please fill out this information if it is known at the time of creation. Many of the automated scanning tools will populate these fields in your checklists. If you are importing checklists that have these system fields populated, the import function will fill out these fields automatically.
 
-![Figure 22: Add Single System](./assets/admin-guide/Boundary_AddingSingleSystem.png "Figure 22: Add Single System")
+![Figure 22: Add Single System](../../assets/user-guide/Boundary_AddingSingleSystem.png "Figure 22: Add Single System")
 
 Once you have finished and click **Save**, you will be able to view your new System by clicking the **System View**.
 
@@ -203,7 +203,7 @@ To create a brand new system from the widget, click the **\[+\] System** button.
 
 Once you are satisfied with the new system(s) click the **Create Systems** button. For an example of using the widget tool, see *Figure 23*.
 
-![Figure 23: Duplicate a System by using the Widget](./assets/admin-guide/image24.png "Figure 23: Duplicate a System by using the Widget")
+![Figure 23: Duplicate a System by using the Widget](../../assets/user-guide/image24.png "Figure 23: Duplicate a System by using the Widget")
 
 Once you have finished and click **Create Systems**, you will be able to view your new System by clicking the **System View**.
 
@@ -213,25 +213,25 @@ This method of adding systems will require scan results from each of the systems
 
 There is a standard format that your cyber scan data will need to be organized in for this tool to correctly build your boundary. First, a parent folder for your boundary needs to be created. Then, navigate inside of your boundary folder and create a folder for each system in your boundary. Inside of each of these system folders, place all of the cyber scan data (.ckl, .cklb, and .xccdf files) associated to that system.
 
-![Figure 24: Standardized Organizational Structure for Folder Imports](./assets/admin-guide/image25.png "Figure 24: Standardized Organizational Structure for Folder Imports")
+![Figure 24: Standardized Organizational Structure for Folder Imports](../../assets/user-guide/image25.png "Figure 24: Standardized Organizational Structure for Folder Imports")
 
 To create systems by using cyber scan data, navigate inside of your boundary, click **Add System** and then click **Folder(s)** (as seen in *Figure 25*). A file navigation window will open which will ask you to select a folder. It is very important that you select the parent folder that contains individual folders for each system on your boundary. When clicking the **Upload** button (inside the file navigation window), you should be looking at all of the folders with your system names and the parent folder should be displayed in the **Folder** field directly above the **Upload** button.
 
-![Figure 25: Adding Systems via Folder(s)](./assets/admin-guide/image26.png "Figure 25: Adding Systems via Folder(s)")
+![Figure 25: Adding Systems via Folder(s)](../../assets/user-guide/image26.png "Figure 25: Adding Systems via Folder(s)")
 
 Once you click the **Upload** button, you will be prompted to confirm that you wish to upload all of your results. Click **Upload** on the prompt.
 
-![Figure 26: Confirm Upload](./assets/admin-guide/image27.png "Figure 26: Confirm Upload")
+![Figure 26: Confirm Upload](../../assets/user-guide/image27.png "Figure 26: Confirm Upload")
 
 Once all of the files have been uploaded you will be able to view each system in the **System View** tab.
 
-![Figure 27: Verifying Successful Creation of Systems](./assets/admin-guide/Boundary_VerifySystemCreation.png "Figure 27: Verifying Successful Creation of Systems")
+![Figure 27: Verifying Successful Creation of Systems](../../assets/user-guide/Boundary_VerifySystemCreation.png "Figure 27: Verifying Successful Creation of Systems")
 
 #### Add Systems by Importing Scan Results via .Zip Folder
 
 Users have the option to zip up the results and import the .zip folder to create a new system. Each system will need their own .zip folder. Please rename the .zip folder to contain the System Name. In our example below, **Goat\_DC** is the name of the system that we are creating. The **Goat\_DC.zip** folder contains all of our checklist and XCCDF scan data. Please note; if you have multiple .zip folders to upload, they will need to be uploaded one at a time.
 
-![Figure 28: Adding System via .Zip Folder](./assets/admin-guide/image29.png "Figure 28: Adding System via .Zip Folder")
+![Figure 28: Adding System via .Zip Folder](../../assets/user-guide/image29.png "Figure 28: Adding System via .Zip Folder")
 
 Once all of the files have been uploaded you will be able to view each system in the **System View** tab. For more information about the System View, please see the **System View** section.
 
@@ -241,14 +241,14 @@ Manually adding STIGs is not necessary if you are able to upload scan results fo
 
 To add a blank STIG checklist to a system, navigate to your boundary and click **System View**. Next, select a system from the system view.
 
-![Figure 29: Import Scan Data<](./assets/admin-guide/image38.png "Figure 29: Import Scan Data<")
+![Figure 29: Import Scan Data<](../../assets/user-guide/image38.png "Figure 29: Import Scan Data<")
 
 The two buttons found in the screenshot above (*Figure 29*) can be used to upload STIGs and Test Data Results to your systems.
 
 Once you have the latest STIG Library uploaded, navigate to your System and click the button titled **\[+\] STIG** (as seen in *Figure 29: Import Test Data*). A side panel will appear on the right side of your screen. Use the search bar (highlighted in *Figure 30: Adding STIGs to your System*) to find each STIG that is applicable for you System. Click on the STIG to add it to the **Applied STIGs** section at the bottom of the panel. Once you’ve added all of your STIGs, click the **Save** button at the very bottom of the panel.
 
-![Figure 30: Adding STIGs to your System](./assets/admin-guide/image39.png "Figure 30: Adding STIGs to your System")
+![Figure 30: Adding STIGs to your System](../../assets/user-guide/image39.png "Figure 30: Adding STIGs to your System")
 
 Once the STIGs have been added, you will see them displayed in list of STIGs for you system. See *Figure 31* below for an example.
 
-![Figure 31: Example of STIG Import Completion](./assets/admin-guide/image40.png "Figure 31: Example of STIG Import Completion")
+![Figure 31: Example of STIG Import Completion](../../assets/user-guide/image40.png "Figure 31: Example of STIG Import Completion")
