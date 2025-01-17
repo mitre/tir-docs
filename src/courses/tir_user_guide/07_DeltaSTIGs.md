@@ -13,10 +13,10 @@ TIR has the ability to show you which STIG checks have been added or updated whe
 
 ### Updating the STIG Baseline for a Boundary
 
-1.  Import STIG Libraries (see **Import STIG Libaries** section)
-2.  Navigate to your boundary’s **parent folder**, press the **three dots** to the right of your boundary, select **Edit**
-3.  Use the drop-down menu for **STIG Baseline** to select the newest STIG Baseline
-4.  Click **Save**
+1. Import STIG Libraries (see **Import STIG Libaries** section)
+2. Navigate to your boundary’s **parent folder**, press the **three dots** to the right of your boundary, select **Edit**
+3. Use the drop-down menu for **STIG Baseline** to select the newest STIG Baseline
+4. Click **Save**
 
 ![Figure 38: Updating STIG Baseline](../../assets/user-guide/Boundaries_STIGBaseline.png "Figure 38: Updating STIG Baseline")
 
@@ -26,10 +26,11 @@ STIG Checks that have been added or modified will receive a status of **Not Revi
 
 ![Figure 39: Statuses before STIG Baseline Upgrade](../../assets/user-guide/DeltaSTIGs-Pre.png "Figure 39: Statuses before STIG Baseline Upgrade")
 
-After upgrading the STIG baseline from **U_SRG-STIG-Library_2023_07v1** to **U_SRG-STIG-Library_2024_02v1** we can see that the boundary view is showing STIG checks with statuses of Not Reviewed for three of the STIGs in our boundary: 
--   Microsoft DotNet Framework 4.0 Security Technical Implementation Guide
--   Microsoft Internet Explorer 11 Security Technical Implementation Guide
--   Google Chrome Current Windows Security Technical Implementation Guide
+After upgrading the STIG baseline from **U_SRG-STIG-Library_2023_07v1** to **U_SRG-STIG-Library_2024_02v1** we can see that the boundary view is showing STIG checks with statuses of Not Reviewed for three of the STIGs in our boundary:
+
+- Microsoft DotNet Framework 4.0 Security Technical Implementation Guide
+- Microsoft Internet Explorer 11 Security Technical Implementation Guide
+- Google Chrome Current Windows Security Technical Implementation Guide
 
 See *Figure 40* below.
 

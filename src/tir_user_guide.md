@@ -27,9 +27,9 @@ Please follow instructions defined by your program to request an account Adminis
 TIR has two types of users, Administrators and Users. Administrators have access to the **Administration,** **Libraries**, and **Boundary** tabs. Users only have access to Libraries and Boundary tabs. TIR is setup as a hierarchical system with Companies and Boundaries. Users can be granted permissions to be Owners, Reviewers, and Editors for Companies and Boundaries. A summary of permissions is show in Table 1, below.
 
 <p>
-<img 
+<img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="../../assets/user-guide/image1.png" 
+    src="./assets/user-guide/image1.png"
     alt="Table 1: Access Control - User Permissions">
 </img>
 </p>
@@ -40,9 +40,9 @@ TIR has two types of users, Administrators and Users. Administrators have access
 Once your account has been created, please navigate to the TIR home page. Enter your **Username** and P**assword**, then review the **IS User Agreement** and acknowledge that you have read it by clicking the check box. Then, click **Sign in**.
 
 <p>
-<img 
+<img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="../../assets/user-guide/image2.png" 
+    src="./assets/user-guide/image2.png"
     alt="Figure 1: Login Page">
 </img>
 </p>
@@ -57,9 +57,9 @@ Upon a successful login, the user will be welcomed into TIR and the **Dashboard*
 The dashboard will show you the most recent changes to your TIR instance and will display any important upcoming dates that the user should be aware of. Some examples of displayable content include; recent changes to Boundaries and the newest Security Technical Implementation Guide (STIG) libraries imported.
 
 <p>
-<img 
+<img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="../../assets/user-guide/image3.png" 
+    src="./assets/user-guide/image3.png"
     alt="Figure 2: Dashboard">
 </img>
 </p>
@@ -70,18 +70,18 @@ The dashboard will show you the most recent changes to your TIR instance and wil
 The Boundary tab contains “Companies” and “Boundaries” in a hierarchical structure to best support multiple programs within a single TIR instance. Companies will be used to store and organize Boundaries. The Boundaries will store your Systems and all of the STIG and Nessus data associated with those Systems. Permissions can be granted to Companies or Boundaries and your permissions will be granted based on the Role of your user account (see Table 1 for user permissions).
 
 <p>
-<img 
+<img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="../../assets/user-guide/BoundariesTab.png" 
+    src="./assets/user-guide/BoundariesTab.png"
     alt="Figure 3: Companies in the Boundary Tab">
 </img>
 </p>
 <p style="text-align: center;"><em>Figure 3: Companies in the Boundary Tab</em></p>
 
 <p>
-<img 
+<img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="../../assets/user-guide/BoundariesTab_Nested.png" 
+    src="./assets/user-guide/BoundariesTab_Nested.png"
     alt="Figure 4: Boundaries nested under Companies">
 </img>
 </p>
@@ -89,22 +89,22 @@ The Boundary tab contains “Companies” and “Boundaries” in a hierarchical
 
 ### Libraries
 
-The Libraries tab provides the ability to import new STIG libraries and updated Control Correlation Identifiers (CCI) mappings for different NIST SP 800-53 revisions. 
+The Libraries tab provides the ability to import new STIG libraries and updated Control Correlation Identifiers (CCI) mappings for different NIST SP 800-53 revisions.
 
 #### STIG Libraries
 
 The Department of Defense (DoD) releases quarterly updates to the STIG benchmarks. STIG Libraries can be downloaded at [public.cyber.mil](public.cyber.mil). These quarterly updates are released as .zip files. Once downloaded, the .zip files can be uploaded to TIR and made available to all users.
 
-##### View STIG Libraries 
+##### View STIG Libraries
 
 Navigate to the **Libraries** page by clicking the **Libraries** button at the top on the page.
 
 The **Libraries** page will display all of the STIG libraries that have been uploaded to your TIR instance.
 
 <p>
-<img 
+<img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="../../assets/user-guide/image6.png" 
+    src="./assets/user-guide/image6.png"
     alt="Figure 5: STIG Libraries">
 </img>
 </p>
@@ -169,15 +169,15 @@ Please refer to the table below for more examples.
 CCI mappings are distributed by NIST and are updated as necessary. The latest CCI Matrix can be downloaded at the following <https://public.cyber.mil/stigs/cci/>. Please note that CCI mappings differ between SP 800-53 Rev 4 and Rev 5, and keeping this updated will ensure more granular mapping of STIGs to applicable CCIs.
 
 <p>
-<img 
+<img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="../../assets/user-guide/image7.png" 
+    src="./assets/user-guide/image7.png"
     alt="Figure 6: CCI Matrix">
 </img>
 </p>
 <p style="text-align: center;"><em>Figure 6: CCI Matrix</em></p>
 
-##### Import CCI Matrix Updates 
+##### Import CCI Matrix Updates
 
 To import a new CCI Matrix, navigate to the Libraries page and click the Import button inside the CCI Matrix section. For reference, this button can be found in the top right of *Figure 6: CCI Matrix*.
 
@@ -186,9 +186,9 @@ To import a new CCI Matrix, navigate to the Libraries page and click the Import 
 The **About Page** will let the user know what version of TIR they are currently accessing as well as the date that the current version was pushed to their environment.
 
 <p>
-<img 
+<img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="../../assets/user-guide/image8.png" 
+    src="./assets/user-guide/image8.png"
     alt="Figure 7: About Page">
 </img>
 </p>
@@ -199,9 +199,9 @@ The **About Page** will let the user know what version of TIR they are currently
 The User Profile icon looks like a person and is located in the top-right of the screen. To access your profile, click the **Icon** and then click **Your Profile** (as seen in *Figure 8*). If you wish to sign out, you can find the **Sign Out** button located under **Your Profile**.
 
 <p>
-<img 
+<img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="../../assets/user-guide/UserProfile.png" 
+    src="./assets/user-guide/UserProfile.png"
     alt="Figure 8: User Profile">
 </img>
 </p>
@@ -209,45 +209,45 @@ The User Profile icon looks like a person and is located in the top-right of the
 
 Your **User Profile** will display your **Username**, **Role**, **Hidden Password**, **Time zone**, **API Token**, and **Color Theme**.
 
--   To change your password, click the **Change** button located on the right-side of the **Password** row. Enter a **New Password**, **Confirm the Password**, and click **Save**.
+- To change your password, click the **Change** button located on the right-side of the **Password** row. Enter a **New Password**, **Confirm the Password**, and click **Save**.
 
 <p>
-<img 
+<img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="../../assets/user-guide/User_ChangePassword.png" 
+    src="./assets/user-guide/User_ChangePassword.png"
     alt="Figure 9: Change Password">
 </img>
 </p>
 <p style="text-align: center;"><em>Figure 9: Change Password</em></p>
 
--   To update your Time zone, select a new time zone from the drop-down menu and click **Update** button located on the right-side of the **Timezone** row.
+- To update your Time zone, select a new time zone from the drop-down menu and click **Update** button located on the right-side of the **Timezone** row.
 
 <p>
-<img 
+<img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="../../assets/user-guide/image11.png" 
+    src="./assets/user-guide/image11.png"
     alt="Figure 10: Time Zones">
 </img>
 </p>
 <p style="text-align: center;"><em>Figure 10: Time Zones</em></p>
 
--   To create an **API Token**, click the **Create** button on the right-side of the **Token** row. Enter a **Token Name** and an **Expiration Data,** then click **Generate**. A pop-up window will appear that contains your **Token Code**. Please save that code before closing the window. A list of your existing tokens can be found in the **Token Table**. Please see *Figure 11* as an example.
+- To create an **API Token**, click the **Create** button on the right-side of the **Token** row. Enter a **Token Name** and an **Expiration Data,** then click **Generate**. A pop-up window will appear that contains your **Token Code**. Please save that code before closing the window. A list of your existing tokens can be found in the **Token Table**. Please see *Figure 11* as an example.
 
 <p>
-<img 
+<img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="../../assets/user-guide/image12.png" 
+    src="./assets/user-guide/image12.png"
     alt="Figure 11: Create API Token">
 </img>
 </p>
 <p style="text-align: center;"><em>Figure 11: Create API Token</em></p>
 
--   To change the **Coloring Theme** of TIR, choose **System**, **Light**, or **Dark** from the **Theme** row. The **System** option will use the theme from your client system’s settings.
+- To change the **Coloring Theme** of TIR, choose **System**, **Light**, or **Dark** from the **Theme** row. The **System** option will use the theme from your client system’s settings.
 
 <p>
-<img 
+<img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="../../assets/user-guide/image13.png" 
+    src="./assets/user-guide/image13.png"
     alt="Figure 12: Light Mode vs Dark Mode">
 </img>
 </p>
@@ -258,9 +258,9 @@ Your **User Profile** will display your **Username**, **Role**, **Hidden Passwor
 Users will receive notifications about important dates related to their Boundaries and when new STIG Libraries are available. The notification for a new STIG Library will be sent out to all Boundary Owners once a new STIG Library is imported into your TIR instance. These notifications will be displayed by the **Bell** icon in the top-right of the screen (as seen in *Figure 13*). A snippet of each unread notification will be displayed from this view.
 
 <p>
-<img 
+<img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="../../assets/user-guide/image14.png" 
+    src="./assets/user-guide/image14.png"
     alt="Figure 13: Notification Bell">
 </img>
 </p>
@@ -269,9 +269,9 @@ Users will receive notifications about important dates related to their Boundari
 To view all of your notifications, press the **View all** button at the bottom of the Notification Bell menu (*Figure 13*). An example of the full notification page can be seen below in *Figure 14*.
 
 <p>
-<img 
+<img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="../../assets/user-guide/image15.png" 
+    src="./assets/user-guide/image15.png"
     alt="Figure 14: Notification Alert Center">
 </img>
 </p>
@@ -294,9 +294,9 @@ The owner of each boundary will be responsible for creating their **Boundary** i
 To better illustrate this comparison to the traditional directory structure, please refer to the *Figure 15: Example Boundary Structures* below.
 
 <p>
-<img 
+<img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="../../assets/user-guide/CompaniesAndBoundaries.png" width= 250
+    src="./assets/user-guide/CompaniesAndBoundaries.png" width= 250
     alt="Figure 15: Example Boundary Structures">
 </img>
 </p>
@@ -305,9 +305,9 @@ To better illustrate this comparison to the traditional directory structure, ple
 With that illustration in mind, let’s get started with creating boundaries inside of TIR. Navigate to the **Boundaries** page by clicking the **Boundaries** button at the top on the page. To create a new company, click the **\[+\] Company** button as shown in Figure 16.
 
 <p>
-<img 
+<img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="../../assets/user-guide/CreateCompany.png" 
+    src="./assets/user-guide/CreateCompany.png"
     alt="Figure 16: Creating a Company">
 </img>
 </p>
@@ -318,9 +318,9 @@ A side panel will open from the right of the screen. Enter the name of the compa
 You should now see an item titled with the name you entered into the **Company Name** field. For demonstration purposes, we’ll use the example from *Figure 15*. We’ll start by creating a company for Lockheed Martin and MITRE, as seen in *Figure 17*.
 
 <p>
-<img 
+<img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="../../assets/user-guide/CreateCompany2.png" 
+    src="./assets/user-guide/CreateCompany2.png"
     alt="Figure 17: Companies Example">
 </img>
 </p>
@@ -391,9 +391,9 @@ Once you are ready to create a **Boundary**, navigate to an empty Company and cl
 <p style="text-align: center;"><em>Table 3:  Boundary Settings</em></p>
 
 <p>
-<img 
+<img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="../../assets/user-guide/CreateBoundary.png" 
+    src="./assets/user-guide/CreateBoundary.png"
     alt="Figure 18: Creating a Boundary">
 </img>
 </p>
@@ -402,9 +402,9 @@ Once you are ready to create a **Boundary**, navigate to an empty Company and cl
 Your newly created boundary will appear in the table, as shown in *Figure 19: Viewing the list of created Boundaries*. To view your boundary, click on the item in the table.
 
 <p>
-<img 
+<img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="../../assets/user-guide/CreateBoundary2.png" 
+    src="./assets/user-guide/CreateBoundary2.png"
     alt="Figure 19: Viewing the list of created Boundaries">
 </img>
 </p>
@@ -413,9 +413,9 @@ Your newly created boundary will appear in the table, as shown in *Figure 19: Vi
 When a Boundary is selected, you will be taken to the Overview sub-tab of the Boundary dashboard. The boundary overview sub-tab will display a high-level overview of your systems and the findings associated with each system.
 
 <p>
-<img 
+<img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="../../assets/user-guide/CreateBoundary3.png" 
+    src="./assets/user-guide/CreateBoundary3.png"
     alt="Figure 20: Boundary Overview">
 </img>
 </p>
@@ -423,26 +423,26 @@ When a Boundary is selected, you will be taken to the Overview sub-tab of the Bo
 
 At the top of the Boundary Overview table you will find the **Path to your Boundary** with breadcrumbs that a linked back to each parent for easy navigation.
 
--   The **Number of Systems** field will display the amount of Systems that have been added to your boundary.
+- The **Number of Systems** field will display the amount of Systems that have been added to your boundary.
 
--   The **STIG Findings** fields will display a total number of STIG checks and the unique number of STIG checks. The total number of checks come from the sum of the total checks for each system. The number of unique checks come from the statuses of the checks contained inside the Boundary applied STIGs. For example, if two systems have the same STIG check set to Open, this will count as **two** open findings for the **Total** count but only **one** open finding for the **Unique** count. STIG checklists can be found in the **Boundary View** and **System View**.
+- The **STIG Findings** fields will display a total number of STIG checks and the unique number of STIG checks. The total number of checks come from the sum of the total checks for each system. The number of unique checks come from the statuses of the checks contained inside the Boundary applied STIGs. For example, if two systems have the same STIG check set to Open, this will count as **two** open findings for the **Total** count but only **one** open finding for the **Unique** count. STIG checklists can be found in the **Boundary View** and **System View**.
 
--   The **Vuln Findings** fields (similar to STIG Findings) will display a total number of Nessus findings and the unique number of Nessus findings. Nessus findings can be found in the **Vulnerability View**.
+- The **Vuln Findings** fields (similar to STIG Findings) will display a total number of Nessus findings and the unique number of Nessus findings. Nessus findings can be found in the **Vulnerability View**.
 
--   The **NIST version** field will display RMF Framework that was assigned to your boundary.
+- The **NIST version** field will display RMF Framework that was assigned to your boundary.
 
--   The **STIG baseline** field will display the STIG Library set for this boundary. This STIG baseline can be updated as new STIG Libraries become available. To update this field for your boundary, see section **Updating the STIG Baseline for a Boundary** below.
+- The **STIG baseline** field will display the STIG Library set for this boundary. This STIG baseline can be updated as new STIG Libraries become available. To update this field for your boundary, see section **Updating the STIG Baseline for a Boundary** below.
 
--   The **Control Status** fields are for future development.
+- The **Control Status** fields are for future development.
 
 ### Adding Systems to your Boundary
 
 Navigate to the Boundary that you wish to add a system to. Click the **Add System** sub-tab and view the available options.
 
 <p>
-<img 
+<img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="../../assets/user-guide/Boundary_AddingSystems.png" 
+    src="./assets/user-guide/Boundary_AddingSystems.png"
     alt="Figure 21: Add System Options">
 </img>
 </p>
@@ -507,9 +507,9 @@ The single system add feature will allow to create a new system inside of your b
 The remaining fields (Host Name, Host IP Address, Host MAC Address, Host Fully Qualified Domain Name) are important when mapping different types a scan results to this system. Please fill out this information if it is known at the time of creation. Many of the automated scanning tools will populate these fields in your checklists. If you are importing checklists that have these system fields populated, the import function will fill out these fields automatically.
 
 <p>
-<img 
+<img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="../../assets/user-guide/Boundary_AddingSingleSystem.png" 
+    src="./assets/user-guide/Boundary_AddingSingleSystem.png"
     alt="Figure 22: Add Single System">
 </img>
 </p>
@@ -530,9 +530,9 @@ To create a brand new system from the widget, click the **\[+\] System** button.
 Once you are satisfied with the new system(s) click the **Create Systems** button. For an example of using the widget tool, see *Figure 23*.
 
 <p>
-<img 
+<img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="../../assets/user-guide/image24.png" 
+    src="./assets/user-guide/image24.png"
     alt="Figure 23: Duplicate a System by using the Widget">
 </img>
 </p>
@@ -547,9 +547,9 @@ This method of adding systems will require scan results from each of the systems
 There is a standard format that your cyber scan data will need to be organized in for this tool to correctly build your boundary. First, a parent folder for your boundary needs to be created. Then, navigate inside of your boundary folder and create a folder for each system in your boundary. Inside of each of these system folders, place all of the cyber scan data (.ckl, .cklb, and .xccdf files) associated to that system.
 
 <p>
-<img 
+<img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="../../assets/user-guide/image25.png" 
+    src="./assets/user-guide/image25.png"
     alt="Figure 24: Standardized Organizational Structure for Folder Imports">
 </img>
 </p>
@@ -558,9 +558,9 @@ There is a standard format that your cyber scan data will need to be organized i
 To create systems by using cyber scan data, navigate inside of your boundary, click **Add System** and then click **Folder(s)** (as seen in *Figure 25*). A file navigation window will open which will ask you to select a folder. It is very important that you select the parent folder that contains individual folders for each system on your boundary. When clicking the **Upload** button (inside the file navigation window), you should be looking at all of the folders with your system names and the parent folder should be displayed in the **Folder** field directly above the **Upload** button.
 
 <p>
-<img 
+<img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="../../assets/user-guide/image26.png" 
+    src="./assets/user-guide/image26.png"
     alt="Figure 25: Adding Systems via Folder(s)">
 </img>
 </p>
@@ -569,9 +569,9 @@ To create systems by using cyber scan data, navigate inside of your boundary, cl
 Once you click the **Upload** button, you will be prompted to confirm that you wish to upload all of your results. Click **Upload** on the prompt.
 
 <p>
-<img 
+<img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="../../assets/user-guide/image27.png" 
+    src="./assets/user-guide/image27.png"
     alt="Figure 26: Confirm Upload">
 </img>
 </p>
@@ -580,9 +580,9 @@ Once you click the **Upload** button, you will be prompted to confirm that you w
 Once all of the files have been uploaded you will be able to view each system in the **System View** tab.
 
 <p>
-<img 
+<img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="../../assets/user-guide/Boundary_VerifySystemCreation.png" 
+    src="./assets/user-guide/Boundary_VerifySystemCreation.png"
     alt="Figure 27: Verifying Successful Creation of Systems">
 </img>
 </p>
@@ -593,9 +593,9 @@ Once all of the files have been uploaded you will be able to view each system in
 Users have the option to zip up the results and import the .zip folder to create a new system. Each system will need their own .zip folder. Please rename the .zip folder to contain the System Name. In our example below, **Goat\_DC** is the name of the system that we are creating. The **Goat\_DC.zip** folder contains all of our checklist and XCCDF scan data. Please note; if you have multiple .zip folders to upload, they will need to be uploaded one at a time.
 
 <p>
-<img 
+<img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="../../assets/user-guide/image29.png" 
+    src="./assets/user-guide/image29.png"
     alt="Figure 28: Adding System via .Zip Folder">
 </img>
 </p>
@@ -610,22 +610,22 @@ Manually adding STIGs is not necessary if you are able to upload scan results fo
 To add a blank STIG checklist to a system, navigate to your boundary and click **System View**. Next, select a system from the system view.
 
 <p>
-<img 
+<img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="../../assets/user-guide/image38.png" 
+    src="./assets/user-guide/image38.png"
     alt="Figure 29: Import Scan Data">
 </img>
 </p>
 <p style="text-align: center;"><em>Figure 29: Import Scan Data</em></p>
 
-The two buttons found in the screenshot above (*Figure 29*) can be used to upload STIGs and Test Data Results to your systems. 
+The two buttons found in the screenshot above (*Figure 29*) can be used to upload STIGs and Test Data Results to your systems.
 
 Once you have the latest STIG Library uploaded, navigate to your System and click the button titled **\[+\] STIG** (as seen in *Figure 29: Import Test Data*). A side panel will appear on the right side of your screen. Use the search bar (highlighted in *Figure 30: Adding STIGs to your System*) to find each STIG that is applicable for you System. Click on the STIG to add it to the **Applied STIGs** section at the bottom of the panel. Once you’ve added all of your STIGs, click the **Save** button at the very bottom of the panel.
 
 <p>
-<img 
+<img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="../../assets/user-guide/image39.png" 
+    src="./assets/user-guide/image39.png"
     alt="Figure 30: Adding STIGs to your System">
 </img>
 </p>
@@ -634,9 +634,9 @@ Once you have the latest STIG Library uploaded, navigate to your System and clic
 Once the STIGs have been added, you will see them displayed in list of STIGs for you system. See *Figure 31* below for an example.
 
 <p>
-<img 
+<img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="../../assets/user-guide/image40.png" 
+    src="./assets/user-guide/image40.png"
     alt="Figure 31: Example of STIG Import Completion">
 </img>
 </p>
@@ -647,9 +647,9 @@ Once the STIGs have been added, you will see them displayed in list of STIGs for
 Once your Boundary and systems have been created, you will be able to import test data into your Boundary. If you have existing scan data in your boundary and are importing new scan results, the new scan results will overwrite the existing data. To do this, navigate to your Boundary and click the **Import Results** button.
 
 <p>
-<img 
+<img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="../../assets/user-guide/Boundary_ImportResults.png" 
+    src="./assets/user-guide/Boundary_ImportResults.png"
     alt="Figure 32: Import Scan Data">
 </img>
 </p>
@@ -659,14 +659,14 @@ You have three options when importing test data: **Import Folder**, **Import ZIP
 
 ### Import Results via Folder(s)
 
-To use this import function, you first need to organize you scan data in a standard organization structure. Please create a folder for each of your systems and place all of the scan data for each system into their system folder. This will make it easy for TIR to map the scan data to the correct systems. If you choose not to organize your data in this way, you will have to manually assign the scan data files to your systems. To begin importing scan data via folders, click the **Import Results** button in your boundary and select **Folder(s)** from the menu. 
+To use this import function, you first need to organize you scan data in a standard organization structure. Please create a folder for each of your systems and place all of the scan data for each system into their system folder. This will make it easy for TIR to map the scan data to the correct systems. If you choose not to organize your data in this way, you will have to manually assign the scan data files to your systems. To begin importing scan data via folders, click the **Import Results** button in your boundary and select **Folder(s)** from the menu.
 
 This will launch a file navigation window. Navigate to the folder that contains your test data. If you are importing scan data for every system in your boundary, then navigate to the parent folder that contains your system folders (as seen in the *Figure 33*) and click **Upload**. If prompted to confirm your upload, click **Upload** (as seen in *Figure 26*).
 
 <p>
-<img 
+<img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="../../assets/user-guide/Boundary_ImportResultsViaFolders.png" 
+    src="./assets/user-guide/Boundary_ImportResultsViaFolders.png"
     alt="Figure 33: Import Results via Folder">
 </img>
 </p>
@@ -675,9 +675,9 @@ This will launch a file navigation window. Navigate to the folder that contains 
 If you wish to import test results for a just one of your systems, navigate inside that system folder that contains your test data and click **Upload**. The actual files will not be visible in this file navigation window because it is filtering for folders only. So, please verify that the scan data is present in a separate window (as seen in *Figure 34*).
 
 <p>
-<img 
+<img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="../../assets/user-guide/Boundary_ImportResultsViaFolders-SingleSystem.png" 
+    src="./assets/user-guide/Boundary_ImportResultsViaFolders-SingleSystem.png"
     alt="Figure 34: Import Results via Folder - Single System">
 </img>
 </p>
@@ -692,9 +692,9 @@ The **.Zip Folder** import is used to upload the test data for a single system. 
 A file navigation window will be displayed. Navigate to the .zip folder that contains your test data for your system, then press **Open**.
 
 <p>
-<img 
+<img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="../../assets/user-guide/Boundary_ImportResultsViaZipFolder.png" 
+    src="./assets/user-guide/Boundary_ImportResultsViaZipFolder.png"
     alt="Figure 35: Import Results via Zip Folder">
 </img>
 </p>
@@ -707,9 +707,9 @@ With the Multiple File Selection, users are able to select specific scan data fi
 A file navigation window will be displayed. Navigate to the file(s) that you wish to upload, then press **Open**.
 
 <p>
-<img 
+<img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="../../assets/user-guide/Boundary_ImportResultsViaMultipleFileSelection.png" 
+    src="./assets/user-guide/Boundary_ImportResultsViaMultipleFileSelection.png"
     alt="Figure 36: Import Results via Selecting Files">
 </img>
 </p>
@@ -718,9 +718,9 @@ A file navigation window will be displayed. Navigate to the file(s) that you wis
 A second window will be displayed to allow you to map the scan data to the systems in your boundary. This window contains an expandable and collapsible section. Click the entire row to expand the section. For each file being imported, please select the system from the drop-down menu that will receive these updates. In the example below (*Figure 37*), we are only uploading one file.
 
 <p>
-<img 
+<img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="../../assets/user-guide/Boundary_ImportResultsViaMultipleFileSelection2.png" 
+    src="./assets/user-guide/Boundary_ImportResultsViaMultipleFileSelection2.png"
     alt="Figure 37: Assigning a System to Each Imported File">
 </img>
 </p>
@@ -732,15 +732,15 @@ TIR has the ability to show you which STIG checks have been added or updated whe
 
 ### Updating the STIG Baseline for a Boundary
 
-1.  Import STIG Libraries (see **Import STIG Libaries** section)
-2.  Navigate to your boundary’s **parent folder**, press the **three dots** to the right of your boundary, select **Edit**
-3.  Use the drop-down menu for **STIG Baseline** to select the newest STIG Baseline
-4.  Click **Save**
+1. Import STIG Libraries (see **Import STIG Libaries** section)
+2. Navigate to your boundary’s **parent folder**, press the **three dots** to the right of your boundary, select **Edit**
+3. Use the drop-down menu for **STIG Baseline** to select the newest STIG Baseline
+4. Click **Save**
 
 <p>
-<img 
+<img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="../../assets/user-guide/Boundaries_STIGBaseline.png" 
+    src="./assets/user-guide/Boundaries_STIGBaseline.png"
     alt="Figure 38: Updating STIG Baseline">
 </img>
 </p>
@@ -751,25 +751,26 @@ TIR has the ability to show you which STIG checks have been added or updated whe
 STIG Checks that have been added or modified will receive a status of **Not Reviewed**. To view the statuses, click on the boundary that you just upgraded to a newer STIG baseline. By default, the Boundary View will be selected and you will be able to view the unique findings for your boundary. In the figure below, all of my STIG checks have been reviewed and assigned a status. Meaning, there are no STIG checks with a status of **Not Reviewed**. This can be verified in *Figure X* by looking at the **Finding Status** column and seeing that the Not Reviewed counts (yellow number) are showing zero.
 
 <p>
-<img 
+<img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="../../assets/user-guide/DeltaSTIGs-Pre.png" 
+    src="./assets/user-guide/DeltaSTIGs-Pre.png"
     alt="Figure 39: Statuses before STIG Baseline Upgrade">
 </img>
 </p>
 <p style="text-align: center;"><em>Figure 39: Statuses before STIG Baseline Upgrade</em></p>
 
-After upgrading the STIG baseline from **U_SRG-STIG-Library_2023_07v1** to **U_SRG-STIG-Library_2024_02v1** we can see that the boundary view is showing STIG checks with statuses of Not Reviewed for three of the STIGs in our boundary: 
--   Microsoft DotNet Framework 4.0 Security Technical Implementation Guide
--   Microsoft Internet Explorer 11 Security Technical Implementation Guide
--   Google Chrome Current Windows Security Technical Implementation Guide
+After upgrading the STIG baseline from **U_SRG-STIG-Library_2023_07v1** to **U_SRG-STIG-Library_2024_02v1** we can see that the boundary view is showing STIG checks with statuses of Not Reviewed for three of the STIGs in our boundary:
+
+- Microsoft DotNet Framework 4.0 Security Technical Implementation Guide
+- Microsoft Internet Explorer 11 Security Technical Implementation Guide
+- Google Chrome Current Windows Security Technical Implementation Guide
 
 See *Figure 40* below.
 
 <p>
-<img 
+<img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="../../assets/user-guide/DeltaSTIGs-Post.png" 
+    src="./assets/user-guide/DeltaSTIGs-Post.png"
     alt="Figure 40: Statuses after STIG Baseline Upgrade">
 </img>
 </p>
@@ -782,9 +783,9 @@ This means that those three STIGs received updates in the **U_SRG-STIG-Library_2
 To add or modify Company and Boundary permissions, select the 3 buttons to the far right of the Company or Boundary and select Manage Members.
 
 <p>
-<img 
+<img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="../../assets/user-guide/ModifyCompanyPermissions.png" 
+    src="./assets/user-guide/ModifyCompanyPermissions.png"
     alt="Figure 41: Modify Company/Boundary Permissions">
 </img>
 </p>
@@ -795,9 +796,9 @@ To add or modify Company and Boundary permissions, select the 3 buttons to the f
 Clicking the **Manage Members** will display the Members dialog box, enter the username in the **Search Users** box.
 
 <p>
-<img 
+<img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="../../assets/user-guide/ModifyCompanyPermissions2.png" 
+    src="./assets/user-guide/ModifyCompanyPermissions2.png"
     alt="Figure 42: Adding Members – Search Users">
 </img>
 </p>
@@ -806,9 +807,9 @@ Clicking the **Manage Members** will display the Members dialog box, enter the u
 The Search Users box should provide a list of similar usernames. Select the user account you wish to add. Once selected click the down arrow next to Co-Owner and select the level of permission you wish to grant.
 
 <p>
-<img 
+<img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="../../assets/user-guide/ModifyCompanyPermissions3.png" 
+    src="./assets/user-guide/ModifyCompanyPermissions3.png"
     alt="Figure 43: Manage Members – Choose level of Access">
 </img>
 </p>
@@ -817,9 +818,9 @@ The Search Users box should provide a list of similar usernames. Select the user
 Once the level of access you wish to grant is selected, click **Add Member**. You will see the account added to the user permissions list for the applicable company/boundary.
 
 <p>
-<img 
+<img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="../../assets/user-guide/ModifyCompanyPermissions4.png" 
+    src="./assets/user-guide/ModifyCompanyPermissions4.png"
     alt="Figure 44:  Member Access – User Added with Co-owner Role">
 </img>
 </p>
@@ -832,9 +833,9 @@ Member access can be edited or removed from this view as well. This process is t
 Clicking the **Manage Members** will display the Members dialog box. Click the **Edit** button next to the user you wish change permissions for.
 
 <p>
-<img 
+<img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="../../assets/user-guide/EditUserPermissions.png" 
+    src="./assets/user-guide/EditUserPermissions.png"
     alt="Figure 45: Edit User Permissions">
 </img>
 </p>
@@ -843,9 +844,9 @@ Clicking the **Manage Members** will display the Members dialog box. Click the *
 This will enable the drop-down menu for the role field. To change the user's role, select the new role and click the **Save** button for that user. There is one limitation when editing roles, and that is that each boundary needs to have an Owner. If you are changing the role of user from Owner to Editor, you will first need to assign another user the Owner role.
 
 <p>
-<img 
+<img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="../../assets/user-guide/EditUserPermissions2.png" 
+    src="./assets/user-guide/EditUserPermissions2.png"
     alt="Figure 46: Edit User Role">
 </img>
 </p>
@@ -854,9 +855,9 @@ This will enable the drop-down menu for the role field. To change the user's rol
 To remove a user, click the **Remove** button for that user. Owners can not be removed. If you wish to remove an owner from a Company or Boundary you must first grant another user the Owner role.
 
 <p>
-<img 
+<img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="../../assets/user-guide/RemoveUser.png" 
+    src="./assets/user-guide/RemoveUser.png"
     alt="Figure 47: Remove User">
 </img>
 </p>
@@ -869,9 +870,9 @@ The **Boundary View** allows you to view each STIG as a superset of the boundary
 Once you click the **Boundary View** tab, you will see a unique list of all the STIG checklists that have been added to systems in your boundary (as seen below in *Figure 48*).
 
 <p>
-<img 
+<img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="../../assets/user-guide/BoundaryView.png" 
+    src="./assets/user-guide/BoundaryView.png"
     alt="Figure 48: Boundary View">
 </img>
 </p>
@@ -882,9 +883,9 @@ To view the STIG checks inside each of these STIG checklists, simply click on th
 Once you open the STIG View, you will see a variety of information related to the Boundary, STIG Library, and STIG Check. Each item is labeled below in *Figure 49*.
 
 <p>
-<img 
+<img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="../../assets/user-guide/image47.png" 
+    src="./assets/user-guide/image47.png"
     alt="Figure 49: STIG View Data Key">
 </img>
 </p>
@@ -893,9 +894,9 @@ Once you open the STIG View, you will see a variety of information related to th
 On the left side of the screen, you will see a section titled **Filters** that contain four status types: **Open**, **NotAFinding**, **Not\_Applicable**, and **Not\_Reviewed**. Each one of the status types can be toggled on and off to display the STIG checks with that status. When filters are selected, they will be colorized. For example, *Figure 50* is filtering so that only STIG checks with a status of **Open** (red) or **Not\_Reviewed** (yellow) will be displayed.
 
 <p>
-<img 
+<img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="../../assets/user-guide/image48.png" 
+    src="./assets/user-guide/image48.png"
     alt="Figure 50: Filtering by Status">
 </img>
 </p>
@@ -904,9 +905,9 @@ On the left side of the screen, you will see a section titled **Filters** that c
 In *Figure 51* you will see that the **Finding Details** and **Comment** fields pull the data for this check from each system in your boundary. We can see that this check is pulling data from four separate systems in our boundary: **Goat\_DC**, **Goat\_WS2**, **Goat\_WS3**, and **Goat\_WS1**.
 
 <p>
-<img 
+<img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="../../assets/user-guide/image49.png" 
+    src="./assets/user-guide/image49.png"
     alt="Figure 51: Finding Details and Comments inside of the Boundary View">
 </img>
 </p>
@@ -915,9 +916,9 @@ In *Figure 51* you will see that the **Finding Details** and **Comment** fields 
 To view the status of each one of those systems, you will need to click the **Systems** button (highlighted in *Figure 52*).
 
 <p>
-<img 
+<img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="../../assets/user-guide/BoundaryView_Systems.png" 
+    src="./assets/user-guide/BoundaryView_Systems.png"
     alt="Figure 52: Systems Button">
 </img>
 </p>
@@ -926,15 +927,15 @@ To view the status of each one of those systems, you will need to click the **Sy
 A pop-up window will appear that displays all of the systems where this STIG check applies and the current status for each system.
 
 <p>
-<img 
+<img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="../../assets/user-guide/BoundaryView_SystemStatuses.png" 
+    src="./assets/user-guide/BoundaryView_SystemStatuses.png"
     alt="Figure 53: System Statues in the Boundary View">
 </img>
 </p>
 <p style="text-align: center;"><em>Figure 53: System Status in the Boundary View</em></p>
 
-From the Boundary View you will be able to update statuses, severities, and apply overrides for as many systems as you need. For more information about this feature see the **System Statuses and Severities with Overrides** section. 
+From the Boundary View you will be able to update statuses, severities, and apply overrides for as many systems as you need. For more information about this feature see the **System Statuses and Severities with Overrides** section.
 
 Additionally, from within the Boundary View, you have the ability to fill out the POAM fields for each STIG finding and track those findings until completion. For more information about these features see the **POA&M Fields** section (under **POA&M Management**).
 
@@ -943,9 +944,9 @@ Additionally, from within the Boundary View, you have the ability to fill out th
 The **System View** tab shows you a list of all the systems inside your boundary, the number of STIGs applied to each system, and the total status counts for all of the checks applied to that system.
 
 <p>
-<img 
+<img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="../../assets/user-guide/SystemView.png" 
+    src="./assets/user-guide/SystemView.png"
     alt="Figure 54: System View Tab">
 </img>
 </p>
@@ -954,9 +955,9 @@ The **System View** tab shows you a list of all the systems inside your boundary
 To view and edit the data pertaining to one of these systems, click on the system. The next page will show you the list of STIGs that apply to that system. This page will provide versions, dates, and statuses for each STIG. Click on one of the STIGs to open the **STIG View**.
 
 <p>
-<img 
+<img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="../../assets/user-guide/image54.png" 
+    src="./assets/user-guide/image54.png"
     alt="Figure 55: System View STIG List">
 </img>
 </p>
@@ -967,9 +968,9 @@ This **STIG View** page will provide a variety of information related to the Sys
 Unlike the **Boundary View**, the **System View** allows you to edit the **Finding Details** and **Comments** fields. To update the status or severity of each STIG check, use the **Severity** and **Finding Status**  drop-down menus in the upper-right (seen in *Figure 56*).
 
 <p>
-<img 
+<img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="../../assets/user-guide/SystemView_StatusAndSeverity.png" 
+    src="./assets/user-guide/SystemView_StatusAndSeverity.png"
     alt="Figure 56: Changing the Status and Severity from the System View">
 </img>
 </p>
@@ -982,41 +983,41 @@ The Vulnerability View will display all of the Nessus data for you Boundary. Fro
 The first column in the table is the **Vulnerability Name**. This field will display the name of the Nessus check. The next column, **CVE**, will list out all of the CVEs associated to this Nessus finding. The **Nessus Plugin** column will provide the plugin ID for the Nessus plugin that contains this check. Next, the **Severity** column will provide the severity status for each Nessus check. The **Risk Score** columnn provides a risk score (from 0-10) of this finding. Lastly, the **Affected Systems** column will tell you how many systems in your boundary have that Nessus finding.
 
 <p>
-<img 
+<img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="../../assets/user-guide/VulnerabilityView.png" 
+    src="./assets/user-guide/VulnerabilityView.png"
     alt="Figure 57: Vulnerability View">
 </img>
 </p>
 <p style="text-align: center;"><em>Figure 57: Vulnerability View</em></p>
 
-To display more information about any of the Nessus findings, simply click on the finding. This will load a new page with details about the finding. These details include a Severity, Risk Score, Vulnerability Description, Synopsis, Solution, CVEs, and Plugin Output. 
+To display more information about any of the Nessus findings, simply click on the finding. This will load a new page with details about the finding. These details include a Severity, Risk Score, Vulnerability Description, Synopsis, Solution, CVEs, and Plugin Output.
 
 <p>
-<img 
+<img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="../../assets/user-guide/VulnerabilityView_Detailed.png" 
+    src="./assets/user-guide/VulnerabilityView_Detailed.png"
     alt="Figure 58: Vulnerability View Detailed Findinging">
 </img>
 </p>
 <p style="text-align: center;"><em>Figure 58: Vulnerability View Detailed Findinging</em></p>
 
-From the Vulnerability View you will be able to update statuses, severities, and apply overrides for as many systems as you need. For more information about this feature see the **System Statuses and Severities with Overrides** section. 
+From the Vulnerability View you will be able to update statuses, severities, and apply overrides for as many systems as you need. For more information about this feature see the **System Statuses and Severities with Overrides** section.
 
 Additionally, from within the Vulnerability View, you have the ability to fill out the POA&M fields for each STIG finding and track those findings until completion. For more information about these features see the **POA&M Fields** section (under **POA&M Management**).
 
-##  System Statuses and Severities with Overrides
+## System Statuses and Severities with Overrides
 
-The **System** button is available in the **Boundary View** and **Vulnerability View**. From this view you will be able to update the status and severities of each system in your boundary. Additionally, you have the ability to apply overrides for each of these updates. Override rules can be set on findings so that the status you assign to a finding will persist on the selected systems when new test data is imported in the future. This override feature should be used almost exclusively to set statuses of **Not Applicable** for checks that are deemed **Not Applicable** to your boundary. Using this feature to get an override status of **NotAFinding** could cause you to miss a potential open finding in the future if security settings or Group Policy Objects (GPOs) are disabled or removed. 
+The **System** button is available in the **Boundary View** and **Vulnerability View**. From this view you will be able to update the status and severities of each system in your boundary. Additionally, you have the ability to apply overrides for each of these updates. Override rules can be set on findings so that the status you assign to a finding will persist on the selected systems when new test data is imported in the future. This override feature should be used almost exclusively to set statuses of **Not Applicable** for checks that are deemed **Not Applicable** to your boundary. Using this feature to get an override status of **NotAFinding** could cause you to miss a potential open finding in the future if security settings or Group Policy Objects (GPOs) are disabled or removed.
 
 ### Updating Statuses with Overrides
 
 To view the status of each of your systems, you will need to click the **Systems** button (highlighted in *Figure 52*). A pop-up window will appear that displays all of the systems where this finding applies and the current status for each system.
 
 <p>
-<img 
+<img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="../../assets/user-guide/SystemsStatus.png" 
+    src="./assets/user-guide/SystemsStatus.png"
     alt="Figure 59: Updating Statuses for Systems">
 </img>
 </p>
@@ -1026,14 +1027,14 @@ To make an update to a system; select the **checkbox** next to that system, chan
 
 If you want to change the status of multiple systems at once, select the **checkbox** next to each system that you are changing. The **Filters** drop-down in the upper left will allow you to select multiple systems with the single click of a button. Once the desired systems are checked, select the new status from the **Select Status** drop-down (at the top of the middle column) and click the **Set** button directly next to that drop-down menu.
 
-The lock button next to each status is for **Overrides**. To apply an override, check the boxes for each system that you wish to override. Select the status that you wish to set from the drop-down menu. Then, click the **Lock** button directly next to that drop-down menu for each check that you are overriding. Once the **Lock** button is set to the locked state, this status will be overriden each time new scan results are imported. Lastly, provide an Override Justification in the text box to the right of the stautses. 
+The lock button next to each status is for **Overrides**. To apply an override, check the boxes for each system that you wish to override. Select the status that you wish to set from the drop-down menu. Then, click the **Lock** button directly next to that drop-down menu for each check that you are overriding. Once the **Lock** button is set to the locked state, this status will be overriden each time new scan results are imported. Lastly, provide an Override Justification in the text box to the right of the stautses.
 
 Once all of your changes have been made, click the **Save** button in the bottom-right corner of the pop-up window.
 
 <p>
-<img 
+<img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="../../assets/user-guide/SystemOverrides_Status.png" 
+    src="./assets/user-guide/SystemOverrides_Status.png"
     alt="Figure 60: Applying Status Overrides">
 </img>
 </p>
@@ -1042,33 +1043,33 @@ Once all of your changes have been made, click the **Save** button in the bottom
 Once an override has been applied, an icon will be displayed next to the check that signifies that there is a override. See *Figure 61* for an example of the override icon.
 
 <p>
-<img 
+<img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="../../assets/user-guide/OverrideIcon.png" 
+    src="./assets/user-guide/OverrideIcon.png"
     alt="Figure 61: Override Icon">
 </img>
 </p>
 <p style="text-align: center;"><em>Figure 61: Override Icon</em></p>
 
-###  Updating Severities with Overrides
+### Updating Severities with Overrides
 
 Updating severities works identically like the status updates. To update the severity of a finding, click the **Systems** button, then click the **Severity** tab on the pop-up menu. Select the checkboxes next to each system the you are changing, then update the severity in the drop-down menu for each system. If you want to apply the same severity change to multiple systems, you can check the boxes for the systems you are updating and set the status in the **Select Severity** (at the top of the table) and click **Set**. This will apply the severity to each system that is checked.
 
 <p>
-<img 
+<img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="../../assets/user-guide/SystemSeverity.png" 
+    src="./assets/user-guide/SystemSeverity.png"
     alt="Figure 62: Updating Severities">
 </img>
 </p>
 <p style="text-align: center;"><em>Figure 62: Updating Severities</em></p>
 
-To apply a severity override, select the severity that you wish to set from the drop-down menu. Then, click the **Lock** button directly next to that drop-down menu for each check that you are overriding. Once the **Lock** button is set to the locked state, this severity will be overriden each time new scan results are imported. Lastly, provide an Override Justification in the text box to the right of the stautses. 
+To apply a severity override, select the severity that you wish to set from the drop-down menu. Then, click the **Lock** button directly next to that drop-down menu for each check that you are overriding. Once the **Lock** button is set to the locked state, this severity will be overriden each time new scan results are imported. Lastly, provide an Override Justification in the text box to the right of the stautses.
 
 <p>
-<img 
+<img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="../../assets/user-guide/SystemSeverity_Overrides.png" 
+    src="./assets/user-guide/SystemSeverity_Overrides.png"
     alt="Figure 63: Severity Overrides">
 </img>
 </p>
@@ -1081,9 +1082,9 @@ Once all of your changes have been made, click the **Save** button in the bottom
 Once you have uploaded all of the test data on for your boundary, you have the ability to export your data into a **Plan of Action and Milestones (POA&M)**, a **Findings Worksheet**, or a  **Checklist**. To export your data, navigate to your Boundary and click the **Export Data** button (as seen in *Figure 64*).
 
 <p>
-<img 
+<img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="../../assets/user-guide/ExportData.png" 
+    src="./assets/user-guide/ExportData.png"
     alt="Figure 64: Export Data">
 </img>
 </p>
@@ -1096,9 +1097,9 @@ A popup window will appear, please use the tabs at the top of the popup window t
 To export a POA&M; navigate to your Boundary, click the **Export Data** button, click the **POAM** tab, then click **Download POAM**.
 
 <p>
-<img 
+<img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="../../assets/user-guide/ExportData_POAM.png" 
+    src="./assets/user-guide/ExportData_POAM.png"
     alt="Figure 65: Export POA&M">
 </img>
 </p>
@@ -1107,9 +1108,9 @@ To export a POA&M; navigate to your Boundary, click the **Export Data** button, 
 The POA&M will organize all of the findings data for each security control that is not being met.
 
 <p>
-<img 
+<img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="../../assets/user-guide/image58.jpeg" 
+    src="./assets/user-guide/image58.jpeg"
     alt="Figure 66: POA&M Export">
 </img>
 </p>
@@ -1120,9 +1121,9 @@ The POA&M will organize all of the findings data for each security control that 
 To export your data into a **Findings Worksheet**; navigate to your Boundary, click the **Export Data** button, and click the **Findings** tab. The Findings Worksheet allows you to export data based on their finding status. Check the box next to each of finding status’ that you want to export. Then press the **Download** Findings button. For this example, we will export only the **Open** findings for our Boundary.
 
 <p>
-<img 
+<img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="../../assets/user-guide/ExportData_Findings.png" 
+    src="./assets/user-guide/ExportData_Findings.png"
     alt="Figure 67: Exporting Findings Spreadsheet">
 </img>
 </p>
@@ -1133,9 +1134,9 @@ A file will be downloaded to your computer titled **Findings \*.xlsx**. This fin
 The findings worksheet will create an item for each Vulnerability/Finding inside of your Boundary and list all of the Systems Affected by that vulnerability.
 
 <p>
-<img 
+<img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="../../assets/user-guide/image60.jpeg" 
+    src="./assets/user-guide/image60.jpeg"
     alt="Figure 68: Findings Export">
 </img>
 </p>
@@ -1148,9 +1149,9 @@ TIR provides a couple options for exporting checklists. The default option expor
 For the default option, select **Export Data**, select the **Checklist tab**, and click **Download Checklist.**
 
 <p>
-<img 
+<img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="../../assets/user-guide/ExportData_Checklists.png" 
+    src="./assets/user-guide/ExportData_Checklists.png"
     alt="Figure 69: Exporting Checklists">
 </img>
 </p>
@@ -1159,18 +1160,18 @@ For the default option, select **Export Data**, select the **Checklist tab**, an
 The output should look like the following:
 
 <p>
-<img 
+<img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="../../assets/user-guide/image62.png" 
+    src="./assets/user-guide/image62.png"
     alt="Figure 70: Checklist Export – Folders">
 </img>
 </p>
 <p style="text-align: center;"><em>Figure 70: Checklist Export – Folders</em></p>
 
 <p>
-<img 
+<img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="../../assets/user-guide/image63.png" 
+    src="./assets/user-guide/image63.png"
     alt="Figure 71: Checklist Export - Files">
 </img>
 </p>
@@ -1179,9 +1180,9 @@ The output should look like the following:
 For a single checklist per system, select the **Single STIG per checklist** box.
 
 <p>
-<img 
+<img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="../../assets/user-guide/ExportData_Checklists2.png" 
+    src="./assets/user-guide/ExportData_Checklists2.png"
     alt="Figure 72: Exporting Checklists - Single STIG per Checklist">
 </img>
 </p>
@@ -1190,18 +1191,18 @@ For a single checklist per system, select the **Single STIG per checklist** box.
 The output is as follows:
 
 <p>
-<img 
+<img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="../../assets/user-guide/image65.png" 
+    src="./assets/user-guide/image65.png"
     alt="Figure 73: Exporting Checklists - Single STIG per Checklist - Folders">
 </img>
 </p>
 <p style="text-align: center;"><em>Figure 73: Exporting Checklists - Single STIG per Checklist - Folders</em></p>
 
 <p>
-<img 
+<img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="../../assets/user-guide/image66.png" 
+    src="./assets/user-guide/image66.png"
     alt="Figure 74: Exporting Checklists - Single STIG per Checklist - Files">
 </img>
 </p>
@@ -1214,9 +1215,9 @@ The STIG Security Assessment (SSA) is a spreadsheet that provides passing and fa
 To export a SSA, navigate to your Boundary and click Export Data. Next, click the STIG Security Assessment Tab and then **Download**. This will download a the SSA spreadsheet to your local machine.
 
 <p>
-<img 
+<img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="../../assets/user-guide/ExportData_SSA.png" 
+    src="./assets/user-guide/ExportData_SSA.png"
     alt="Figure 75: SSA Export">
 </img>
 </p>
@@ -1227,35 +1228,35 @@ The first tab in the SSA is the **CCI Compliance** tab. The first column, CCI, w
 For an example, see *Figure 76* below.
 
 <p>
-<img 
+<img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="../../assets/user-guide/SSA_CCICompliance.png" 
+    src="./assets/user-guide/SSA_CCICompliance.png"
     alt="Figure 76: SSA - CCI Compliance Tab">
 </img>
 </p>
 <p style="text-align: center;"><em>Figure 76: SSA - CCI Compliance Tab</em></p>
 
-The next tab in the SSA is the **Control Compliance** tab. This tab organizes the data based by the Control and gives a passing or failing grade for each control. The first column, **Control** will list out each control applicable to your boundary. The **Control Description**, **Control Text**, and **Supplemental Guidance** columns will be blank for now. This data will be exported once the developement of Control Overlays is completed for TIR. The **Pass/Fail** column will display a passing or failing grade for the control. If any of CCIs for that control are failing then that control will receive a fail grade. The **CCIs** comlumn will list out all of the CCIs associated with each control and show you which CCIs are passing and which are failing. 
+The next tab in the SSA is the **Control Compliance** tab. This tab organizes the data based by the Control and gives a passing or failing grade for each control. The first column, **Control** will list out each control applicable to your boundary. The **Control Description**, **Control Text**, and **Supplemental Guidance** columns will be blank for now. This data will be exported once the developement of Control Overlays is completed for TIR. The **Pass/Fail** column will display a passing or failing grade for the control. If any of CCIs for that control are failing then that control will receive a fail grade. The **CCIs** comlumn will list out all of the CCIs associated with each control and show you which CCIs are passing and which are failing.
 
 For an example, see *Figure 77* below.
 
 <p>
-<img 
+<img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="../../assets/user-guide/SSA_ControlCompliance.png" 
+    src="./assets/user-guide/SSA_ControlCompliance.png"
     alt="Figure 77: SSA - Control Compliance Tab">
 </img>
 </p>
 <p style="text-align: center;"><em>Figure 77: SSA - Control Compliance Tab</em></p>
 
-The remaining tabs in your SSA will give you detailed information about each STIG in your boundary. This tab starts with the **CCI** column, and lists out each CCI the is applicable for the STIG Checklist you are viewing. The **CCI Description** column will give you a brief description for what the CCI is validating. The **Control** column will list the control associated to the CCI. In the example below we are viewing an Application Security and Development STIG checklist. So, the next column will display the name of the STIG. In this case, **Application Security and Development Security Technical Implementation Guide Check**. This field will display the check text for all of the STIG checks associated to the CCI. Likewise, the next tab will display the fix action text for all of the STIG checks associated to the CCI. In this case, the column reads **Application Security and Development Security Technical Implementation Guide Fix Action**. The **CCI Compliance Status** column will give a passing and failing grade for each CCI. Lastly, the **Finding Status** will list out the V-Key for each STIG check associated to the CCI and provide the status for those checks. If any STIG checks are Open then the CCI Compliance Status will be set to Fail. If none of the STIG checks are open but you still have checks set to Not Reviewed, then the CCI Compliance Status will be left blank until those Not Reviewed checks are addressed. 
+The remaining tabs in your SSA will give you detailed information about each STIG in your boundary. This tab starts with the **CCI** column, and lists out each CCI the is applicable for the STIG Checklist you are viewing. The **CCI Description** column will give you a brief description for what the CCI is validating. The **Control** column will list the control associated to the CCI. In the example below we are viewing an Application Security and Development STIG checklist. So, the next column will display the name of the STIG. In this case, **Application Security and Development Security Technical Implementation Guide Check**. This field will display the check text for all of the STIG checks associated to the CCI. Likewise, the next tab will display the fix action text for all of the STIG checks associated to the CCI. In this case, the column reads **Application Security and Development Security Technical Implementation Guide Fix Action**. The **CCI Compliance Status** column will give a passing and failing grade for each CCI. Lastly, the **Finding Status** will list out the V-Key for each STIG check associated to the CCI and provide the status for those checks. If any STIG checks are Open then the CCI Compliance Status will be set to Fail. If none of the STIG checks are open but you still have checks set to Not Reviewed, then the CCI Compliance Status will be left blank until those Not Reviewed checks are addressed.
 
-For an example, see *Figure 78* below. 
+For an example, see *Figure 78* below.
 
 <p>
-<img 
+<img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="../../assets/user-guide/SSA_STIGTabs.png" 
+    src="./assets/user-guide/SSA_STIGTabs.png"
     alt="Figure 78: SSA - STIG Tabs">
 </img>
 </p>
@@ -1266,14 +1267,13 @@ For an example, see *Figure 78* below.
 This section is not finished. Need the Nessus csv export to be completed.
 
 <p>
-<img 
+<img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="../../assets/user-guide/ExportData_Nessus.png" 
+    src="./assets/user-guide/ExportData_Nessus.png"
     alt="Figure X: Nessus Export">
 </img>
 </p>
 <p style="text-align: center;"><em>Figure X: Nessus Export</em></p>
-
 
 ## POA&M Management
 
@@ -1290,9 +1290,9 @@ From the **Boundary View** and **Vulnerability View**, each check will have a co
 After you’ve completed filling out the **POAM Fields** for an open finding, click the **Save** button at the bottom of the page.
 
 <p>
-<img 
+<img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="../../assets/user-guide/image52.png" 
+    src="./assets/user-guide/image52.png"
     alt="Figure 79: POA&M Fields">
 </img>
 </p>
@@ -1307,9 +1307,9 @@ User will have the ability to backup their entire boundaries. These backups will
 To backup the data for a boundary, you will first need to navigate inside the boundary. Click the gear icon in the top-right side of the boundary overview page. Then, click **Boundary Export**.
 
 <p>
-<img 
+<img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="../../assets/user-guide/Boundary_Export.png" 
+    src="./assets/user-guide/Boundary_Export.png"
     alt="Figure X: Boundary Export">
 </img>
 </p>
@@ -1320,9 +1320,9 @@ The restore feature can be used to recover lost data inside TIR or transfer your
 To restore the data for a boundary, you will first need to navigate inside the boundary. If the boundary does not exist in your TIR instance, you will need to create a new boundary to store this data. From the boundary overview page, click the gear icon in the top-right and then click **Boundary Import**.
 
 <p>
-<img 
+<img
     style="display: block; margin-left: auto; margin-right: auto; "
-    src="../../assets/user-guide/Boundary_Import.png" 
+    src="./assets/user-guide/Boundary_Import.png"
     alt="Figure X: Boundary Import">
 </img>
 </p>

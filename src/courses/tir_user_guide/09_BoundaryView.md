@@ -37,6 +37,6 @@ A pop-up window will appear that displays all of the systems where this STIG che
 
 ![Figure 53: System Status in the Boundary View](../../assets/user-guide/BoundaryView_SystemStatuses.png "Figure 53: System Status in the Boundary View")
 
-From the Boundary View you will be able to update statuses, severities, and apply overrides for as many systems as you need. For more information about this feature see the **System Statuses and Severities with Overrides** section. 
+From the Boundary View you will be able to update statuses, severities, and apply overrides for as many systems as you need. For more information about this feature see the **System Statuses and Severities with Overrides** section.
 
 Additionally, from within the Boundary View, you have the ability to fill out the POAM fields for each STIG finding and track those findings until completion. For more information about these features see the **POA&M Fields** section (under **POA&M Management**).

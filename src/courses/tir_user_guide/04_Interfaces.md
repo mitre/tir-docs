@@ -27,13 +27,13 @@ The Boundary tab contains “Companies” and “Boundaries” in a hierarchical
 
 ### Libraries
 
-The Libraries tab provides the ability to import new STIG libraries and updated Control Correlation Identifiers (CCI) mappings for different NIST SP 800-53 revisions. 
+The Libraries tab provides the ability to import new STIG libraries and updated Control Correlation Identifiers (CCI) mappings for different NIST SP 800-53 revisions.
 
 #### STIG Libraries
 
 The Department of Defense (DoD) releases quarterly updates to the STIG benchmarks. STIG Libraries can be downloaded at [public.cyber.mil](public.cyber.mil). These quarterly updates are released as .zip files. Once downloaded, the .zip files can be uploaded to TIR and made available to all users.
 
-##### View STIG Libraries 
+##### View STIG Libraries
 
 Navigate to the **Libraries** page by clicking the **Libraries** button at the top on the page.
 
@@ -101,7 +101,7 @@ CCI mappings are distributed by NIST and are updated as necessary. The latest CC
 
 ![Figure 6: CCI Matrix](../../assets/user-guide/image7.png "Figure 6: CCI Matrix")
 
-##### Import CCI Matrix Updates 
+##### Import CCI Matrix Updates
 
 To import a new CCI Matrix, navigate to the Libraries page and click the Import button inside the CCI Matrix section. For reference, this button can be found in the top right of *Figure 6: CCI Matrix*.
 
@@ -119,19 +119,19 @@ The User Profile icon looks like a person and is located in the top-right of the
 
 Your **User Profile** will display your **Username**, **Role**, **Hidden Password**, **Time zone**, **API Token**, and **Color Theme**.
 
--   To change your password, click the **Change** button located on the right-side of the **Password** row. Enter a **New Password**, **Confirm the Password**, and click **Save**.
+- To change your password, click the **Change** button located on the right-side of the **Password** row. Enter a **New Password**, **Confirm the Password**, and click **Save**.
 
 ![Figure 9: Change Password](../../assets/user-guide/User_ChangePassword.png "Figure 9: Change Password")
 
--   To update your Time zone, select a new time zone from the drop-down menu and click **Update** button located on the right-side of the **Timezone** row.
+- To update your Time zone, select a new time zone from the drop-down menu and click **Update** button located on the right-side of the **Timezone** row.
 
 ![Figure 10: Time Zones](../../assets/user-guide/image11.png "Figure 10: Time Zones")
 
--   To create an **API Token**, click the **Create** button on the right-side of the **Token** row. Enter a **Token Name** and an **Expiration Data,** then click **Generate**. A pop-up window will appear that contains your **Token Code**. Please save that code before closing the window. A list of your existing tokens can be found in the **Token Table**. Please see *Figure 11* as an example.
+- To create an **API Token**, click the **Create** button on the right-side of the **Token** row. Enter a **Token Name** and an **Expiration Data,** then click **Generate**. A pop-up window will appear that contains your **Token Code**. Please save that code before closing the window. A list of your existing tokens can be found in the **Token Table**. Please see *Figure 11* as an example.
 
 ![Figure 11: Create API Token](../../assets/user-guide/image12.png "Figure 11: Create API Token")
 
--   To change the **Coloring Theme** of TIR, choose **System**, **Light**, or **Dark** from the **Theme** row. The **System** option will use the theme from your client system’s settings.
+- To change the **Coloring Theme** of TIR, choose **System**, **Light**, or **Dark** from the **Theme** row. The **System** option will use the theme from your client system’s settings.
 
 ![Figure 12: Light Mode vs Dark Mode](../../assets/user-guide/image13.png "Figure 12: Light Mode vs Dark Mode")
 

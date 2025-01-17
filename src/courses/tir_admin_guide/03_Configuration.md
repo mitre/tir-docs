@@ -10,29 +10,29 @@ headerDepth: 2
 
 ### Administrator Login
 
-The default Local Administrator Username is admin@tir.local. The initial password will be provided. Enter your admin@tir.local and the initial **Password**, then review the **IS User Agreement** and acknowledge that you have read it by clicking the check box. Then, click **Sign in**.
+The default Local Administrator Username is <admin@tir.local>. The initial password will be provided. Enter your <admin@tir.local> and the initial **Password**, then review the **IS User Agreement** and acknowledge that you have read it by clicking the check box. Then, click **Sign in**.
 
 ![Figure 8: Login Page](../../assets/admin-guide/image2.png "Figure 8: Login Page")
 
--   After successfully logging in for the first time, please change the TIR Admin password by completing the following:
+- After successfully logging in for the first time, please change the TIR Admin password by completing the following:
 
--   Click the Profile Icon in the upper right corner of the welcome screen.
+- Click the Profile Icon in the upper right corner of the welcome screen.
 
 ![Figure 9:  Selecting Your Profile](../../assets/admin-guide/image3.png "Figure 9:  Selecting Your Profile")
 
--   Click Your **Profile** to bring up the TIR Admin profile.
+- Click Your **Profile** to bring up the TIR Admin profile.
 
 ![Figure 10: Changing The Local Admin Password](../../assets/admin-guide/image4.png "Figure 10: Changing The Local Admin Password")
 
--   In the **Password** row select **Change**
+- In the **Password** row select **Change**
 
 ![Figure 11: Changing the Local Admin Password](../../assets/admin-guide/image5.png "Figure 11: Changing the Local Admin Password")
 
--   Enter **New password**
+- Enter **New password**
 
--   Enter **Confirm password**
+- Enter **Confirm password**
 
--   Select Save
+- Select Save
 
 ### Administrative Functions
 
@@ -62,17 +62,17 @@ Within the **Configuration** section an Administrator can change standard **Term
 
 ##### Certificate Import and Verification
 
--   Click on the **CA Certificate** **Choose File** box to open a File dialog window and choose your signed x509 formatted .crt file and hit **Open** - the name of the file will appear in the **CA Certificate** Text Box
+- Click on the **CA Certificate** **Choose File** box to open a File dialog window and choose your signed x509 formatted .crt file and hit **Open** - the name of the file will appear in the **CA Certificate** Text Box
 
 ![Figure 15: Import Certificates](../../assets/admin-guide/image9.png "Figure 15: Import Certificates")
 
 ![Figure 16: Choosing Certificate](../../assets/admin-guide/image10.png "Figure 16: Choosing Certificate")
 
--   Note name of .crt file shows up in text field.
+- Note name of .crt file shows up in text field.
 
 ![Figure 17: CA Certificate Updated](../../assets/admin-guide/image11.png "Figure 17: CA Certificate Updated")
 
--   Click on the **Site Certificate** Choose File box to open a File dialog window and choose your .pem formatted site key and hit Open - the name of the file will appear in the Site Certificate Text Box
+- Click on the **Site Certificate** Choose File box to open a File dialog window and choose your .pem formatted site key and hit Open - the name of the file will appear in the Site Certificate Text Box
 
 ![Figure 18: Choose Site Certificate](../../assets/admin-guide/image12.png "Figure 18: Choose Site Certificate")
 
@@ -80,31 +80,31 @@ Within the **Configuration** section an Administrator can change standard **Term
 
 ![Figure 20: Site Certificate Updated](../../assets/admin-guide/image14.png "Figure 20: Site Certificate Updated")
 
--   Select **Import**
+- Select **Import**
 
 ![Figure 21: Import Certificates](../../assets/admin-guide/image14.png "Figure 21: Import Certificates")
 
--   A modal window saying "Checking Certificates Please Wait... Circle" will appear while the files are being loaded.
+- A modal window saying "Checking Certificates Please Wait... Circle" will appear while the files are being loaded.
 
 ![Figure 22: Certificate Import Process](../../assets/admin-guide/image15.png "Figure 22: Certificate Import Process")
 
--   A message underneath the Certificate Import form Text Fields will appear saying "Certificate Import Successful!" if the certs are accepted.
+- A message underneath the Certificate Import form Text Fields will appear saying "Certificate Import Successful!" if the certs are accepted.
 
 ![Figure 23: Successful Certificate Import Notification](../../assets/admin-guide/image16.png "Figure 23: Successful Certificate Import Notification")
 
 Notes:
 
--   The NGINX listener checks imported certificates for:
+- The NGINX listener checks imported certificates for:
 
-    -   A .pem formatted key file
+  - A .pem formatted key file
 
-    -   A x509 formatted .crt file
+  - A x509 formatted .crt file
 
-    -   Cert files matching modulus
+  - Cert files matching modulus
 
-    -   CRT Common Name matching NGINX\_HOST variable value
+  - CRT Common Name matching NGINX\_HOST variable value
 
--   If invalid certificate files are loaded, an error will appear saying **Error in Cert Response** in the top right of the window
+- If invalid certificate files are loaded, an error will appear saying **Error in Cert Response** in the top right of the window
 
 ![Figure 24: Invalid Certificate Notification](../../assets/admin-guide/image17.png "Figure 24: Invalid Certificate Notification")
 
@@ -112,11 +112,11 @@ Notes:
 
 Notifications are automatically generated at login for the following:
 
--   New STIG Library is available for applicable boundaries
+- New STIG Library is available for applicable boundaries
 
--   POA&M Completion Dates coming due or overdue
+- POA&M Completion Dates coming due or overdue
 
--   Milestone Dates coming due or overdue
+- Milestone Dates coming due or overdue
 
 ##### Users
 
@@ -158,7 +158,7 @@ Once properly configured click **Save**.
 
 ###### Console
 
--   **Log Level** controls which type of logs are sent to the console. There are eight different log levels to choose from (listed below). The higher level logs are inherited into all of the lower level logs. For example; if **Debug** selected, you will received logs from all eight of the log levels. If **Critical (crit)** is selected, you will receive logs from Emergency (emerg), Alert, and Critical (crit). The default setting of **Warning** should meet all required logging for SP 800-53 based authorizations.
+- **Log Level** controls which type of logs are sent to the console. There are eight different log levels to choose from (listed below). The higher level logs are inherited into all of the lower level logs. For example; if **Debug** selected, you will received logs from all eight of the log levels. If **Critical (crit)** is selected, you will receive logs from Emergency (emerg), Alert, and Critical (crit). The default setting of **Warning** should meet all required logging for SP 800-53 based authorizations.
 
     1. Emergency (emerg)
     2. Alert
@@ -171,18 +171,18 @@ Once properly configured click **Save**.
 
 ###### File
 
--   **Enabled** can be toggled on/off to enable and disable logging to files.
--   **Log Level** determines which logs will be saved to files. See **Log Level** in the **Console** section (above) for details on the log levels.
--   **Path** is the directory to which the logs will be stored.
--   **Max File Size (MB)** is an adjustable setting to define the max size, in megabytes, of each log file being created.
--   **Days to Retain** is the amount of time you wish to keep the TIR logs before they are allowed to be deleted on the system
--   **Zip Archive** is a toggle option that (when enabled) will zip your log files into an archive. 
+- **Enabled** can be toggled on/off to enable and disable logging to files.
+- **Log Level** determines which logs will be saved to files. See **Log Level** in the **Console** section (above) for details on the log levels.
+- **Path** is the directory to which the logs will be stored.
+- **Max File Size (MB)** is an adjustable setting to define the max size, in megabytes, of each log file being created.
+- **Days to Retain** is the amount of time you wish to keep the TIR logs before they are allowed to be deleted on the system
+- **Zip Archive** is a toggle option that (when enabled) will zip your log files into an archive.
 
 ###### Syslog
 
--   **Syslog Target** is the centralized log server, like Splunk.
--   **Syslog Port** is the port being used to forward logs.
--   **Log Level** determines which logs will be forwarded to the centralized log server. 
+- **Syslog Target** is the centralized log server, like Splunk.
+- **Syslog Port** is the port being used to forward logs.
+- **Log Level** determines which logs will be forwarded to the centralized log server.
 
 ### Libraries
 
@@ -192,7 +192,7 @@ The **Libraries** tab provides the ability to import new STIG libraries and upda
 
 The Department of Defense (DoD) releases quarterly updates to the STIG benchmarks. These quarterly updates are released as .zip files. Once downloaded, the .zip files can be uploaded to TIR and made available to all users.
 
-##### View STIG Libraries 
+##### View STIG Libraries
 
 Please navigate to the **Libraries** tab by clicking the **Libraries** button at the top on the page.
 
@@ -261,6 +261,6 @@ CCI mappings are provided by NIST and updated as necessary. CCI mappings differe
 
 ![Figure 32: CCI Matrix](../../assets/admin-guide/image28.png "Figure 32: CCI Matrix")
 
-##### Import CCI Matrix Updates 
+##### Import CCI Matrix Updates
 
 To import a new CCI Matrix, please navigate to the Libraries page and click the **Import** button inside the CCI Matrix section. For reference, this button can be found in the top right of Figure 32: CCI Matrix.

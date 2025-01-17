@@ -111,17 +111,17 @@ When a Boundary is selected, you will be taken to the Overview sub-tab of the Bo
 
 At the top of the Boundary Overview table you will find the **Path to your Boundary** with breadcrumbs that a linked back to each parent for easy navigation.
 
--   The **Number of Systems** field will display the amount of Systems that have been added to your boundary.
+- The **Number of Systems** field will display the amount of Systems that have been added to your boundary.
 
--   The **STIG Findings** fields will display a total number of STIG checks and the unique number of STIG checks. The total number of checks come from the sum of the total checks for each system. The number of unique checks come from the statuses of the checks contained inside the Boundary applied STIGs. For example, if two systems have the same STIG check set to Open, this will count as **two** open findings for the **Total** count but only **one** open finding for the **Unique** count. STIG checklists can be found in the **Boundary View** and **System View**.
+- The **STIG Findings** fields will display a total number of STIG checks and the unique number of STIG checks. The total number of checks come from the sum of the total checks for each system. The number of unique checks come from the statuses of the checks contained inside the Boundary applied STIGs. For example, if two systems have the same STIG check set to Open, this will count as **two** open findings for the **Total** count but only **one** open finding for the **Unique** count. STIG checklists can be found in the **Boundary View** and **System View**.
 
--   The **Vuln Findings** fields (similar to STIG Findings) will display a total number of Nessus findings and the unique number of Nessus findings. Nessus findings can be found in the **Vulnerability View**.
+- The **Vuln Findings** fields (similar to STIG Findings) will display a total number of Nessus findings and the unique number of Nessus findings. Nessus findings can be found in the **Vulnerability View**.
 
--   The **NIST version** field will display RMF Framework that was assigned to your boundary.
+- The **NIST version** field will display RMF Framework that was assigned to your boundary.
 
--   The **STIG baseline** field will display the STIG Library set for this boundary. This STIG baseline can be updated as new STIG Libraries become available. To update this field for your boundary, see section **Updating the STIG Baseline for a Boundary** below.
+- The **STIG baseline** field will display the STIG Library set for this boundary. This STIG baseline can be updated as new STIG Libraries become available. To update this field for your boundary, see section **Updating the STIG Baseline for a Boundary** below.
 
--   The **Control Status** fields are for future development.
+- The **Control Status** fields are for future development.
 
 ### Adding Systems to your Boundary
 
@@ -243,7 +243,7 @@ To add a blank STIG checklist to a system, navigate to your boundary and click *
 
 ![Figure 29: Import Scan Data<](../../assets/user-guide/image38.png "Figure 29: Import Scan Data<")
 
-The two buttons found in the screenshot above (*Figure 29*) can be used to upload STIGs and Test Data Results to your systems. 
+The two buttons found in the screenshot above (*Figure 29*) can be used to upload STIGs and Test Data Results to your systems.
 
 Once you have the latest STIG Library uploaded, navigate to your System and click the button titled **\[+\] STIG** (as seen in *Figure 29: Import Test Data*). A side panel will appear on the right side of your screen. Use the search bar (highlighted in *Figure 30: Adding STIGs to your System*) to find each STIG that is applicable for you System. Click on the STIG to add it to the **Applied STIGs** section at the bottom of the panel. Once you’ve added all of your STIGs, click the **Save** button at the very bottom of the panel.
 
