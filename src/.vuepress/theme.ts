@@ -10,164 +10,74 @@ export default hopeTheme({
     url: "https://saf.mitre.org/applications/tir/",
   },
 
-  iconAssets: "//at.alicdn.com/t/font_2410206_h4r1xw8ppng.css",
-  iconPrefix: "iconfont icon-",
   logo: "/logo.svg",
   repo: "mitre/tir-docs",
   docsDir: "src",
   navbar,
   sidebar,
-  //footer: "Apache-2.0 | Copyright © 2022 - The MITRE Corporation",
-  footer: "© 2024 Lockheed Martin Corporation. This publication is licensed under the Creative Commons Attribution 4.0 International Public License (https://creativecommons.org/licenses/by/4.0/legalcode.en).  Except as expressly licensed, all right herein are reserved.",
-  displayFooter: true,
-  encrypt: {
-    config: {
-      "/demo/encrypt.html": ["1234"],
-    },
-  },
-
-  metaLocales: {
-    editLink: "Edit this page on GitHub",
-  },
 
   plugins: {
-    // You should generate and use your own comment service
-    // comment: {
+    icon: {
+      assets: "//at.alicdn.com/t/font_2410206_h4r1xw8ppng.css",
+      prefix: "iconfont icon-",
+    }
+  },
 
-    //   provider: "Giscus",
-    //   repo: "mitre/tir-docs",
-    //   repoId: "R_kgDOH3sAZQ",
-    //   category: "Ideas",
-    //   categoryId: "DIC_kwDOH3sAZc4CRApY",
-    //   mapping: "pathname"
-    // },
+  markdown: {
+    alert: true,
+    align: true,
+    attrs: true,
+    component: true,
+    figure: true,
+    gfm: true,
+    imgLazyload: true,
+    imgSize: true,
+    include: true,
+    mark: true,
+    mermaid: true,
+    sub: true,
+    sup: true,
+    tabs: true,
+    codeTabs: true,
+    vPre: true,
 
-    // All features are enabled for demo, only preserve features you need here
-    mdEnhance: {
-      align: true,
-      attrs: true,
-      card: true,
-
-      // install chart.js before enabling it
-      // chart: true,
-
-      codetabs: true,
-      demo: true,
-
-      // install echarts before enabling it
-      // echarts: true,
-
-      figure: true,
-
-      // install flowchart.ts before enabling it
-      // flowchart: true,
-
-      gfm: true,
-      imgLazyload: true,
-      imgSize: true,
-      include: true,
-
-      lazyload: true,
-      size: true,
-
-      // install katex before enabling it
-      // katex: true,
-
-      // install mathjax-full before enabling it
-      // mathjax: true,
-
-      mark: true,
-
-      // install mermaid before enabling it
-      mermaid: true,
-
-      playground: {
-        presets: ["ts", "vue"],
-      },
-
-      // install reveal.js before enabling it
-      revealJs: {
-        plugins: ["highlight", "math", "search", "notes", "zoom"],
-      },
-
-      stylize: [
-        {
-          matcher: "Recommended",
-          replacer: ({ tag }) => {
-            if (tag === "em")
-              return {
-                tag: "Badge",
-                attrs: { type: "tip" },
-                content: "Recommended",
-              };
-          },
-        },
-      ],
-      sub: true,
-      sup: true,
-      tabs: true,
-      vPre: true,
-      level: [2, 4]
-
-      // install @vue/repl before enabling it
-      // vuePlayground: true,
+    highlighter: {
+      type: "shiki",
+      lineNumbers: 15,
+      notationDiff: true,
+      themes: {
+        light: "github-light",
+        dark: "github-dark"
+      }
     },
 
-    // uncomment these if you want a pwa
-    // pwa: {
-    //   favicon: "/favicon.ico",
-    //   cacheHTML: true,
-    //   cachePic: true,
-    //   appendBase: true,
-    //   apple: {
-    //     icon: "/assets/icon/apple-icon-152.png",
-    //     statusBarColor: "black",
-    //   },
-    //   msTile: {
-    //     image: "/assets/icon/ms-icon-144.png",
-    //     color: "#ffffff",
-    //   },
-    //   manifest: {
-    //     icons: [
-    //       {
-    //         src: "/assets/icon/chrome-mask-512.png",
-    //         sizes: "512x512",
-    //         purpose: "maskable",
-    //         type: "image/png",
-    //       },
-    //       {
-    //         src: "/assets/icon/chrome-mask-192.png",
-    //         sizes: "192x192",
-    //         purpose: "maskable",
-    //         type: "image/png",
-    //       },
-    //       {
-    //         src: "/assets/icon/chrome-512.png",
-    //         sizes: "512x512",
-    //         type: "image/png",
-    //       },
-    //       {
-    //         src: "/assets/icon/chrome-192.png",
-    //         sizes: "192x192",
-    //         type: "image/png",
-    //       },
-    //     ],
-    //     shortcuts: [
-    //       {
-    //         name: "Demo",
-    //         short_name: "Demo",
-    //         url: "/demo/",
-    //         icons: [
-    //           {
-    //             src: "/assets/icon/guide-maskable.png",
-    //             sizes: "192x192",
-    //             purpose: "maskable",
-    //             type: "image/png",
-    //           },
-    //         ],
-    //       },
-    //     ],
-    //   },
-    // },
+    playground: {
+      presets: ["ts", "vue"],
+    },
+
+    revealjs: {
+      plugins: ["highlight", "math", "search", "notes", "zoom"],
+      themes: [
+        "auto", "beige", "black", "blood", "league",
+        "moon", "night", "serif", "simple", "sky",
+        "solarized", "white"
+      ]
+    },
+
+    stylize: [
+      {
+        matcher: "Recommended",
+        replacer: ({ tag }) => {
+          if (tag === "em")
+            return {
+              tag: "Badge",
+              attrs: { type: "tip" },
+              content: "Recommended",
+            };
+        },
+      },
+    ]
   },
+
+  footer: "© 2024 Lockheed Martin Corporation. This publication is licensed under the Creative Commons Attribution 4.0 International Public License (https://creativecommons.org/licenses/by/4.0/legalcode.en). Except as expressly licensed, all rights herein are reserved."
 });
