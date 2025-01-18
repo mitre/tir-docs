@@ -10,7 +10,7 @@
     "docs:dev": "vuepress-vite dev src",
     "docs:update-package": "npm dlx vp-update",
     "start-server": "npm run docs:clean-dev",
-    "ci": "start-server-and-test start-server http://localhost:8080 cy:run",
+    "test": "start-server-and-test start-server http://localhost:8080 cy:run",
     "cypress:open": "cypress open",
     "cy:run": "cypress run --e2e"
   },
