@@ -34,6 +34,10 @@ export default hopeTheme({
     imgSize: true,
     include: true,
     mark: true,
+    imgMark: {
+      light: ["light"],
+      dark: ["dark"],
+    },
     mermaid: true,
     sub: true,
     sup: true,
