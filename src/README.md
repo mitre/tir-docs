@@ -1,31 +1,35 @@
 ---
 home: true
 icon: home
-title: MITRE SAF Training
-heroImage: /logo.svg
-heroText: MITRE SAF Training
-tagline: From Guidance Document to Automated Testing In No Time!
+title: Test Ingest Repository
+heroImage: /assets/img/tir.svg
+heroText: Test Ingest Repository
+tagline: Full Collection of Training Guides and Videos
 actions:
-  - text: User Class
-    link: /courses/user/
+  - text: User Guide
+    link: /courses/tir_user_guide/
     type: primary
-  - text: Beginner Security Automation
-    link: /courses/beginner/
+  - text: Admin Guide
+    link: /courses/tir_admin_guide/
     type: primary
-  - text: Advanced Security Automation
-    link: /courses/advanced/
+  - text: Deployment Guide
+    link: /courses/tir_deployment_guide/
     type: primary
-  - text: Guidance Development
+  - text: Training Videos
     type: primary
-    link: /courses/guidance/
-  - text: InSpec Profile Updating & Development
-    type: primary
-    link: /courses/profile-dev-test
+    link: https://www.youtube.com/playlist?list=PLm1Nyfu8s-DeXpRg8B5bqnrLH7HXetzWn
+
+  # - text: Guidance Development
+  #   type: primary
+  #   link: /courses/guidance/
+  # - text: InSpec Profile Updating & Development
+  #   type: primary
+  #   link: /courses/profile-dev-test
  
 highlights:
   - header: What You Will Learn
-    description: Our classes cover a large range of topics from the MITRE Security Automation Framework.
-    # image: /assets/image/markdown.svg
+    description: Our guides include documentation and videos for standard users and privileged users.
+    image: /assets/image/markdown.svg
     bgImage: https://theme-hope-assets.vuejs.press/bg/2-light.svg
     bgImageDark: https://theme-hope-assets.vuejs.press/bg/2-dark.svg
     bgImageStyle:
