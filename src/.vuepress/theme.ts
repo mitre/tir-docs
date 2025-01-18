@@ -22,7 +22,7 @@ export default hopeTheme({
       prefix: "iconfont icon-",
     }
   },
-
+  headerDepth: 4,
   markdown: {
     alert: true,
     align: true,

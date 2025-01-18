@@ -4,7 +4,7 @@ next: 04_Interfaces.md
 title: Getting Started
 shortTitle: 2. Getting Started
 author: Jason Kerbelis
-headerDepth: 2
+headerDepth: 4
 ---
 
 ## Getting Started

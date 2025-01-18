@@ -4,7 +4,7 @@ next: 13_Exports.md
 title: System Statuses and Severities with Overrides
 shortTitle: 11. System Statuses and Severities with Overrides
 author: Jason Kerbelis
-headerDepth: 2
+headerDepth: 4
 ---
 
 ## System Statuses and Severities with Overrides

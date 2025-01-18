@@ -4,7 +4,7 @@ next: 10_SystemView.md
 title: Boundary View
 shortTitle: 8. Boundary View
 author: Jason Kerbelis
-headerDepth: 2
+headerDepth: 4
 ---
 
 ## Boundary View

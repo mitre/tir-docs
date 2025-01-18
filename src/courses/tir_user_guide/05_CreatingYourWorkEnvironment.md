@@ -4,7 +4,7 @@ next: 06_ImportingScanData.md
 title: Creating your Work Environment
 shortTitle: 4. Creating your Work Environment
 author: Jason Kerbelis
-headerDepth: 2
+headerDepth: 5
 ---
 
 ## Creating your Work Environment

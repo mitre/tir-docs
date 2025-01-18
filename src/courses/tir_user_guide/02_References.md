@@ -4,7 +4,7 @@ next: 03_GettingStarted.md
 title: References
 shortTitle: 1. References
 author: Jason Kerbelis
-headerDepth: 2
+headerDepth: 4
 ---
 
 ## References

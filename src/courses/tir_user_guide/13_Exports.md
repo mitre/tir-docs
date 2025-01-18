@@ -4,7 +4,7 @@ next: 14_POA&MManagement.md
 title: Exports
 shortTitle: 12. Exports
 author: Jason Kerbelis
-headerDepth: 2
+headerDepth: 4
 ---
 
 ## Exports

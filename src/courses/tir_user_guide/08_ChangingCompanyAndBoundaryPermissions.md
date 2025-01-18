@@ -4,7 +4,7 @@ next: 09_BoundaryView.md
 title: Changing Company and Boundary Permissions
 shortTitle: 7. Changing Company and Boundary Permissions
 author: Jason Kerbelis
-headerDepth: 2
+headerDepth: 4
 ---
 
 ## Changing Company and Boundary Permissions

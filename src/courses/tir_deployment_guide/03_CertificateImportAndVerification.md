@@ -4,7 +4,7 @@ next: 03_CertificateImportAndVerification.md
 title: Certificate Import and Verification
 shortTitle: 2. Certificate Import and Verification
 author: Jason Kerbelis
-headerDepth: 2
+headerDepth: 4
 ---
 
 1.  Click **Administration** tab

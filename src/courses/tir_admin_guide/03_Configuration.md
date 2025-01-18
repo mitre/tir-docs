@@ -3,7 +3,7 @@ order: 3
 title: Configuration
 shortTitle: 2. Configuration
 author: Jason Kerbelis
-headerDepth: 2
+headerDepth: 4
 ---
 
 ## Configuration

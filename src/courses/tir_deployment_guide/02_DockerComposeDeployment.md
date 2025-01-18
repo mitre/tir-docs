@@ -4,7 +4,7 @@ next: 03_CertificateImportAndVerification.md
 title: Deployment Using Docker-Compose
 shortTitle: 1. Docker Compose Deployment
 author: Jason Kerbelis
-headerDepth: 2
+headerDepth: 4
 ---
 
 ## TIR Deployment Using Docker-Compose

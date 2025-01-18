@@ -4,7 +4,7 @@ next: 02_DockerComposeDeployment.md
 title: Test Ingest Repository Deployment Guide
 shortTitle: TIR Deployment Guide
 author: Jason Kerbelis
-headerDepth: 2
+headerDepth: 4
 ---
 
 ## Purpose

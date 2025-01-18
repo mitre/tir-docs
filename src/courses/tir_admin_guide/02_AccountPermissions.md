@@ -4,7 +4,7 @@ next: 03_Configuration.md
 title: Account Permissions
 shortTitle: 1. Account Permissions
 author: Jason Kerbelis
-headerDepth: 2
+headerDepth: 4
 ---
 
 ## Account Permissions

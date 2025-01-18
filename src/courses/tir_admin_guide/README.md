@@ -4,7 +4,7 @@ next: 02_AccountPermissions.md
 title: Test Ingest Repository Admin Guide
 shortTitle: TIR Admin Guide
 author: Jason Kerbelis
-headerDepth: 2
+headerDepth: 4
 ---
 
 ## Purpose
