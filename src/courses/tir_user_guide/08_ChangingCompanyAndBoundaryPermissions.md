@@ -7,13 +7,11 @@ author: Jason Kerbelis
 headerDepth: 4
 ---
 
-## Changing Company and Boundary Permissions
-
 To add or modify Company and Boundary permissions, select the 3 buttons to the far right of the Company or Boundary and select Manage Members.
 
 ![Figure 41: Modify Company/Boundary Permissions](../../assets/user-guide/ModifyCompanyPermissions.png "Figure 41: Modify Company/Boundary Permissions")
 
-### Adding Users
+## Adding Users
 
 Clicking the **Manage Members** will display the Members dialog box, enter the username in the **Search Users** box.
 
@@ -29,7 +27,7 @@ Once the level of access you wish to grant is selected, click **Add Member**. Yo
 
 Member access can be edited or removed from this view as well. This process is the same for both Companies and Boundaries.
 
-### Editing User Permissions
+## Editing User Permissions
 
 Clicking the **Manage Members** will display the Members dialog box. Click the **Edit** button next to the user you wish change permissions for.
 

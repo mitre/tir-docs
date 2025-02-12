@@ -7,17 +7,15 @@ author: Jason Kerbelis
 headerDepth: 4
 ---
 
-## Interfaces
-
 Upon a successful login, the user will be welcomed into TIR and the **Dashboard** will be displayed. At the top of the page, you will see three buttons: **Dashboard**, **Boundaries**, and **Libraries**. In later sections of this guide, you will find detailed instructions on how to properly configure and use each of these interfaces.
 
-### Dashboard
+## Dashboard
 
 The dashboard will show you the most recent changes to your TIR instance and will display any important upcoming dates that the user should be aware of. Some examples of displayable content include; recent changes to Boundaries and the newest Security Technical Implementation Guide (STIG) libraries imported.
 
 ![Figure 2: Dashboard](../../assets/user-guide/image3.png "Figure 2: Dashboard")
 
-### Boundaries
+## Boundaries
 
 The Boundary tab contains “Companies” and “Boundaries” in a hierarchical structure to best support multiple programs within a single TIR instance. Companies will be used to store and organize Boundaries. The Boundaries will store your Systems and all of the STIG and Nessus data associated with those Systems. Permissions can be granted to Companies or Boundaries and your permissions will be granted based on the Role of your user account (see Table 1 for user permissions).
 
@@ -25,15 +23,15 @@ The Boundary tab contains “Companies” and “Boundaries” in a hierarchical
 
 ![Figure 4: Boundaries nested under Companies](../../assets/user-guide/BoundariesTab_Nested.png "Figure 4: Boundaries nested under Companies")
 
-### Libraries
+## Libraries
 
 The Libraries tab provides the ability to import new STIG libraries and updated Control Correlation Identifiers (CCI) mappings for different NIST SP 800-53 revisions.
 
-#### STIG Libraries
+### STIG Libraries
 
 The Department of Defense (DoD) releases quarterly updates to the STIG benchmarks. STIG Libraries can be downloaded at [public.cyber.mil](public.cyber.mil). These quarterly updates are released as .zip files. Once downloaded, the .zip files can be uploaded to TIR and made available to all users.
 
-##### View STIG Libraries
+#### View STIG Libraries 
 
 Navigate to the **Libraries** page by clicking the **Libraries** button at the top on the page.
 
@@ -41,7 +39,7 @@ The **Libraries** page will display all of the STIG libraries that have been upl
 
 ![Figure 5: STIG Libraries](../../assets/user-guide/image6.png "Figure 5: STIG Libraries")
 
-##### Import STIG Libraries
+#### Import STIG Libraries
 
 To import a new STIG library, navigate to the **Libraries** page and click the **Import** button inside the **STIG Libraries** section. For reference, this button can be found in the top right of *Figure 5: STIG Libraries*.
 
@@ -95,23 +93,23 @@ Please refer to the table below for more examples.
 </table>
 <p style="text-align: center;"><em>Table 2: STIG Library Naming Conventions</em></p>
 
-#### CCI Matrix
+### CCI Matrix
 
 CCI mappings are distributed by NIST and are updated as necessary. The latest CCI Matrix can be downloaded at the following <https://public.cyber.mil/stigs/cci/>. Please note that CCI mappings differ between SP 800-53 Rev 4 and Rev 5, and keeping this updated will ensure more granular mapping of STIGs to applicable CCIs.
 
 ![Figure 6: CCI Matrix](../../assets/user-guide/image7.png "Figure 6: CCI Matrix")
 
-##### Import CCI Matrix Updates
+#### Import CCI Matrix Updates 
 
 To import a new CCI Matrix, navigate to the Libraries page and click the Import button inside the CCI Matrix section. For reference, this button can be found in the top right of *Figure 6: CCI Matrix*.
 
-### About Page
+## About Page
 
 The **About Page** will let the user know what version of TIR they are currently accessing as well as the date that the current version was pushed to their environment.
 
 ![Figure 7: About Page](../../assets/user-guide/image8.png "Figure 7: About Page")
 
-### User Profile
+## User Profile
 
 The User Profile icon looks like a person and is located in the top-right of the screen. To access your profile, click the **Icon** and then click **Your Profile** (as seen in *Figure 8*). If you wish to sign out, you can find the **Sign Out** button located under **Your Profile**.
 
@@ -135,7 +133,7 @@ Your **User Profile** will display your **Username**, **Role**, **Hidden Passwor
 
 ![Figure 12: Light Mode vs Dark Mode](../../assets/user-guide/image13.png "Figure 12: Light Mode vs Dark Mode")
 
-### Notifications
+## Notifications
 
 Users will receive notifications about important dates related to their Boundaries and when new STIG Libraries are available. The notification for a new STIG Library will be sent out to all Boundary Owners once a new STIG Library is imported into your TIR instance. These notifications will be displayed by the **Bell** icon in the top-right of the screen (as seen in *Figure 13*). A snippet of each unread notification will be displayed from this view.
 

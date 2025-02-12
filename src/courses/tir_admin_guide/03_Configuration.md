@@ -6,11 +6,9 @@ author: Jason Kerbelis
 headerDepth: 4
 ---
 
-## Configuration
+## Administrator Login
 
-### Administrator Login
-
-The default Local Administrator Username is <admin@tir.local>. The initial password will be provided. Enter your <admin@tir.local> and the initial **Password**, then review the **IS User Agreement** and acknowledge that you have read it by clicking the check box. Then, click **Sign in**.
+The default Local Administrator Username is admin@tir.local. The initial password will be provided. Enter your admin@tir.local and the initial **Password**, then review the **IS User Agreement** and acknowledge that you have read it by clicking the check box. Then, click **Sign in**.
 
 ![Figure 8: Login Page](../../assets/admin-guide/image2.png "Figure 8: Login Page")
 
@@ -34,11 +32,11 @@ The default Local Administrator Username is <admin@tir.local>. The initial passw
 
 - Select Save
 
-### Administrative Functions
+## Administrative Functions
 
 The TIR Local Administrator account is allowed to perform a number of configuration tasks, like creating local accounts, setting up LDAP, uploading certificates, and configurating centralized Logging. These functions are executed in the **Administration** Tab.
 
-#### The Administration Tab
+### The Administration Tab
 
 The **Administration** tab is only available through Administrators. You access the **Administration** tab by selecting **Administration** at the top center of the web interface.
 
@@ -50,17 +48,17 @@ A view of the **Administration** tab is below:
 
 ![Figure 13: Administration Tab](../../assets/admin-guide/AdministrationTab_General.png "Figure 13: Administration Tab")
 
-##### Configuring LDAP
+#### Configuring LDAP
 
 LDAP is configured during TIR deployment. Please see the TIR Deployment Guide for LDAP configuration procedures.
 
-##### Configuration
+#### Configuration
 
 Within the **Configuration** section an Administrator can change standard **Terminology** and import a **CA Certificate.**
 
 ![Figure 14: Configuration Functions](../../assets/admin-guide/AdministrationTab_Configuration.png "Figure 14: Configuration Functions")
 
-##### Certificate Import and Verification
+#### Certificate Import and Verification
 
 - Click on the **CA Certificate** **Choose File** box to open a File dialog window and choose your signed x509 formatted .crt file and hit **Open** - the name of the file will appear in the **CA Certificate** Text Box
 
@@ -108,7 +106,7 @@ Notes:
 
 ![Figure 24: Invalid Certificate Notification](../../assets/admin-guide/image17.png "Figure 24: Invalid Certificate Notification")
 
-##### Notifications
+#### Notifications
 
 Notifications are automatically generated at login for the following:
 
@@ -118,13 +116,13 @@ Notifications are automatically generated at login for the following:
 
 - Milestone Dates coming due or overdue
 
-##### Users
+#### Users
 
 The **User** functions allow an administrator to add local User or Administrator accounts and change passwords.
 
 ![Figure 25: Administration - Users Functions](../../assets/admin-guide/AdministrationTab_Users.png "Figure 25: Administration - Users Functions")
 
-###### Adding a local Account
+##### Adding a local Account
 
 To add a local account, select **Add Users**
 
@@ -134,7 +132,7 @@ This will bring up the **Add User** dialog Box. Complete the relevant data, to i
 
 ![Figure 27: Add User Dialog Box](../../assets/admin-guide/AdministrationTab_AddUsersPanel.png "Figure 27: Add User Dialog Box")
 
-###### Change User Password
+##### Change User Password
 
 To change a user’s password. Select the 3 buttons to the far right of the user account and select Edit.
 
@@ -144,7 +142,7 @@ The **Edit User** dialog box will appear on the right side of the screen. Enter 
 
 ![Figure 29: Change Password – Edit User Dialog Box](../../assets/admin-guide/AdministrationTab_EditUsers2.png "Figure 29: Change Password – Edit User Dialog Box")
 
-##### Logs
+#### Logs
 
 Centralized logging can be configured from the **Logs** function within the Administration tab.
 
@@ -156,7 +154,7 @@ There are three sections on the logging page: **Console**, **File**, and **Syslo
 
 Once properly configured click **Save**.
 
-###### Console
+##### Console
 
 - **Log Level** controls which type of logs are sent to the console. There are eight different log levels to choose from (listed below). The higher level logs are inherited into all of the lower level logs. For example; if **Debug** selected, you will received logs from all eight of the log levels. If **Critical (crit)** is selected, you will receive logs from Emergency (emerg), Alert, and Critical (crit). The default setting of **Warning** should meet all required logging for SP 800-53 based authorizations.
 
@@ -169,30 +167,30 @@ Once properly configured click **Save**.
     7. Info
     8. Debug
 
-###### File
+##### File
 
-- **Enabled** can be toggled on/off to enable and disable logging to files.
-- **Log Level** determines which logs will be saved to files. See **Log Level** in the **Console** section (above) for details on the log levels.
-- **Path** is the directory to which the logs will be stored.
-- **Max File Size (MB)** is an adjustable setting to define the max size, in megabytes, of each log file being created.
-- **Days to Retain** is the amount of time you wish to keep the TIR logs before they are allowed to be deleted on the system
-- **Zip Archive** is a toggle option that (when enabled) will zip your log files into an archive.
+-   **Enabled** can be toggled on/off to enable and disable logging to files.
+-   **Log Level** determines which logs will be saved to files. See **Log Level** in the **Console** section (above) for details on the log levels.
+-   **Path** is the directory to which the logs will be stored.
+-   **Max File Size (MB)** is an adjustable setting to define the max size, in megabytes, of each log file being created.
+-   **Days to Retain** is the amount of time you wish to keep the TIR logs before they are allowed to be deleted on the system
+-   **Zip Archive** is a toggle option that (when enabled) will zip your log files into an archive. 
 
-###### Syslog
+##### Syslog
 
-- **Syslog Target** is the centralized log server, like Splunk.
-- **Syslog Port** is the port being used to forward logs.
-- **Log Level** determines which logs will be forwarded to the centralized log server.
+-   **Syslog Target** is the centralized log server, like Splunk.
+-   **Syslog Port** is the port being used to forward logs.
+-   **Log Level** determines which logs will be forwarded to the centralized log server. 
 
-### Libraries
+## Libraries
 
 The **Libraries** tab provides the ability to import new STIG libraries and updated Control Correlation Identifiers (CCI) mappings for different NIST SP 800-53 revisions.
 
-#### STIG Libraries
+### STIG Libraries
 
 The Department of Defense (DoD) releases quarterly updates to the STIG benchmarks. These quarterly updates are released as .zip files. Once downloaded, the .zip files can be uploaded to TIR and made available to all users.
 
-##### View STIG Libraries
+#### View STIG Libraries 
 
 Please navigate to the **Libraries** tab by clicking the **Libraries** button at the top on the page.
 
@@ -249,18 +247,18 @@ Please refer to the table below for more examples.
 </table>
 <p style="text-align: center;"><em>Table 2: STIG Library Naming Conventions</em></p>
 
-#### Import STIG Libraries
+### Import STIG Libraries
 
 To import a new STIG library, please navigate to the **Libraries** page and click the **Import** button inside the **STIG Libraries** section, as seen in Figure 14. For reference, this button can be found in the top right of *Figur*e 14: STIG Libraries.
 
 The **Import** button will open a file navigation window. Please navigate to the .zip file containing the STIG Library and click **Open**.
 
-#### CCI Matrix
+### CCI Matrix
 
 CCI mappings are provided by NIST and updated as necessary. CCI mappings different between SP 800-53 Rev 4 and Rev 5. Keeping this updated ensure more granular mapping of STIGs to applicable CCIs.
 
 ![Figure 32: CCI Matrix](../../assets/admin-guide/image28.png "Figure 32: CCI Matrix")
 
-##### Import CCI Matrix Updates
+#### Import CCI Matrix Updates 
 
 To import a new CCI Matrix, please navigate to the Libraries page and click the **Import** button inside the CCI Matrix section. For reference, this button can be found in the top right of Figure 32: CCI Matrix.

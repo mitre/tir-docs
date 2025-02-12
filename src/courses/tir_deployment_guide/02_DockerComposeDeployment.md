@@ -7,25 +7,28 @@ author: Jason Kerbelis
 headerDepth: 4
 ---
 
-## TIR Deployment Using Docker-Compose
-
 1.  On the target host system, create a target deployment folder (i.e. /opt/tir).
 
 $ mkdir /opt/tir
 
 ![](../../assets/deployment-guide/image1.png "")
 
-1.  Copy over the latest bootstrap script from the pipeline job artifacts. This script is built in the pre-deploy stage of the current TIR gitlab pipeline and can be found in the “Prepare docker-compose” job artifacts (i.e. <https://gitlab.us.lmco.com/e348832/tir/-/jobs/125468922/artifacts/browse>).
+2.  Copy over the latest bootstrap script from the pipeline job artifacts. This script is built in the pre-deploy stage of the current TIR gitlab pipeline and can be found in the “Prepare docker-compose” job artifacts (i.e. <https://gitlab.us.lmco.com/e348832/tir/-/jobs/125468922/artifacts/browse>).
 
 *It is important to use the job artifact script as it compiles text from the other run-time scripts necessary for the TIR deployment.*
 
-1.  Generate the supporting files.
+3.  Generate the supporting files.
 
-    1.  Move the bootstrap\_tir.sh file into the target deployment folder.
+    a.  Move the bootstrap\_tir.sh file into the target deployment folder.
 
-    2.  Set the bootstrap\_tir.sh mode to executable
+    b.  Set the bootstrap\_tir.sh mode to executable
 
-$ chmod +x /opt/tir/bootstrap\_tir.sh
+```
+{
+  $ chmod +x /opt/tir/bootstrap\_tir.sh
+}
+```
+   
 
 1.  From the deployment folder as the working directory, run the executable
 

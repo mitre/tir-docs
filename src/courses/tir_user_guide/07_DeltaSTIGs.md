@@ -7,11 +7,9 @@ author: Jason Kerbelis
 headerDepth: 4
 ---
 
-## Delta STIGs
-
 TIR has the ability to show you which STIG checks have been added or updated when newer STIG Libraries are imported. Users have the option to select the STIG baseline that they want to use for each boundary. When a boundary is moves from older baseline to a newer baseline, there might be some applicable STIG checks that have been added or modified. The following section will show you how to update your STIG baseline and identify the deltas.
 
-### Updating the STIG Baseline for a Boundary
+## Updating the STIG Baseline for a Boundary
 
 1. Import STIG Libraries (see **Import STIG Libaries** section)
 2. Navigate to your boundary’s **parent folder**, press the **three dots** to the right of your boundary, select **Edit**
@@ -20,7 +18,7 @@ TIR has the ability to show you which STIG checks have been added or updated whe
 
 ![Figure 38: Updating STIG Baseline](../../assets/user-guide/Boundaries_STIGBaseline.png "Figure 38: Updating STIG Baseline")
 
-### Viewing Deltas
+## Viewing Deltas
 
 STIG Checks that have been added or modified will receive a status of **Not Reviewed**. To view the statuses, click on the boundary that you just upgraded to a newer STIG baseline. By default, the Boundary View will be selected and you will be able to view the unique findings for your boundary. In the figure below, all of my STIG checks have been reviewed and assigned a status. Meaning, there are no STIG checks with a status of **Not Reviewed**. This can be verified in *Figure X* by looking at the **Finding Status** column and seeing that the Not Reviewed counts (yellow number) are showing zero.
 

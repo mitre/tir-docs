@@ -7,13 +7,11 @@ author: Jason Kerbelis
 headerDepth: 4
 ---
 
-## Creating your Work Environment
-
 The Test Ingest Repository is designed to a store your boundary composition in a hierarchical format. Before you can begin your cyber assessment, you will need to create the path to store your boundary’s scan data.
 
 All instructions within this section will be explicitly from the **Boundaries** interface.
 
-### Creating Companies
+## Creating Companies
 
 The **Boundaries** landing page will show you the highest level of your organizational structure.
 
@@ -39,7 +37,7 @@ Navigate inside of your newly created Company by clicking on the item (ex: Lockh
 
 There is only one restriction to the Company and Boundary structure. That is; Boundaries can NOT exist at the root level of your **Boundaries** tab. A boundary must be placed inside of a Company. Aside from the root level, Boundaries and Company can exist at the same level and Companies can be created to nest Boundaries as much as needed. The role of Companies is limit user access to certain Boundaries. Therefore, when creating your Company and Boundary structures, the users should be organizing their Boundaries in a manner that allows them to control access for their compartmentalized data.
 
-### Creating a Boundary
+## Creating a Boundary
 
 Once you are ready to create a **Boundary**, navigate to an empty Company and click the **\[+\] Boundary** button. A side panel will slide out from right side of the screen (*Figure 18*) that will require you to fill out a couple fields. Once you have completed all of the fields, click the **Save** in the bottom-right of the side panel. See *Table 3* below for more information on the Boundary fields.
 
@@ -123,7 +121,7 @@ At the top of the Boundary Overview table you will find the **Path to your Bound
 
 - The **Control Status** fields are for future development.
 
-### Adding Systems to your Boundary
+## Adding Systems to your Boundary
 
 Navigate to the Boundary that you wish to add a system to. Click the **Add System** sub-tab and view the available options.
 
@@ -181,7 +179,7 @@ There are four options available when adding a system to your boundary:
 
 The **Single** and **Widget** options are manual options for creating a system. The **Folder(s)** and **.Zip Folder** options allow you to create your boundary using your results from your cyber scans.
 
-#### Add Single System
+### Add Single System
 
 The single system add feature will allow to create a new system inside of your boundary. When creating a new system, you will be asked to assign the system a name and click Save. This newly created system will be blank. For this system to be functional, you will need to add STIG checklist(s) and/or scan results.
 
@@ -191,7 +189,7 @@ The remaining fields (Host Name, Host IP Address, Host MAC Address, Host Fully Q
 
 Once you have finished and click **Save**, you will be able to view your new System by clicking the **System View**.
 
-#### Add System via Widget
+### Add System via Widget
 
 The Widget feature is primarily used to duplicate existing Systems inside of your boundary. When adding Systems manually, this tool eliminates some of the manual steps of creating a new System. You’ll have the ability to duplicate as many systems as needed.
 
@@ -207,7 +205,7 @@ Once you are satisfied with the new system(s) click the **Create Systems** butto
 
 Once you have finished and click **Create Systems**, you will be able to view your new System by clicking the **System View**.
 
-#### Add Systems by Importing Scan Results via Folder(s)
+### Add Systems by Importing Scan Results via Folder(s)
 
 This method of adding systems will require scan results from each of the systems in your boundary. This import function supports CKL, CKLB, and XCCDF file formats, and automates the creation of the systems inside of your boundary.
 
@@ -227,7 +225,7 @@ Once all of the files have been uploaded you will be able to view each system in
 
 ![Figure 27: Verifying Successful Creation of Systems](../../assets/user-guide/Boundary_VerifySystemCreation.png "Figure 27: Verifying Successful Creation of Systems")
 
-#### Add Systems by Importing Scan Results via .Zip Folder
+### Add Systems by Importing Scan Results via .Zip Folder
 
 Users have the option to zip up the results and import the .zip folder to create a new system. Each system will need their own .zip folder. Please rename the .zip folder to contain the System Name. In our example below, **Goat\_DC** is the name of the system that we are creating. The **Goat\_DC.zip** folder contains all of our checklist and XCCDF scan data. Please note; if you have multiple .zip folders to upload, they will need to be uploaded one at a time.
 
@@ -235,7 +233,7 @@ Users have the option to zip up the results and import the .zip folder to create
 
 Once all of the files have been uploaded you will be able to view each system in the **System View** tab. For more information about the System View, please see the **System View** section.
 
-### Manually Adding STIGs to a System
+## Manually Adding STIGs to a System
 
 Manually adding STIGs is not necessary if you are able to upload scan results for your system. This feature allows you to grab blank checklists from the STIG Libraries and add them to a system. This could be used for STIG checklists that can not be scanned using automated scanning tools. Before adding STIGs to your systems, be sure that you have the latest STIG Library uploaded. See the **Import STIG Libraries** section for instructions on how to upload the latest STIG Library.
 

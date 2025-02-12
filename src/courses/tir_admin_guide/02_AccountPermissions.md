@@ -7,20 +7,18 @@ author: Jason Kerbelis
 headerDepth: 4
 ---
 
-## Account Permissions
-
 TIR has two types of users, Administrators and Users. Administrators have access to the **Administration,** **Libraries**, and **Boundary** tabs. Users only have access to Libraries and Boundary tabs. TIR is setup as a hierarchical system with Companies and Boundaries. Users can be granted permissions to be Owners, Reviewers, and Editors for
 Companies and Boundaries. A summary of permissions is show in Table 1, below.
 
 ![Table 1: Access Control – User Permissions](../../assets/admin-guide/image1.png "Table 1: Access Control – User Permissions")
 
-### Changing Company and Boundary Permissions
+## Changing Company and Boundary Permissions
 
 To add or modify Company and Boundary permissions, select the 3 buttons to the far right of the Company or Boundary and select Manage Members.
 
 ![Figure 1: Modify Company/Boundary Permissions](../../assets/admin-guide/ModifyCompanyPermissions.png "Figure 1: Modify Company/Boundary Permissions")
 
-#### Adding Users
+### Adding Users
 
 Clicking the **Manage Members** will display the Members dialog box, enter the username in the **Search Users** box.
 
@@ -33,10 +31,10 @@ The Search Users box should provide a list of similar usernames. Select the user
 Once the level of access you wish to grant is selected, click **Add Member**. You will see the account added to the user permissions list for the applicable company/boundary.
 
 ![Figure 4: Member Access – User Added with Co-owner Role](../../assets/admin-guide/ModifyCompanyPermissions4.png "Figure 4: Member Access – User Added with Co-owner Role")
-s
+
 Member access can be edited or removed from this view as well. This process is the same for both Companies and Boundaries.
 
-#### Editing User Permissions
+### Editing User Permissions
 
 Clicking the **Manage Members** will display the Members dialog box. Click the **Edit** button next to the user you wish change permissions for.
 

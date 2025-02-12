@@ -7,15 +7,13 @@ author: Jason Kerbelis
 headerDepth: 4
 ---
 
-## Exports
-
 Once you have uploaded all of the test data on for your boundary, you have the ability to export your data into a **Plan of Action and Milestones (POA&M)**, a **Findings Worksheet**, or a  **Checklist**. To export your data, navigate to your Boundary and click the **Export Data** button (as seen in *Figure 64*).
 
 ![Figure 64: Export Data](../../assets/user-guide/ExportData.png "Figure 64: Export Data")
 
 A popup window will appear, please use the tabs at the top of the popup window to specify the output type (POA&M, Findings, Checklist, STIG Security Assessment, Nessus).
 
-### Plan of Action and Milestones (POA&M)
+## Plan of Action and Milestones (POA&M)
 
 To export a POA&M; navigate to your Boundary, click the **Export Data** button, click the **POAM** tab, then click **Download POAM**.
 
@@ -25,7 +23,7 @@ The POA&M will organize all of the findings data for each security control that 
 
 ![Figure 66: POA&M Export](../../assets/user-guide/image58.jpeg "Figure 66: POA&M Export")
 
-### Findings
+## Findings
 
 To export your data into a **Findings Worksheet**; navigate to your Boundary, click the **Export Data** button, and click the **Findings** tab. The Findings Worksheet allows you to export data based on their finding status. Check the box next to each of finding status’ that you want to export. Then press the **Download** Findings button. For this example, we will export only the **Open** findings for our Boundary.
 
@@ -37,7 +35,7 @@ The findings worksheet will create an item for each Vulnerability/Finding inside
 
 ![Figure 68: Findings Export](../../assets/user-guide/image60.jpeg "Figure 68: Findings Export")
 
-### Checklists
+## Checklists
 
 TIR provides a couple options for exporting checklists. The default option exports separate checklists for each STIG in a folder with the name of the system. The default format for checklist export is .ckl. If you wish to export in .cklb format, selct the **Checklist Version 3 (.cklb)** checkbox. The other option is to create a single checklist, containing all STIGs, for each system. To export a single checklist for each system, select the **Single STIG per Checklist** checkbox before clicking **Download Checklist**.
 
@@ -61,7 +59,7 @@ The output is as follows:
 
 ![Figure 74: Exporting Checklists - Single STIG per Checklist - Files](../../assets/user-guide/image66.png "Figure 74: Exporting Checklists - Single STIG per Checklist - Files")
 
-### STIG Security Assessment
+## STIG Security Assessment
 
 The STIG Security Assessment (SSA) is a spreadsheet that provides passing and failing grades for CCI and Control Compliance. This spreadsheet will export all of the STIG checks in your boundary and map the STIG checks to the corresponding CCI and Control. If there are STIG checks with an Open status, then the corresponding CCI and Control will show a Failing status.
 
@@ -87,7 +85,7 @@ For an example, see *Figure 78* below.
 
 ![Figure 78: SSA - STIG Tabs](../../assets/user-guide/SSA_STIGTabs.png "Figure 78: SSA - STIG Tabs")
 
-### Nessus
+## Nessus
 
 This section is not finished. Need the Nessus csv export to be completed.
 

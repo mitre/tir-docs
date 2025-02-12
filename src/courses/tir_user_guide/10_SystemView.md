@@ -7,9 +7,6 @@ author: Jason Kerbelis
 headerDepth: 4
 ---
 
-
-## System View
-
 The **System View** tab shows you a list of all the systems inside your boundary, the number of STIGs applied to each system, and the total status counts for all of the checks applied to that system.
 
 ![Figure 54: System View Tab](../../assets/user-guide/SystemView.png "Figure 54: System View Tab")

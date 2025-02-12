@@ -6,8 +6,6 @@ author: Jason Kerbelis
 headerDepth: 4
 ---
 
-## Backup and Restore
-
 User will have the ability to backup their entire boundaries. These backups will include all of the STIG Data, Nessus Data, POA&M Fields, Overrides, and much more. The backups are all-encompassing and are exported into a **.json** format.
 
 To backup the data for a boundary, you will first need to navigate inside the boundary. Click the gear icon in the top-right side of the boundary overview page. Then, click **Boundary Export**.

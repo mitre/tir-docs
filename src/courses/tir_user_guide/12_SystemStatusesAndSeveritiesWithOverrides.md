@@ -7,11 +7,9 @@ author: Jason Kerbelis
 headerDepth: 4
 ---
 
-## System Statuses and Severities with Overrides
+The **System** button is available in the **Boundary View** and **Vulnerability View**. From this view you will be able to update the status and severities of each system in your boundary. Additionally, you have the ability to apply overrides for each of these updates. Override rules can be set on findings so that the status you assign to a finding will persist on the selected systems when new test data is imported in the future. This override feature should be used almost exclusively to set statuses of **Not Applicable** for checks that are deemed **Not Applicable** to your boundary. Using this feature to get an override status of **NotAFinding** could cause you to miss a potential open finding in the future if security settings or Group Policy Objects (GPOs) are disabled or removed. 
 
-The **System** button is available in the **Boundary View** and **Vulnerability View**. From this view you will be able to update the status and severities of each system in your boundary. Additionally, you have the ability to apply overrides for each of these updates. Override rules can be set on findings so that the status you assign to a finding will persist on the selected systems when new test data is imported in the future. This override feature should be used almost exclusively to set statuses of **Not Applicable** for checks that are deemed **Not Applicable** to your boundary. Using this feature to get an override status of **NotAFinding** could cause you to miss a potential open finding in the future if security settings or Group Policy Objects (GPOs) are disabled or removed.
-
-### Updating Statuses with Overrides
+## Updating Statuses with Overrides
 
 To view the status of each of your systems, you will need to click the **Systems** button (highlighted in *Figure 52*). A pop-up window will appear that displays all of the systems where this finding applies and the current status for each system.
 
@@ -31,7 +29,7 @@ Once an override has been applied, an icon will be displayed next to the check t
 
 ![Figure 61: Override Icon](../../assets/user-guide/OverrideIcon.png "Figure 61: Override Icon")
 
-### Updating Severities with Overrides
+##  Updating Severities with Overrides
 
 Updating severities works identically like the status updates. To update the severity of a finding, click the **Systems** button, then click the **Severity** tab on the pop-up menu. Select the checkboxes next to each system the you are changing, then update the severity in the drop-down menu for each system. If you want to apply the same severity change to multiple systems, you can check the boxes for the systems you are updating and set the status in the **Select Severity** (at the top of the table) and click **Set**. This will apply the severity to each system that is checked.
 
