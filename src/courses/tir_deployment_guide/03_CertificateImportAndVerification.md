@@ -11,27 +11,21 @@ headerDepth: 4
 
 ![](../../assets/deployment-guide/image8.png "")
 
-1.  Click on the **Configuration** tab
+2.  Click on the **Configuration** tab
 
 ![](../../assets/deployment-guide/image9.png "")
 
-1.  Click on the CA Certificate Choose File box to open a File dialog
-    window and choose your signed x509 formatted .crt file and hit
-    Open - the name of the file will appear in the CA Certificate Text
-    Box
+3.  Click on the CA Certificate Choose File box to open a File dialog window and choose your signed x509 formatted .crt file and hit Open - the name of the file will appear in the CA Certificate Text Box
 
 ![](../../assets/deployment-guide/image10.png "")
 
 ![](../../assets/deployment-guide/image11.png "")
 
-1.  Note name of .crt file shows up in text field.
+4.  Note name of .crt file shows up in text field.
 
 ![](../../assets/deployment-guide/image12.png "")
 
-1.  Click on the Site Certificate Choose File box to open a File dialog
-    window and choose your pem formatted site key and hit Open - the
-    name of the file will appear in the Site Certificate Text Box
-
+5.  Click on the Site Certificate Choose File box to open a File dialog window and choose your pem formatted site key and hit Open - the name of the file will appear in the Site Certificate Text Box
 
 ![](../../assets/deployment-guide/image13.png "")
 
@@ -39,22 +33,19 @@ headerDepth: 4
 
 ![](../../assets/deployment-guide/image15.png "")
 
-1.  Select Import
-
+6.  Select Import
 
 ![](../../assets/deployment-guide/image15.png "")
 
-A modal window saying "Checking Certificates Please Wait... Circle" will
-appear while the files are being loaded.
+-   A modal window saying "Checking Certificates Please Wait... Circle" will appear while the files are being loaded.
 
 ![](../../assets/deployment-guide/image16.png "")
 
-A message underneath the Certificate Import form Text Fields will appear
-saying "Certificate Import Successful!" if the certs are accepted.
+-   A message underneath the Certificate Import form Text Fields will appear saying "Certificate Import Successful!" if the certs are accepted.
 
 ![](../../assets/deployment-guide/image17.png "")
 
-Notes:
+### Notes
 
 -   The nginx listener checks imported certificates for:
 
@@ -66,8 +57,7 @@ Notes:
 
     -   CRT Common Name matching NGINX\_HOST variable value
 
--   If invalid cert files are loaded, an error will appear saying "Error
-    in Cert Response" in the top right of the window
+-   If invalid cert files are loaded, an error will appear saying "Error in Cert Response" in the top right of the window
 
 ![](../../assets/deployment-guide/image18.png "")
 
@@ -77,16 +67,20 @@ Notes:
 
 2.  On the host, in the deployment folder, follow the compose logs
 
+```
 $ docker-compose logs -f
+```
 
-Wait for the database to be migrated/seeded completely and nginx image
-to have all packages installed. You will see messages similar to the
-following – from the tirserver, a lot of migrate messages and then it
-will stop – that means it’s done. If you have a good eye, look for
-**<span class="mark">tirserver | { event: 'up', message: 'applied X
-migrations.' }</span>** messages. There will be a number of migrations
-that are applied during this setup phase.
+Wait for the database to be migrated/seeded completely and nginx image to have all packages installed. You will see messages similar to the following – from the tirserver, a lot of migrate messages and then it will stop – that means it’s done. If you have a good eye, look for
 
+```
+tirserver | { event: 'up', message: 'applied X
+migrations.' }
+```
+
+There will be a number of migrations that are applied during this setup phase.
+
+```
 > …
 >
 > tirserver | Executing (default): INSERT INTO "seeder\_meta" ("name")
@@ -144,11 +138,10 @@ that are applied during this setup phase.
 >
 > tirserver | }
 >
-> **<span class="mark">tirserver | { event: 'up', message: 'applied 7
-> migrations.' }</span>**
-
-1.  Load site in browser using the hostname in .env for NGINX\_HOST. It
-    will be insecure due to its originally Self-signed certs.
+> tirserver | { event: 'up', message: 'applied 7
+> migrations.' }
+```
+3.  Load site in browser using the hostname in .env for NGINX_HOST. It will be insecure due to its originally Self-signed certs.
 
 -   In Chrome, type **“thisisunsafe”**
 
@@ -156,47 +149,43 @@ that are applied during this setup phase.
 
 ![](../../assets/deployment-guide/image19.png "")
 
-1.  Follow the steps in “Steps for TIR Cert Import and Verification”
-    steps 1-3.
+4.  Follow the steps in “Steps for TIR Cert Import and Verification” steps 1-3.
 
-2.  Load invalid certs and note messages in docker-compose logs
+5.  Load invalid certs and note messages in docker-compose logs
 
-    1.  Load non-formatted invalid certs
+    a.  Load non-formatted invalid certs
+    b.  Load non-matching certs
+    c.  Load matching but wrong site certs
 
-    2.  Load non-matching certs
+6.  Load correct certs, see responses and messages in logs
 
-    3.  Load matching but wrong site certs
+Ctrl+C out of docker-compose logs, wait about 15 seconds and run the following command to see status of tirserver and nginxproxy (and postgresdatabase if applicable). Note uptime for proxy is less than other two due to its recent restart.
 
-3.  Load correct certs, see responses and messages in logs
-
-Ctrl+C out of docker-compose logs, wait about 15 seconds and run the
-following command to see status of tirserver and nginxproxy (and
-postgresdatabase if applicable). Note uptime for proxy is less than
-other two due to its recent restart.
-
+```
 $ podman ps
+```
 
 ![](../../assets/deployment-guide/image20.png "")
 
-1.  Close tab and reopen in browser, note cert error is gone – copy
+7.  Close tab and reopen in browser, note cert error is gone – copy
     http://hostname from address bar
 
 ![](../../assets/deployment-guide/image21.png "")
 
-1.  Paste address into a new tab, and go.
+8.  Paste address into a new tab, and go.
 
 ![](../../assets/deployment-guide/image22.png "")
 
-1.  Note site information next to address shows secure connection and
+9.  Note site information next to address shows secure connection and
     Certificate is Valid. Click icon next to web address.
 
 ![](../../assets/deployment-guide/image23.png "")
 
-1.  Click on Connection is secure to view site details
+10.  Click on Connection is secure to view site details
 
 ![](../../assets/deployment-guide/image24.png "")
 
-1.  Click on Certificate is valid to view Certificate information.
+11.  Click on Certificate is valid to view Certificate information.
 
 ![](../../assets/deployment-guide/image25.png "")
 
