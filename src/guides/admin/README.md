@@ -1,4 +1,9 @@
-# Test Ingest Repository (TIR) Privileged User Guide
+---
+order: 1
+title: Test Ingest Repository (TIR) Privileged User Guide
+shortTitle: Test Ingest Repository (TIR) Privileged User Guide
+headerDepth: 3
+---
 
 # Purpose
 

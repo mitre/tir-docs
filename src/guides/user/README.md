@@ -1,4 +1,9 @@
-# Test Ingest Repository (TIR) General User Guide
+---
+order: 1
+title: Test Ingest Repository (TIR) General User Guide
+shortTitle: Test Ingest Repository (TIR) General User Guide
+headerDepth: 3
+---
 
 # References
 
