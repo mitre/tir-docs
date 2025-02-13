@@ -1,7 +1,7 @@
 {
-  "name": "saf-training",
-  "version": "2.0.0",
-  "description": "Training site for the MITRE Security Automation Framework",
+  "name": "tir-docs",
+  "version": "1.0.0",
+  "description": "Documentation for the Lockheed Martin and MITRE Security Automation Framework TIR application",
   "license": "Apache-2.0",
   "type": "module",
   "scripts": {
