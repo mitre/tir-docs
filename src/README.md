@@ -7,10 +7,10 @@ heroText: MITRE SAF Training
 tagline: From Guidance Document to Automated Testing In No Time!
 actions:
   - text: Admin Guide
-    link: /guides/admin
+    link: /guides/admin/
     type: primary
   - text: User Guide
-    link: /guides/user
+    link: /guides/user/
     type: primary
  
 copyright: Apache-2.0 | Copyright © 2024 | The MITRE Corporation | Lockheed Martin
