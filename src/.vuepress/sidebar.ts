@@ -6,16 +6,14 @@ export default sidebar({
     {
       icon: "creative",
       text: "User Guide",
-      link: "tir_user_guide.md",
-      // prefix: "",
+      prefix: "guides/user",
       // children: "structure",
       collapsible: true
     },
     {
       icon: "creative",
       text: "Admin Guide",
-      link: "tir_admin_guide.md",
-      // prefix: "",
+      prefix: "guides/admin",
       // children: "structure",
       collapsible: true
     }
