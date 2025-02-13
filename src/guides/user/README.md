@@ -56,7 +56,7 @@ be granted permissions to be Owners, Reviewers, and Editors for
 Companies and Boundaries. A summary of permissions is show in Table 1,
 below.
 
-<img src="./assets/user-guide/image1.png"
+<img src="/assets/user-guide/image1.png"
 style="width:6.75926in;height:2.93768in" />
 
 ## Login
@@ -66,7 +66,7 @@ page. Enter your **Username** and P**assword**, then review the **IS
 User Agreement** and acknowledge that you have read it by clicking the
 check box. Then, click **Sign in**.
 
-<img src="./assets/user-guide/image2.png"
+<img src="/assets/user-guide/image2.png"
 style="width:2.58022in;height:3.98035in" />
 
 # Interfaces
@@ -85,7 +85,7 @@ aware of. Some examples of displayable content include; recent changes
 to Boundaries and the newest Security Technical Implementation Guide
 (STIG) libraries imported.
 
-<img src="./assets/user-guide/image3.png"
+<img src="/assets/user-guide/image3.png"
 style="width:5.39in;height:4in" />
 
 ## Boundaries
@@ -98,10 +98,10 @@ with those Systems. Permissions can be granted to Companies or
 Boundaries and your permissions will be granted based on the Role of
 your user account (see Table 1 for user permissions).
 
-<img src="./assets/user-guide/image4.png"
+<img src="/assets/user-guide/image4.png"
 style="width:5.43807in;height:2.99442in" />
 
-<img src="./assets/user-guide/image5.png"
+<img src="/assets/user-guide/image5.png"
 style="width:5.45425in;height:2.77258in" />
 
 ## Libraries
@@ -126,7 +126,7 @@ at the top on the page.
 The **Libraries** page will display all of the STIG libraries that have
 been uploaded to your TIR instance.
 
-<img src="./assets/user-guide/image6.png"
+<img src="/assets/user-guide/image6.png"
 style="width:6.5in;height:1.51111in" />
 
 #### Import STIG Libraries
@@ -199,7 +199,7 @@ latest CCI Matrix can be downloaded at the following
 differ between SP 800-53 Rev 4 and Rev 5, and keeping this updated will
 ensure more granular mapping of STIGs to applicable CCIs.
 
-<img src="./assets/user-guide/image7.png"
+<img src="/assets/user-guide/image7.png"
 style="width:6.5in;height:1.62361in" />
 
 #### Import CCI Matrix Updates 
@@ -214,7 +214,7 @@ The **About Page** will let the user know what version of TIR they are
 currently accessing as well as the date that the current version was
 pushed to their environment.
 
-<img src="./assets/user-guide/image8.png"
+<img src="/assets/user-guide/image8.png"
 style="width:6.5in;height:0.87014in" />
 
 ## User Profile
@@ -225,7 +225,7 @@ then click **Your Profile** (as seen in Figure 8). If you wish to sign
 out, you can find the **Sign Out** button located under **Your
 Profile**.
 
-<img src="./assets/user-guide/image9.png"
+<img src="/assets/user-guide/image9.png"
 style="width:4.93282in;height:2.89592in" />
 
 Your **User Profile** will display your **Username**, **Role**, **Hidden
@@ -235,14 +235,14 @@ Password**, **Time zone**, **API Token**, and **Color Theme**.
     right-side of the **Password** row. Enter a **New Password**,
     **Confirm the Password**, and click **Save**.
 
-<img src="./assets/user-guide/image10.png"
+<img src="/assets/user-guide/image10.png"
 style="width:4.99764in;height:3.41665in" />
 
 -   To update your Time zone, select a new time zone from the drop-down
     menu and click **Update** button located on the right-side of the
     **Timezone** row.
 
-<img src="./assets/user-guide/image11.png"
+<img src="/assets/user-guide/image11.png"
 style="width:6.41756in;height:3.02126in" />
 
 -   To create an **API Token**, click the **Create** button on the
@@ -252,14 +252,14 @@ style="width:6.41756in;height:3.02126in" />
     before closing the window. A list of your existing tokens can be
     found in the **Token Table**. Please see Figure 11 as an example.
 
-<img src="./assets/user-guide/image12.png"
+<img src="/assets/user-guide/image12.png"
 style="width:6.09261in;height:2.7215in" />
 
 -   To change the **Coloring Theme** of TIR, choose **System**,
     **Light**, or **Dark** from the **Theme** row. The **System** option
     will use the theme from your client system’s settings.
 
-<img src="./assets/user-guide/image13.png"
+<img src="/assets/user-guide/image13.png"
 style="width:6.5in;height:1.6625in" />
 
 ## Notifications
@@ -272,14 +272,14 @@ will be displayed by the **Bell** icon in the top-right of the screen
 (as seen in Figure 13). A snippet of each unread notification will be
 displayed from this view.
 
-<img src="./assets/user-guide/image14.png"
+<img src="/assets/user-guide/image14.png"
 style="width:2.98958in;height:2.50716in" />
 
 To view all of your notifications, press the **View all** button at the
 bottom of the Notification Bell menu (Figure 13). An example of the full
 notification page can be seen below in Figure 14.
 
-<img src="./assets/user-guide/image15.png"
+<img src="/assets/user-guide/image15.png"
 style="width:6.38304in;height:3.5625in" />
 
 # Creating your Work Environment
@@ -320,7 +320,7 @@ To better illustrate this comparison to the traditional directory
 structure, please refer to the Figure 15: Example Boundary Structures
 below.
 
-<img src="./assets/user-guide/image16.png"
+<img src="/assets/user-guide/image16.png"
 style="width:2.19682in;height:2.45714in" />
 
 With that illustration in mind, let’s get started with creating
@@ -328,7 +328,7 @@ boundaries inside of TIR. Navigate to the **Boundaries** page by
 clicking the **Boundaries** button at the top on the page. To create a
 new company, click the **\[+\] Company** button as shown in Figure 16.
 
-<img src="./assets/user-guide/image17.png"
+<img src="/assets/user-guide/image17.png"
 style="width:6.5in;height:2.37708in" />
 
 A side panel will open from the right of the screen. Enter the name of
@@ -339,7 +339,7 @@ You should now see an item titled with the name you entered into the
 example from Figure 15. We’ll start by creating a company for MITRE 1
 and MITRE 2, as seen in Figure 17.
 
-<img src="./assets/user-guide/image18.png"
+<img src="/assets/user-guide/image18.png"
 style="width:6.55556in;height:2.98343in" />
 
 Navigate inside of your newly created Company by clicking on the item
@@ -423,14 +423,14 @@ Login Page</p></caption>
 
 <span id="_Toc164252356" class="anchor"></span>Figure 1: Login Page
 
-<img src="./assets/user-guide/image19.png"
+<img src="/assets/user-guide/image19.png"
 style="width:4.90508in;height:2.953in" />
 
 Your newly created boundary will appear in the table, as shown in
 *Figure 19: Viewing the list* of created Boundar*y*. To view your
 boundary, click on the item in the table.
 
-<img src="./assets/user-guide/image20.png"
+<img src="/assets/user-guide/image20.png"
 style="width:6.5in;height:2.29167in" />
 
 When a Boundary is selected, you will be taken to the Overview sub-tab
@@ -438,7 +438,7 @@ of the Boundary dashboard. The boundary overview sub-tab will display a
 high-level overview of your systems and the findings associated with
 each system.
 
-<img src="./assets/user-guide/image21.png"
+<img src="/assets/user-guide/image21.png"
 style="width:6.59805in;height:2.85422in" />
 
 -   At the top of the Boundary Overview table you will find the **Path
@@ -482,7 +482,7 @@ style="width:6.59805in;height:2.85422in" />
 Navigate to the Boundary that you wish to add a system to. Click the
 **Add System** sub-tab and view the available options.
 
-<img src="./assets/user-guide/image22.png"
+<img src="/assets/user-guide/image22.png"
 style="width:6.5in;height:2.55in" />
 
 There are five options available when adding a system to your boundary:
@@ -560,7 +560,7 @@ assign the system a name and click Save. This newly created system will
 be blank. For this system to be functional, you will need to add STIG
 checklist(s) and/or scan results.
 
-<img src="./assets/user-guide/image23.png"
+<img src="/assets/user-guide/image23.png"
 style="width:3.66851in;height:3.05111in" />
 
 ### Add System via Widget
@@ -590,7 +590,7 @@ Once you are satisfied with the new system(s) click the **Create
 Systems** button. For an example of using the widget tool, see Figure
 23.
 
-<img src="./assets/user-guide/image24.png"
+<img src="/assets/user-guide/image24.png"
 style="width:6.04448in;height:3.19918in" />
 
 ### Add Systems by Importing Scan Results via Folder(s)
@@ -607,7 +607,7 @@ inside of your boundary folder and create a folder for each system in
 your boundary. Inside of each of these system folders, place all of the
 cyber scan data (.ckl and .xccdf files) associated to that system.
 
-<img src="./assets/user-guide/image25.png"
+<img src="/assets/user-guide/image25.png"
 style="width:5.40293in;height:2.84924in" />
 
 To create systems by using cyber scan data, navigate inside of your
@@ -620,21 +620,21 @@ should be looking at all of the folders with your system names and the
 parent folder should be displayed in the **Folder** field directly above
 the **Upload** button.
 
-<img src="./assets/user-guide/image26.png"
+<img src="/assets/user-guide/image26.png"
 style="width:6.02739in;height:2.76513in" />
 
 Once you click the **Upload** button, you will be prompted to confirm
 that you wish to upload all of your results. Click **Upload** on the
 prompt.
 
-<img src="./assets/user-guide/image27.png"
+<img src="/assets/user-guide/image27.png"
 style="width:4.18863in;height:1.57754in" />
 
 Once all of the files have been uploaded you will be able to view each
 system in the **System View** tab. For more information about the System
 View, please see Section 8.2: System View.
 
-<img src="./assets/user-guide/image28.png"
+<img src="/assets/user-guide/image28.png"
 style="width:4.48267in;height:3.3098in" />
 
 ### Add Systems by Importing Scan Results via .Zip Folder
@@ -647,7 +647,7 @@ below, **Goat\_DC** is the name of the system that we are creating. The
 data. Please note; if you have multiple .zip folders to upload, they
 will need to be uploaded one at a time.
 
-<img src="./assets/user-guide/image29.png"
+<img src="/assets/user-guide/image29.png"
 style="width:6.5in;height:2.75in" />
 
 ### Add Systems by Importing Scan Results via CSV File
@@ -661,13 +661,13 @@ This feature is planned for a later release.
 To modify Company permissions select the 3 buttons to the far right of
 the Company and select Manage Users.
 
-<img src="./assets/user-guide/image30.png"
+<img src="/assets/user-guide/image30.png"
 style="width:5.0939in;height:2.68845in" />
 
 -   Then the Members dialog box comes up, enter the username in the
     **Search Users** box.
 
-<img src="./assets/user-guide/image31.png"
+<img src="/assets/user-guide/image31.png"
 style="width:4.85911in;height:2.09731in" />
 
 -   The Search Users box should provide a list of similar usernames.
@@ -676,7 +676,7 @@ style="width:4.85911in;height:2.09731in" />
 -   Once selected click the down arrow next to Co-Owner and select the
     level of permission you wish to grant.
 
-<img src="./assets/user-guide/image32.png"
+<img src="/assets/user-guide/image32.png"
 style="width:5.48201in;height:2.6104in" />
 
 -   Once the level of access you wish to grant is selected, Click **Add
@@ -685,7 +685,7 @@ style="width:5.48201in;height:2.6104in" />
 -   You will see the account added to the user permissions list for the
     applicable company.
 
-<img src="./assets/user-guide/image33.png"
+<img src="/assets/user-guide/image33.png"
 style="width:5.28126in;height:2.68916in" />
 
 Member access can be edited or removed from this view as well.
@@ -695,13 +695,13 @@ Member access can be edited or removed from this view as well.
 To modify Boundary permissions select the 3 buttons to the far right of
 the Company and select Manage Users.
 
-<img src="./assets/user-guide/image34.png"
+<img src="/assets/user-guide/image34.png"
 style="width:5.48769in;height:2.81186in" />
 
 -   Then the Members dialog box comes up, enter the username in the
     **Search Users** box.
 
-<img src="./assets/user-guide/image35.png"
+<img src="/assets/user-guide/image35.png"
 style="width:5.2146in;height:2.79616in" />
 
 The Search Users box should provide a list of similar usernames. Select
@@ -710,7 +710,7 @@ the user account you wish to add.
 Once selected click the down arrow next to Co-Owner and select the level
 of permission you wish to grant.
 
-<img src="./assets/user-guide/image36.png"
+<img src="/assets/user-guide/image36.png"
 style="width:6.01658in;height:2.94723in" />
 
 Once the level of access you wish to grant is selected, Click **Add
@@ -719,7 +719,7 @@ Member**
 You will see the account added to the user permissions list for the
 applicable company.
 
-<img src="./assets/user-guide/image37.png"
+<img src="/assets/user-guide/image37.png"
 style="width:6.5in;height:3.52153in" />
 
 Member access can be edited or removed from this view as well.
@@ -730,7 +730,7 @@ Once your Boundary has been created, you will need to import your test
 data into your Boundary. To do this, navigate to your Boundary, click on
 the System you wish to upload test data of.
 
-<img src="./assets/user-guide/image38.png"
+<img src="/assets/user-guide/image38.png"
 style="width:6.5in;height:1.61944in" />
 
 The two buttons found in the screenshot above will be used to upload
@@ -752,13 +752,13 @@ Click on the STIG to add it to the **Applied STIGs** section at the
 bottom of the panel. Once you’ve added all of your STIGs, click the
 **Save** button at the very bottom of the panel.
 
-<img src="./assets/user-guide/image39.png"
+<img src="/assets/user-guide/image39.png"
 style="width:2.72903in;height:5.11619in" />
 
 Once the STIGs have been added, you will see them displayed in the
 Boundary page. See Figure 39 below for an example.
 
-<img src="./assets/user-guide/image40.png"
+<img src="/assets/user-guide/image40.png"
 style="width:6.07049in;height:2.5138in" />
 
 ## Adding Checklists and XCCDF Results Data to a System
@@ -783,14 +783,14 @@ data and click **Upload**. The actual files will not be visible in the
 file navigation window so please verify that the result data is present
 in a separate window (as seen in Figure 40).
 
-<img src="./assets/user-guide/image41.png"
+<img src="/assets/user-guide/image41.png"
 style="width:6.5in;height:3.10556in" />
 
 Notice that we only uploaded four STIG benchmarks in Section 7.1 but we
 uploaded results of nine different STIG checklists. All nine checklists
 will be uploaded to your System, as seen below in Figure 41.
 
-<img src="./assets/user-guide/image42.png"
+<img src="/assets/user-guide/image42.png"
 style="width:5.84346in;height:3.91624in" />
 
 ### Import Results via Zip Folder
@@ -801,7 +801,7 @@ the **\[+\] Results** button then click **Import ZIP Folder**. A file
 navigation window will be displayed. Navigate to the .zip folder that
 contains your test data for your system, then press **Open**.
 
-<img src="./assets/user-guide/image43.png"
+<img src="/assets/user-guide/image43.png"
 style="width:6.5in;height:2.03542in" />
 
 Upon a successful upload of test data, the test data will be displayed
@@ -816,7 +816,7 @@ file navigation window will be displayed. Navigate to your checklist
 and/or XCCDF data and select each file that you would like to upload and
 click **Open**.
 
-<img src="./assets/user-guide/image44.png"
+<img src="/assets/user-guide/image44.png"
 style="width:6.5in;height:2.33542in" />
 
 Upon a successful upload of test data, the test data will be displayed
@@ -835,7 +835,7 @@ and will allow you to view all checks related to that individual system.
 The access these views, navigate to your Boundary and click the
 **Boundary View** or **System View** (as seen in Figure 41).
 
-<img src="./assets/user-guide/image45.png"
+<img src="/assets/user-guide/image45.png"
 style="width:5.96677in;height:2.13809in" />
 
 **Figure 41: Boundary and System Views**
@@ -855,7 +855,7 @@ Once you click the **Boundary View** tab, you will see a unique list of
 all the STIG checklists that have been added to systems in your boundary
 (as seen below in Figure 42).
 
-<img src="./assets/user-guide/image46.png"
+<img src="/assets/user-guide/image46.png"
 style="width:4.62857in;height:3.47143in" />
 
 **Figure 42: Boundary View Tab**
@@ -868,7 +868,7 @@ Once you open the STIG View, you will see a variety of information
 related to the Boundary, STIG Library, and STIG Check. Each item is
 labeled below in Figure 43.
 
-<img src="./assets/user-guide/image47.png"
+<img src="/assets/user-guide/image47.png"
 style="width:5in;height:3.83333in" />
 
 **Figure 43: STIG View Data Key**
@@ -881,7 +881,7 @@ When filters are selected, they will be colorized. For example, Figure
 44 is filtering so that only STIG checks with a status of **Open** (red)
 or **Not\_Reviewed** (yellow) will be displayed.
 
-<img src="./assets/user-guide/image48.png"
+<img src="/assets/user-guide/image48.png"
 style="width:1.8231in;height:2.0625in" />
 
 **Figure 44: Filtering by Status**
@@ -894,7 +894,7 @@ We can see that this check is pulling data from four separate systems in
 our boundary: **Goat\_DC**, **Goat\_WS2**, **Goat\_WS3**, and
 **Goat\_WS1**.
 
-<img src="./assets/user-guide/image49.png"
+<img src="/assets/user-guide/image49.png"
 style="width:5in;height:2.14583in" />
 
 **Figure 45: Finding Details and Comments inside of the Boundary View**
@@ -902,7 +902,7 @@ style="width:5in;height:2.14583in" />
 To view the status of each one of those systems, you will need to click
 the **Systems** button (highlighted in Figure 46).
 
-<img src="./assets/user-guide/image50.png"
+<img src="/assets/user-guide/image50.png"
 style="width:5in;height:1.19792in" />
 
 **Figure 46: Systems Button**
@@ -910,7 +910,7 @@ style="width:5in;height:1.19792in" />
 A pop-up window will appear that displays all of the systems where this
 STIG check applies and the current status for each system.
 
-<img src="./assets/user-guide/image51.png"
+<img src="/assets/user-guide/image51.png"
 style="width:3.7381in;height:2.68676in" />
 
 **Figure 47: System Status and Overrides**
@@ -957,7 +957,7 @@ directly into the POAM export.
 After you’ve completed filling out the **POAM Fields** for you STIG
 check, click the **Save** button at the bottom of the page.
 
-<img src="./assets/user-guide/image52.png"
+<img src="/assets/user-guide/image52.png"
 style="width:3.73958in;height:5in" />
 
 **Figure 48: POAM Fields**
@@ -968,7 +968,7 @@ The **System View** tab shows you a list of all the systems inside your
 boundary, the number of STIGs applied to each system, and the total
 status counts for all of the checks applied to that system.
 
-<img src="./assets/user-guide/image53.png"
+<img src="/assets/user-guide/image53.png"
 style="width:5in;height:1.76042in" />
 
 **Figure 49: System View Tab**
@@ -978,7 +978,7 @@ the system. The next page will show you the list of STIGs that apply to
 that system. This page will provide versions, dates, and statuses for
 each STIG. Click on one of the STIGs to open the **STIG View**.
 
-<img src="./assets/user-guide/image54.png"
+<img src="/assets/user-guide/image54.png"
 style="width:5in;height:3.05208in" />
 
 **Figure 50: System View STIG List**
@@ -994,7 +994,7 @@ Unlike the **Boundary View**, the **System View** allows you to edit the
 each STIG check, use the status drop-down menu in the upper-right (seen
 in Figure 51).
 
-<img src="./assets/user-guide/image55.png"
+<img src="/assets/user-guide/image55.png"
 style="width:5in;height:3.51042in" />
 
 **Figure 51: Changing the Status from the System View**
@@ -1007,13 +1007,13 @@ Milestones (POA&M)**, a **Findings Worksheet**, or a **Checklist**. To
 export your data, navigate to your Boundary and click the **Export
 Data** button (as seen in Figure 44).
 
-<img src="./assets/user-guide/image56.png"
+<img src="/assets/user-guide/image56.png"
 style="width:6.5in;height:2.42153in" />
 
 A popup window will appear, please use the tabs at the top of the popup
 window to specify the output type (POAM, Findings, Checklist).
 
-<img src="./assets/user-guide/image57.png"
+<img src="/assets/user-guide/image57.png"
 style="width:6.5in;height:1.74444in" />
 
 ## Plan of Action and Milestones (POA&M)
@@ -1024,7 +1024,7 @@ button, click the **POAM** tab, then click **Download POAM**.
 The POA&M will organize all of the findings data for each security
 control that is not being met.
 
-<img src="./assets/user-guide/image58.jpeg"
+<img src="/assets/user-guide/image58.jpeg"
 style="width:6.5in;height:1.08125in" />
 
 ## Findings
@@ -1036,7 +1036,7 @@ finding status. Check the box next to each of finding status’ that you
 want to export. Then press the **Download** Findings button. For this
 example, we will export only the **Open** findings for our Boundary.
 
-<img src="./assets/user-guide/image59.png"
+<img src="/assets/user-guide/image59.png"
 style="width:6.32819in;height:3.44603in" />
 
 A file will be downloaded to your computer titled **Findings \*.xlsx**.
@@ -1047,7 +1047,7 @@ The findings worksheet will create an item for each
 Vulnerability/Finding inside of your Boundary and list all of the
 Systems Affected by that vulnerability.
 
-<img src="./assets/user-guide/image60.jpeg"
+<img src="/assets/user-guide/image60.jpeg"
 style="width:6.5in;height:1.25903in" />
 
 ## Checklists
@@ -1060,27 +1060,27 @@ STIGs, in a folder with the name of the system.
 For the default option, select **Export Data**, select the **Checklist
 tab**, and click **Download Checklist.**
 
-<img src="./assets/user-guide/image61.png"
+<img src="/assets/user-guide/image61.png"
 style="width:6.5in;height:2.26111in" />
 
 The output should look like the following:
 
-<img src="./assets/user-guide/image62.png"
+<img src="/assets/user-guide/image62.png"
 style="width:6.5in;height:1.6625in" />
 
-<img src="./assets/user-guide/image63.png"
+<img src="/assets/user-guide/image63.png"
 style="width:6.5in;height:1.99722in" />
 
 For a single checklist per system, select the **Single STIG per
 checklist** box.
 
-<img src="./assets/user-guide/image64.png"
+<img src="/assets/user-guide/image64.png"
 style="width:6.5in;height:2.08681in" />
 
 The output is as follows:
 
-<img src="./assets/user-guide/image65.png"
+<img src="/assets/user-guide/image65.png"
 style="width:6.5in;height:1.85347in" />
 
-<img src="./assets/user-guide/image66.png"
+<img src="/assets/user-guide/image66.png"
 style="width:6.5in;height:1.00694in" />

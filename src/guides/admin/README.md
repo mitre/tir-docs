@@ -23,7 +23,7 @@ be granted permissions to be Owners, Reviewers, and Editors for
 Companies and Boundaries. A summary of permissions is show in Table 1,
 below.
 
-<img src="./assets/admin-guide/image1.png"
+<img src="/assets/admin-guide/image1.png"
 style="width:5.41685in;height:2.35425in" />
 
 # Configuration
@@ -35,7 +35,7 @@ password will be provided. Enter your admin@tir.local and the initial
 **Password**, then review the **IS User Agreement** and acknowledge that
 you have read it by clicking the check box. Then, click **Sign in**.
 
-<img src="./assets/admin-guide/image2.png"
+<img src="/assets/admin-guide/image2.png"
 style="width:3.4621in;height:2.99749in" />
 
 -   After successfully logging in for the first time, please change the
@@ -44,17 +44,17 @@ style="width:3.4621in;height:2.99749in" />
 -   Click the Profile Icon in the upper right corner of the welcome
     screen.
 
-<img src="./assets/admin-guide/image3.png"
+<img src="/assets/admin-guide/image3.png"
 style="width:6.5in;height:2.44514in" />
 
 -   Click Your **Profile** to bring up the TIR Admin profile.
 
-<img src="./assets/admin-guide/image4.png"
+<img src="/assets/admin-guide/image4.png"
 style="width:4.66403in;height:2.82981in" />
 
 -   In the **Password** row select **Change**
 
-<img src="./assets/admin-guide/image5.png"
+<img src="/assets/admin-guide/image5.png"
 style="width:4.77808in;height:3.26656in" />
 
 -   Enter **New password**
@@ -76,7 +76,7 @@ The **Administration** tab is only available through Administrators. You
 access the **Administration** tab by selecting **Administration** at the
 top center of the web interface.
 
-<img src="./assets/admin-guide/image6.png"
+<img src="/assets/admin-guide/image6.png"
 style="width:3.23721in;height:2.36877in" />
 
 The four major **Administration** tab functions are configuration,
@@ -84,7 +84,7 @@ Notifications, Users, and Logs.
 
 A view of the **Administration** tab is below:
 
-<img src="./assets/admin-guide/image7.png"
+<img src="/assets/admin-guide/image7.png"
 style="width:3.17226in;height:2.34293in" />
 
 #### Configuring LDAP
@@ -97,7 +97,7 @@ Guide for LDAP configuration procedures.
 Within the **Configuration** section an Administrator can change
 standard **Terminology** and import a **CA Certificate.**
 
-<img src="./assets/admin-guide/image8.png"
+<img src="/assets/admin-guide/image8.png"
 style="width:3.94403in;height:2.00994in" />
 
 ##### Certificate Import and Verification
@@ -107,46 +107,46 @@ style="width:3.94403in;height:2.00994in" />
     hit **Open** - the name of the file will appear in the **CA
     Certificate** Text Box
 
-<img src="./assets/admin-guide/image9.png"
+<img src="/assets/admin-guide/image9.png"
 style="width:3.82994in;height:3in" />
 
-<img src="./assets/admin-guide/image10.png"
+<img src="/assets/admin-guide/image10.png"
 style="width:3.99504in;height:3.12932in" />
 
 -   Note name of .crt file shows up in text field.
 
-<img src="./assets/admin-guide/image11.png"
+<img src="/assets/admin-guide/image11.png"
 style="width:4.31969in;height:3.38362in" />
 
 -   Click on the **Site Certificate** Choose File box to open a File
     dialog window and choose your .pem formatted site key and hit Open -
     the name of the file will appear in the Site Certificate Text Box
 
-<img src="./assets/admin-guide/image12.png"
+<img src="/assets/admin-guide/image12.png"
 style="width:4.18862in;height:3.28095in" />
 
-<img src="./assets/admin-guide/image13.png"
+<img src="/assets/admin-guide/image13.png"
 style="width:4.57162in;height:3.58095in" />
 
-<img src="./assets/admin-guide/image14.png"
+<img src="/assets/admin-guide/image14.png"
 style="width:4.64457in;height:3.63809in" />
 
 -   Select **Import**
 
-<img src="./assets/admin-guide/image14.png"
+<img src="/assets/admin-guide/image14.png"
 style="width:4.99057in;height:3.90912in" />
 
 -   A modal window saying "Checking Certificates Please Wait... Circle"
     will appear while the files are being loaded.
 
-<img src="./assets/admin-guide/image15.png"
+<img src="/assets/admin-guide/image15.png"
 style="width:4.45003in;height:3.48571in" />
 
 -   A message underneath the Certificate Import form Text Fields will
     appear saying "Certificate Import Successful!" if the certs are
     accepted.
 
-<img src="./assets/admin-guide/image16.png"
+<img src="/assets/admin-guide/image16.png"
 style="width:4.07103in;height:3.18884in" />
 
 Notes:
@@ -164,7 +164,7 @@ Notes:
 -   If invalid certificate files are loaded, an error will appear saying
     **Error in Cert Response** in the top right of the window
 
-<img src="./assets/admin-guide/image17.png"
+<img src="/assets/admin-guide/image17.png"
 style="width:4.46984in;height:3.09317in" />
 
 #### Notifications
@@ -182,21 +182,21 @@ Notifications are automatically generated at login for the following:
 The **User** functions allow an administrator to add local User or
 Administrator accounts and change passwords.
 
-<img src="./assets/admin-guide/image18.png"
+<img src="/assets/admin-guide/image18.png"
 style="width:4.90757in;height:2.19478in" />
 
 ##### Adding a local Account
 
 To add a local account, select **Add Users**
 
-<img src="./assets/admin-guide/image18.png"
+<img src="/assets/admin-guide/image18.png"
 style="width:4.98081in;height:2.22753in" />
 
 This will bring up the **Add User** dialog Box. Complete the relevant
 data, to include **First Name**, **Last Name**, **Email Address**
 (username), set a unique password, and change the time zone.
 
-<img src="./assets/admin-guide/image19.png"
+<img src="/assets/admin-guide/image19.png"
 style="width:4.08792in;height:2.95981in" />
 
 ##### Change User Password
@@ -204,14 +204,14 @@ style="width:4.08792in;height:2.95981in" />
 To change a user’s password. Select the 3 buttons to the far right of
 the user account and select Edit.
 
-<img src="./assets/admin-guide/image20.png"
+<img src="/assets/admin-guide/image20.png"
 style="width:5.13895in;height:2.12915in" />
 
 The **Edit User** dialog box will appear on the right side of the
 screen. Enter a value for **New Password** and **Confirm Password** and
 click **Save**.
 
-<img src="./assets/admin-guide/image21.png"
+<img src="/assets/admin-guide/image21.png"
 style="width:1.80118in;height:6.80365in" />
 
 ##### Unlock Account
@@ -225,7 +225,7 @@ the Administration tab.
 
 To setup logging, select **Logs** from the **Administration** tab menu.
 
-<img src="./assets/admin-guide/image26.png"
+<img src="/assets/admin-guide/image26.png"
 style="width:5.76195in;height:3.66154in" />
 
 -   **PATH** is the local logging path.
@@ -261,7 +261,7 @@ button at the top on the page.
 Note: The **Libraries** tab will display all of the STIG libraries that
 have been uploaded to your TIR instance.
 
-<img src="./assets/admin-guide/image27.png"
+<img src="/assets/admin-guide/image27.png"
 style="width:6.5in;height:1.51111in" />
 
 Once imported, the STIG libraries will follow a standardized naming
@@ -333,7 +333,7 @@ CCI mappings are provided by NIST and updated as necessary. CCI mappings
 different between SP 800-53 Rev 4 and Rev 5. Keeping this updated ensure
 more granular mapping of STIGs to applicable CCIs.
 
-<img src="./assets/admin-guide/image28.png"
+<img src="/assets/admin-guide/image28.png"
 style="width:6.5in;height:1.62361in" />
 
 #### Import CCI Matrix Updates 
@@ -350,13 +350,13 @@ Matrix.
 To modify Company permissions select the 3 buttons to the far right of
 the Company and select Manage Users.
 
-<img src="./assets/admin-guide/image29.png"
+<img src="/assets/admin-guide/image29.png"
 style="width:5.0939in;height:2.68845in" />
 
 -   Then the Members dialog box comes up, enter the username in the
     **Search Users** box.
 
-<img src="./assets/admin-guide/image30.png"
+<img src="/assets/admin-guide/image30.png"
 style="width:4.85911in;height:2.09731in" />
 
 -   The Search Users box should provide a list of similar usernames.
@@ -365,7 +365,7 @@ style="width:4.85911in;height:2.09731in" />
 -   Once selected click the down arrow next to Co-Owner and select the
     level of permission you wish to grant.
 
-<img src="./assets/admin-guide/image31.png"
+<img src="/assets/admin-guide/image31.png"
 style="width:5.48201in;height:2.6104in" />
 
 -   Once the level of access you wish to grant is selected, Click **Add
@@ -374,7 +374,7 @@ style="width:5.48201in;height:2.6104in" />
 -   You will see the account added to the user permissions list for the
     applicable company.
 
-<img src="./assets/admin-guide/image32.png"
+<img src="/assets/admin-guide/image32.png"
 style="width:5.28126in;height:2.68916in" />
 
 Member access can be edited or removed from this view as well.
@@ -384,13 +384,13 @@ Member access can be edited or removed from this view as well.
 To modify Boundary permissions select the 3 buttons to the far right of
 the Company and select Manage Users.
 
-<img src="./assets/admin-guide/image33.png"
+<img src="/assets/admin-guide/image33.png"
 style="width:5.48769in;height:2.81186in" />
 
 -   Then the Members dialog box comes up, enter the username in the
     **Search Users** box.
 
-<img src="./assets/admin-guide/image34.png"
+<img src="/assets/admin-guide/image34.png"
 style="width:5.2146in;height:2.79616in" />
 
 -   The Search Users box should provide a list of similar usernames.
@@ -399,7 +399,7 @@ style="width:5.2146in;height:2.79616in" />
 -   Once selected click the down arrow next to Co-Owner and select the
     level of permission you wish to grant.
 
-<img src="./assets/admin-guide/image35.png"
+<img src="/assets/admin-guide/image35.png"
 style="width:6.01658in;height:2.94723in" />
 
 Once the level of access you wish to grant is selected, Click **Add
@@ -408,7 +408,7 @@ Member**
 You will see the account added to the user permissions list for the
 applicable company.
 
-<img src="./assets/admin-guide/image36.png"
+<img src="/assets/admin-guide/image36.png"
 style="width:6.5in;height:3.52153in" />
 
 Member access can be edited or removed from this view as well.
