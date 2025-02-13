@@ -10,8 +10,6 @@ export default hopeTheme({
     url: "https://saf.mitre.org/applications/tir/",
   },
 
-  iconAssets: "//at.alicdn.com/t/font_2410206_h4r1xw8ppng.css",
-  iconPrefix: "iconfont icon-",
   logo: "/logo.svg",
   repo: "mitre/tir-docs",
   docsDir: "src",
@@ -25,11 +23,50 @@ export default hopeTheme({
     },
   },
 
+  markdown: {
+    align: true,
+    attrs: true,
+    card: true,
+    codetabs: true,
+    demo: true,
+    figure: true,
+    gfm: true,
+    imgLazyload: true,
+    imgSize: true,
+    include: true,
+    mark: true,
+    mermaid: true,
+    playground: {
+      presets: ["ts", "vue"],
+    },
+    stylize: [
+      {
+        matcher: "Recommended",
+        replacer: ({ tag }) => {
+          if (tag === "em")
+            return {
+              tag: "Badge",
+              attrs: { type: "tip" },
+              content: "Recommended",
+            };
+        },
+      },
+    ],
+    sub: true,
+    sup: true,
+    tabs: true,
+    vPre: true,
+  },
+
   metaLocales: {
     editLink: "Edit this page on GitHub",
   },
 
   plugins: {
+    icon: {
+      assets: "//at.alicdn.com/t/font_2410206_h4r1xw8ppng.css",
+      prefix: "iconfont icon-",
+    },
     // You should generate and use your own comment service
     // comment: {
 
@@ -40,73 +77,6 @@ export default hopeTheme({
     //   categoryId: "DIC_kwDOH3sAZc4CRApY",
     //   mapping: "pathname"
     // },
-
-    // All features are enabled for demo, only preserve features you need here
-    mdEnhance: {
-      align: true,
-      attrs: true,
-      card: true,
-
-      // install chart.js before enabling it
-      // chart: true,
-
-      codetabs: true,
-      demo: true,
-
-      // install echarts before enabling it
-      // echarts: true,
-
-      figure: true,
-
-      // install flowchart.ts before enabling it
-      // flowchart: true,
-
-      gfm: true,
-      imgLazyload: true,
-      imgSize: true,
-      include: true,
-
-      // install katex before enabling it
-      // katex: true,
-
-      // install mathjax-full before enabling it
-      // mathjax: true,
-
-      mark: true,
-
-      // install mermaid before enabling it
-      mermaid: true,
-
-      playground: {
-        presets: ["ts", "vue"],
-      },
-
-      // install reveal.js before enabling it
-      revealJs: {
-        plugins: ["highlight", "math", "search", "notes", "zoom"],
-      },
-
-      stylize: [
-        {
-          matcher: "Recommended",
-          replacer: ({ tag }) => {
-            if (tag === "em")
-              return {
-                tag: "Badge",
-                attrs: { type: "tip" },
-                content: "Recommended",
-              };
-          },
-        },
-      ],
-      sub: true,
-      sup: true,
-      tabs: true,
-      vPre: true,
-
-      // install @vue/repl before enabling it
-      // vuePlayground: true,
-    },
 
     // uncomment these if you want a pwa
     // pwa: {
