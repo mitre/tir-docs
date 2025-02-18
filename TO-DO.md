@@ -1,7 +1,6 @@
 # TO-DO List
 
-1. Finish Home Page
-2. Create page(s) for training videos so users don't have to navigate away from the training docs
+1. Fix the icons for the courses
 3. Add reference links when referencing figures in the document
 4. Vuepress combine plugin (to print the guide into a single file)
 5. Configure the theme to be LM colors

@@ -20,6 +20,9 @@ export default hopeTheme({
     icon: {
       assets: "//at.alicdn.com/t/font_2410206_h4r1xw8ppng.css",
       prefix: "iconfont icon-",
+    },
+    components: {
+      components: ["VidStack"]
     }
   },
   headerDepth: 4,

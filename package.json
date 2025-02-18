@@ -23,6 +23,7 @@
     "mermaid": "^11.4.0",
     "sass": "^1.83.4",
     "start-server-and-test": "^2.0.8",
+    "vidstack": "^1.12.13",
     "vue": "^3.5.13",
     "vuepress": "2.0.0-rc.19",
     "vuepress-theme-hope": "2.0.0-rc.70"

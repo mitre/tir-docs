@@ -17,7 +17,7 @@ actions:
     type: primary
   - text: Training Videos
     type: primary
-    link: https://www.youtube.com/playlist?list=PLm1Nyfu8s-DeXpRg8B5bqnrLH7HXetzWn
+    link: /courses/tir_training_videos/
 
 
 highlights:
