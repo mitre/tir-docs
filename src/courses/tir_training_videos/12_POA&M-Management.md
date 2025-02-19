@@ -1,6 +1,6 @@
 ---
 order: 12
-next: 13_Delta STIGs.md
+next: 13_DeltaSTIGs.md
 title: POA&M Management
 shortTitle: 11. POA&M Management
 author: Jason Kerbelis

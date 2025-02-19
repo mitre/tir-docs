@@ -1,6 +1,6 @@
 ---
 order: 16
-next: 17_Administration Tab.md
+next: 17_AdministrationTab.md
 title: Admin Access Permissions
 shortTitle: 15. Admin Access Permissions
 author: Jason Kerbelis

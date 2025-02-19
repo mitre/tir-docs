@@ -1,6 +1,6 @@
 ---
 order: 9
-next: 10_Vulnerability View.md
+next: 10_VulnerabilityView.md
 title: Boundary View
 shortTitle: 8. Boundary View
 author: Jason Kerbelis

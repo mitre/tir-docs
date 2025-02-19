@@ -1,6 +1,6 @@
 ---
 order: 5
-next: 06_Library Tab.md
+next: 06_LibraryTab.md
 title: Navigation
 shortTitle: 4. Navigation
 author: Jason Kerbelis

@@ -1,6 +1,6 @@
 ---
 order: 6
-next: 07_Creating Companies and Boundaries.md
+next: 07_CreatingCompaniesAndBoundaries.md
 title: Library Tab
 shortTitle: 5. Library Tab
 author: Jason Kerbelis

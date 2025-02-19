@@ -1,6 +1,6 @@
 ---
 order: 8
-next: 09_Boundary View.md
+next: 09_BoundaryView.md
 title: Adding Systems
 shortTitle: 7. Adding Systems
 author: Jason Kerbelis

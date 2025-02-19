@@ -1,6 +1,6 @@
 ---
 order: 7
-next: 08_Adding Systems.md
+next: 08_AddingSystems.md
 title: Creating Companies and Boundaries
 shortTitle: 6. Creating Companies and Boundaries
 author: Jason Kerbelis
