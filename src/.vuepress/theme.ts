@@ -20,7 +20,6 @@ export default hopeTheme({
   displayFooter: true,
 
   markdown: {
-    //alert: true,
     align: true,
     attrs: true,
     component: true,
