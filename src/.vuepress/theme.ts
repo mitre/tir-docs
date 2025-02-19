@@ -15,46 +15,26 @@ export default hopeTheme({
   docsDir: "src",
   navbar,
   sidebar,
-  footer: "Apache-2.0 | Copyright © 2022 - The MITRE Corporation",
+  footer: '<div style="padding-left:12px;padding-right:32px;"><p style="font-size:20px;font-weight:500;text-align:left;vertical-align:middle;"><a href="https://saf.mitre.org" alt="The MITRE SAF"><img src="./logo.svg" style="width:35px;vertical-align:middle;padding-right:12px;" alt="MITRE SAF Training">MITRE SAF</a></p><div style="display:flex;justify-content:center;align-items:center;"><a href="https://www.netlify.com"><img src="https://www.netlify.com/v3/img/components/netlify-color-accent.svg" style="width:80px;position:relative;top:50%;transform:translateY(-50%);" alt="Deploys by Netlify" /></a></div></div>',
+  copyright: "Apache-2.0 | Copyright © 2025 | The MITRE Corporation | Lockheed Martin",
   displayFooter: true,
-  encrypt: {
-    config: {
-      "/demo/encrypt.html": ["1234"],
-    },
-  },
 
   markdown: {
     align: true,
     attrs: true,
-    card: true,
-    codetabs: true,
-    demo: true,
+    component: true,
     figure: true,
     gfm: true,
     imgLazyload: true,
     imgSize: true,
     include: true,
     mark: true,
-    mermaid: true,
-    playground: {
-      presets: ["ts", "vue"],
+    imgMark: {
+      light: ["light"],
+      dark: ["dark"],
     },
-    stylize: [
-      {
-        matcher: "Recommended",
-        replacer: ({ tag }) => {
-          if (tag === "em")
-            return {
-              tag: "Badge",
-              attrs: { type: "tip" },
-              content: "Recommended",
-            };
-        },
-      },
-    ],
     sub: true,
     sup: true,
-    tabs: true,
     vPre: true,
   },
 
@@ -67,72 +47,9 @@ export default hopeTheme({
       assets: "//at.alicdn.com/t/font_2410206_h4r1xw8ppng.css",
       prefix: "iconfont icon-",
     },
-    // You should generate and use your own comment service
-    // comment: {
-
-    //   provider: "Giscus",
-    //   repo: "mitre/tir-docs",
-    //   repoId: "R_kgDOH3sAZQ",
-    //   category: "Ideas",
-    //   categoryId: "DIC_kwDOH3sAZc4CRApY",
-    //   mapping: "pathname"
-    // },
-
-    // uncomment these if you want a pwa
-    // pwa: {
-    //   favicon: "/favicon.ico",
-    //   cacheHTML: true,
-    //   cachePic: true,
-    //   appendBase: true,
-    //   apple: {
-    //     icon: "/assets/icon/apple-icon-152.png",
-    //     statusBarColor: "black",
-    //   },
-    //   msTile: {
-    //     image: "/assets/icon/ms-icon-144.png",
-    //     color: "#ffffff",
-    //   },
-    //   manifest: {
-    //     icons: [
-    //       {
-    //         src: "/assets/icon/chrome-mask-512.png",
-    //         sizes: "512x512",
-    //         purpose: "maskable",
-    //         type: "image/png",
-    //       },
-    //       {
-    //         src: "/assets/icon/chrome-mask-192.png",
-    //         sizes: "192x192",
-    //         purpose: "maskable",
-    //         type: "image/png",
-    //       },
-    //       {
-    //         src: "/assets/icon/chrome-512.png",
-    //         sizes: "512x512",
-    //         type: "image/png",
-    //       },
-    //       {
-    //         src: "/assets/icon/chrome-192.png",
-    //         sizes: "192x192",
-    //         type: "image/png",
-    //       },
-    //     ],
-    //     shortcuts: [
-    //       {
-    //         name: "Demo",
-    //         short_name: "Demo",
-    //         url: "/demo/",
-    //         icons: [
-    //           {
-    //             src: "/assets/icon/guide-maskable.png",
-    //             sizes: "192x192",
-    //             purpose: "maskable",
-    //             type: "image/png",
-    //           },
-    //         ],
-    //       },
-    //     ],
-    //   },
-    // },
+    components: {
+      components: ["VidStack"]
+    }
   },
+  headerDepth: 4
 });

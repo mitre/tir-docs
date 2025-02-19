@@ -15,23 +15,22 @@ docs: docs/*
 example: examples/**/*
 repository: packages/repository/*
 
-'user':
+'user-guide':
 - changed-files:
-  - any-glob-to-any-file: ['src/courses/user/**/*']
+  - any-glob-to-any-file: [ 'src/courses/*user*/**/*' ]
 
-'beginner':
-  - changed-files:
-    - any-glob-to-any-file: ['src/courses/beginner/**/*']
+'deployment-guide':
+- changed-files:
+  - any-glob-to-any-file: [ 'src/courses/*deployment*/**/*' ]
 
-'advanced':
-  - changed-files:
-    - any-glob-to-any-file: ['src/courses/advanced/**/*']
+'admin-guide':
+- changed-files:
+  - any-glob-to-any-file: [ 'src/courses/*admin*/**/*' ]
 
-'guidance':
-  - changed-files:
-    - any-glob-to-any-file: ['src/courses/guidance/**/*']
+'tir-resources':
+- changed-files:
+  - any-glob-to-any-file: [ 'src/resources/**/*' ]
 
-'courses':
-  - changed-files:
-    - any-glob-to-any-file: ['src/courses/**/*']
-
+'tir-installation':
+- changed-files:
+  - any-glob-to-any-file: [ 'src/installation/**/*' ]
