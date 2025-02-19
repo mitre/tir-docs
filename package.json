@@ -1,7 +1,7 @@
 {
-  "name": "saf-training",
-  "version": "2.0.0",
-  "description": "Training site for the MITRE Security Automation Framework",
+  "name": "tir-docs",
+  "version": "1.0.0",
+  "description": "Documentation for the Lockheed Martin and MITRE Security Automation Framework TIR application",
   "license": "Apache-2.0",
   "type": "module",
   "scripts": {
@@ -16,19 +16,12 @@
   },
   "devDependencies": {
     "@vuepress/bundler-vite": "2.0.0-rc.19",
-    "@vuepress/plugin-revealjs": "^2.0.0-rc.71",
-    "cypress": "^13.16.0",
+    "cypress": "^14.0.3",
     "cypress-each": "^1.14.0",
-    "flowchart.ts": "^3.0.1",
-    "mermaid": "^11.4.0",
-    "sass": "^1.83.4",
-    "start-server-and-test": "^2.0.8",
+    "start-server-and-test": "^2.0.10",
     "vidstack": "^1.12.13",
     "vue": "^3.5.13",
     "vuepress": "2.0.0-rc.19",
-    "vuepress-theme-hope": "2.0.0-rc.70"
-  },
-  "optionalDependencies": {
-    "@rollup/rollup-linux-x64-gnu": "*"
+    "vuepress-theme-hope": "2.0.0-rc.71"
   }
 }

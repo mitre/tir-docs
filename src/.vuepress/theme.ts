@@ -15,19 +15,11 @@ export default hopeTheme({
   docsDir: "src",
   navbar,
   sidebar,
+  footer: "Apache-2.0 | Copyright © 2025 | The MITRE Corporation | Lockheed Martin",
+  displayFooter: true,
 
-  plugins: {
-    icon: {
-      assets: "//at.alicdn.com/t/font_2410206_h4r1xw8ppng.css",
-      prefix: "iconfont icon-",
-    },
-    components: {
-      components: ["VidStack"]
-    }
-  },
-  headerDepth: 4,
   markdown: {
-    alert: true,
+    //alert: true,
     align: true,
     attrs: true,
     component: true,
@@ -41,50 +33,23 @@ export default hopeTheme({
       light: ["light"],
       dark: ["dark"],
     },
-    mermaid: true,
     sub: true,
     sup: true,
-    tabs: true,
-    codeTabs: true,
     vPre: true,
-
-    highlighter: {
-      type: "shiki",
-      lineNumbers: 15,
-      notationDiff: true,
-      themes: {
-        light: "github-light",
-        dark: "github-dark"
-      }
-    },
-
-    playground: {
-      presets: ["ts", "vue"],
-    },
-
-    revealjs: {
-      plugins: ["highlight", "math", "search", "notes", "zoom"],
-      themes: [
-        "auto", "beige", "black", "blood", "league",
-        "moon", "night", "serif", "simple", "sky",
-        "solarized", "white"
-      ]
-    },
-
-    stylize: [
-      {
-        matcher: "Recommended",
-        replacer: ({ tag }) => {
-          if (tag === "em")
-            return {
-              tag: "Badge",
-              attrs: { type: "tip" },
-              content: "Recommended",
-            };
-        },
-      },
-    ]
   },
 
-  footer: "© 2024 Lockheed Martin Corporation. This publication is licensed under the Creative Commons Attribution 4.0 International Public License (https://creativecommons.org/licenses/by/4.0/legalcode.en). Except as expressly licensed, all rights herein are reserved."
+  metaLocales: {
+    editLink: "Edit this page on GitHub",
+  },
+
+  plugins: {
+    icon: {
+      assets: "//at.alicdn.com/t/font_2410206_h4r1xw8ppng.css",
+      prefix: "iconfont icon-",
+    },
+    components: {
+      components: ["VidStack"]
+    }
+  },
+  headerDepth: 4
 });
