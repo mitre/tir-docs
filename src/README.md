@@ -1,6 +1,6 @@
 ---
 home: true
-icon: home
+icon: iconfont icon-home
 title: Test Ingest Repository
 heroImage: /assets/tir.svg
 heroText: Test Ingest Repository
