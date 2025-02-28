@@ -15,13 +15,13 @@
     "cy:run": "cypress run --e2e"
   },
   "devDependencies": {
-    "@vuepress/bundler-vite": "2.0.0-rc.19",
+    "@vuepress/bundler-vite": "2.0.0-rc.20",
     "cypress": "^14.1.0",
     "cypress-each": "^1.14.0",
     "start-server-and-test": "^2.0.10",
     "vidstack": "^1.12.13",
     "vue": "^3.5.13",
-    "vuepress": "2.0.0-rc.19",
+    "vuepress": "2.0.0-rc.20",
     "vuepress-theme-hope": "2.0.0-rc.73"
   }
 }
