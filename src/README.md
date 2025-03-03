@@ -2,7 +2,7 @@
 home: true
 icon: iconfont icon-home
 title: Test Ingest Repository
-heroImage: ./assets/tir.svg
+heroImage: tir.svg
 heroText: Test Ingest Repository
 tagline: Full Collection of Training Guides and Videos
 actions:
@@ -23,7 +23,7 @@ actions:
 highlights:
   - header: What You Will Learn
     description: Our guides include documentation and videos for standard users and privileged users.
-    image: ./assets/tir.svg
+    image: tir.svg
     bgImage: https://theme-hope-assets.vuejs.press/bg/2-light.svg
     bgImageDark: https://theme-hope-assets.vuejs.press/bg/2-dark.svg
     bgImageStyle:

@@ -12,7 +12,8 @@
     "start-server": "npm run docs:clean-dev",
     "test": "start-server-and-test start-server http://localhost:8080 cy:run",
     "cypress:open": "cypress open",
-    "cy:run": "cypress run --e2e"
+    "cy:run": "cypress run --e2e",
+    "docs:serve-dist": "npx serve src/.vuepress/dist/"
   },
   "devDependencies": {
     "@vuepress/bundler-vite": "2.0.0-rc.20",
