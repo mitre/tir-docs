@@ -44,8 +44,7 @@ export default hopeTheme({
 
   plugins: {
     icon: {
-      assets: "//at.alicdn.com/t/font_2410206_h4r1xw8ppng.css",
-      prefix: "iconfont icon-",
+      assets: "iconify",
     },
     components: {
       components: ["VidStack"]
