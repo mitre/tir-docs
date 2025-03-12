@@ -1,0 +1,5 @@
+
+User-agent:*
+Disallow:
+
+Sitemap: https://mitre.github.io/tir-docs/tir-docs/sitemap.xml
