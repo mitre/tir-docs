@@ -1,6 +1,6 @@
 ---
 home: true
-icon: iconfont icon-home
+icon: mdi:home
 title: Test Ingest Repository
 heroImage: tir.svg
 heroText: Test Ingest Repository
@@ -31,15 +31,15 @@ highlights:
       background-size: initial
     features:
       - title: Contribute to the open-source security community
-        icon: community
+        icon: flowbite:messages-solid
         details: Contribute to TIR's public GitHub repository
         link: https://github.com/mitre/tir
       - title: Report a Bug or Request an Enhancement
-        icon: support
+        icon: mdi:bug
         details: If you have a bug or an idea, please let us know here.
         link: https://github.com/mitre/tir/issues
       - title: MITRE SAF Homepage
-        icon: home
+        icon: mdi:home
         details: Learn more about the MITRE Security Automation Framework (SAF)
         link: https://saf.mitre.org/
 
