@@ -4,33 +4,19 @@
 #
 # For more information, see:
 # https://github.com/actions/labeler
-#
-# ├── ./src/courses
-# │   ├── ./courses/advanced
-# │   ├── ./courses/beginner
-# │   ├── ./courses/guidance
-# │   └── ./courses/user
-
-docs: docs/*
-example: examples/**/*
-repository: packages/repository/*
-
-'user-guide':
-- changed-files:
-  - any-glob-to-any-file: [ 'src/courses/*user*/**/*' ]
-
-'deployment-guide':
-- changed-files:
-  - any-glob-to-any-file: [ 'src/courses/*deployment*/**/*' ]
 
 'admin-guide':
 - changed-files:
-  - any-glob-to-any-file: [ 'src/courses/*admin*/**/*' ]
+  - any-glob-to-any-file: [ 'src/courses/tir_admin_guide/**/*', 'src/assets/admin-guide/**/*' ]
 
-'tir-resources':
+'deployment-guide':
 - changed-files:
-  - any-glob-to-any-file: [ 'src/resources/**/*' ]
+  - any-glob-to-any-file: [ 'src/courses/tir_deployment_guide/**/*', 'src/assets/deployment-guide/**/*' ]
 
-'tir-installation':
+'training-videos':
 - changed-files:
-  - any-glob-to-any-file: [ 'src/installation/**/*' ]
+  - any-glob-to-any-file: [ 'src/courses/tir_training_videos/**/*', 'src/assets/training-videos/**/*' ]
+
+'user-guide':
+- changed-files:
+  - any-glob-to-any-file: [ 'src/courses/tir_user_guide/**/*', 'src/assets/user-guide/**/*' ]
