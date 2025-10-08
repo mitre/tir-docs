@@ -16,13 +16,13 @@
     "docs:serve-dist": "npx serve src/.vuepress/dist/"
   },
   "devDependencies": {
-    "@vuepress/bundler-vite": "2.0.0-rc.24",
+    "@vuepress/bundler-vite": "2.0.0-rc.25",
     "cypress": "^15.4.0",
     "cypress-each": "^1.14.1",
     "start-server-and-test": "^2.1.2",
     "vidstack": "^1.12.13",
     "vue": "^3.5.22",
-    "vuepress": "2.0.0-rc.24",
+    "vuepress": "2.0.0-rc.25",
     "vuepress-theme-hope": "2.0.0-rc.94"
   }
 }
