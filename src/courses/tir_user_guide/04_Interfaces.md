@@ -39,69 +39,11 @@ The **Libraries** page will display all of the STIG libraries that have been upl
 
 ![Figure 5: STIG Libraries](../../assets/user-guide/image6.png "Figure 5: STIG Libraries")
 
-#### Import STIG Libraries
-
-To import a new STIG library, navigate to the **Libraries** page and click the **Import** button inside the **STIG Libraries** section. For reference, this button can be found in the top right of *Figure 5: STIG Libraries*.
-
-The **Import** button will open a file navigation window. Navigate to the .zip file containing the STIG Library and click **Open**.
-
-Once imported, the STIG libraries will follow a standardized naming convention. The naming convention will follow this template: **U\_SRG-STIG\_Library\_{year}\_{month}{revision}.zip**.
-
-Please refer to the table below for more examples.
-
-<table>
-<colgroup>
-<col style="width: 8%" />
-<col style="width: 29%" />
-<col style="width: 14%" />
-<col style="width: 47%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><strong>Year</strong></th>
-<th><strong>Release Quarter/ Month</strong></th>
-<th><strong>Revision</strong></th>
-<th><strong>Naming Convention</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>2022</td>
-<td>Q1 / January (01)</td>
-<td>v1</td>
-<td>U_SRG-STIG_Library_2022_01v1.zip</td>
-</tr>
-<tr class="even">
-<td>2022</td>
-<td>Q2 / April (04)</td>
-<td>v2</td>
-<td>U_SRG-STIG_Library_2022_04v2.zip</td>
-</tr>
-<tr class="odd">
-<td>2023</td>
-<td>Q3 / July (07)</td>
-<td>v1</td>
-<td>U_SRG-STIG_Library_2023_07v1.zip</td>
-</tr>
-<tr class="even">
-<td>2023</td>
-<td>Q4 / October (10)</td>
-<td>v2</td>
-<td>U_SRG-STIG_Library_2023_10v2.zip</td>
-</tr>
-</tbody>
-</table>
-<p style="text-align: center;"><em>Table 2: STIG Library Naming Conventions</em></p>
-
 ### CCI Matrix
 
 CCI mappings are distributed by NIST and are updated as necessary. The latest CCI Matrix can be downloaded at the following <https://public.cyber.mil/stigs/cci/>. Please note that CCI mappings differ between SP 800-53 Rev 4 and Rev 5, and keeping this updated will ensure more granular mapping of STIGs to applicable CCIs.
 
 ![Figure 6: CCI Matrix](../../assets/user-guide/image7.png "Figure 6: CCI Matrix")
-
-#### Import CCI Matrix Updates 
-
-To import a new CCI Matrix, navigate to the Libraries page and click the Import button inside the CCI Matrix section. For reference, this button can be found in the top right of *Figure 6: CCI Matrix*.
 
 ## About Page
 

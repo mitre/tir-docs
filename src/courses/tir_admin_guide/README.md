@@ -1,6 +1,6 @@
 ---
 order: 1
-next: 02_AccountPermissions.md
+next: 02_AdminLogin.md
 title: Test Ingest Repository Admin Guide
 shortTitle: TIR Admin Guide
 author: Jason Kerbelis

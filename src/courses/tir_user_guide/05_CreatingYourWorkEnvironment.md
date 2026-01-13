@@ -21,7 +21,7 @@ The owner of each boundary will be responsible for creating their **Boundary** i
 
 To better illustrate this comparison to the traditional directory structure, please refer to the *Figure 15: Example Boundary Structures* below.
 
-![Figure 15: Example Boundary Structures](../../assets/user-guide/CompaniesAndBoundaries.png "Figure 15: Example Boundary Structures" =300x700)
+![Alt =300x700](../../assets/user-guide/CompaniesAndBoundaries.png "Figure 15: Example Boundary Structures")
 
 With that illustration in mind, let’s get started with creating boundaries inside of TIR. Navigate to the **Boundaries** page by clicking the **Boundaries** button at the top on the page. To create a new company, click the **\[+\] Company** button as shown in Figure 16.
 
@@ -239,7 +239,7 @@ Manually adding STIGs is not necessary if you are able to upload scan results fo
 
 To add a blank STIG checklist to a system, navigate to your boundary and click **System View**. Next, select a system from the system view.
 
-![Figure 29: Import Scan Data<](../../assets/user-guide/image38.png "Figure 29: Import Scan Data<")
+![Figure 29: Import Scan Data<](../../assets/user-guide/image38.png "Figure 29: Import Scan Data")
 
 The two buttons found in the screenshot above (*Figure 29*) can be used to upload STIGs and Test Data Results to your systems.
 

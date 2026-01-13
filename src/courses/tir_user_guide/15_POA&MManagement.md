@@ -1,8 +1,8 @@
 ---
-order: 14
-next: 15_BackupAndRestore.md
+order: 15
+next: 16_BackupAndRestore.md
 title: POA&M Management
-shortTitle: 13. POA&M Management
+shortTitle: 14. POA&M Management
 author: Jason Kerbelis
 headerDepth: 4
 ---
@@ -19,6 +19,6 @@ From the **Boundary View** and **Vulnerability View**, each check will have a co
 
 After you’ve completed filling out the **POAM Fields** for an open finding, click the **Save** button at the bottom of the page.
 
-![Figure 80: POA&M Fields](../../assets/user-guide/image52.png "Figure 80: POA&M Fields")
+![Figure 84: POA&M Fields](../../assets/user-guide/image52.png "Figure 84: POA&M Fields")
 
 As you continue to import more test results into your boundary during future scanning events, these POA&M fields will persist. As open items are worked, new milestones can be added and worked through your processes.

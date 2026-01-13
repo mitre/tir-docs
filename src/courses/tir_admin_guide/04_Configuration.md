@@ -1,7 +1,7 @@
 ---
-order: 3
+order: 4
 title: Configuration
-shortTitle: 2. Configuration
+shortTitle: 3. Configuration
 author: Jason Kerbelis
 headerDepth: 4
 ---
@@ -34,7 +34,7 @@ The default Local Administrator Username is admin@tir.local. The initial passwor
 
 ## Administrative Functions
 
-The TIR Local Administrator account is allowed to perform a number of configuration tasks, like creating local accounts, setting up LDAP, uploading certificates, and configurating centralized Logging. These functions are executed in the **Administration** Tab.
+The TIR Local Administrator account is allowed to perform a number of configuration tasks, like creating local accounts, setting up Lightweight Directory Access Protocol (LDAP), uploading certificates, and configurating centralized logging. These functions are executed in the **Administration** Tab.
 
 ### The Administration Tab
 
@@ -47,10 +47,6 @@ The four major **Administration** tab functions are configuration, Notifications
 A view of the **Administration** tab is below:
 
 ![Figure 13: Administration Tab](../../assets/admin-guide/AdministrationTab_General.png "Figure 13: Administration Tab")
-
-#### Configuring LDAP
-
-LDAP is configured during TIR deployment. Please see the TIR Deployment Guide for LDAP configuration procedures.
 
 #### Configuration
 
@@ -80,7 +76,7 @@ Within the **Configuration** section an Administrator can change standard **Term
 
 - Select **Import**
 
-![Figure 21: Import Certificates](../../assets/admin-guide/image14.png "Figure 21: Import Certificates")
+![Figure 21: Import Certificates](../../assets/admin-guide/AdministrationTab_Configuration_ImportCert.png "Figure 21: Import Certificates")
 
 - A modal window saying "Checking Certificates Please Wait... Circle" will appear while the files are being loaded.
 
@@ -182,6 +178,84 @@ Once properly configured click **Save**.
 -   **Syslog Port** is the port being used to forward logs.
 -   **Log Level** determines which logs will be forwarded to the centralized log server. 
 
+#### Security
+
+System security banners can be configured from the **Security** tab on the **Administration** page. Administrators have the ability to add a **Site Banner** and a **Login Banner** to their TIR instance. Site banners will be visible from the top of the browser window and will remain visible at all times will users are logged in. The **Login Banner** will be displayed from the login screen and all users will need to acknowledge that they have read the banner before each login attempt.
+
+For detailed information about the configuration options of our banners, please see the **Site Banner** and **Login Banner** sections below.
+
+##### Site Banner
+
+The **Site Banner** is designed to display the classification level of the data being stored in your TIR instance.  This should be used as a reminder to all users in an effort to pervent users from uploading data that is not approved for you TIR instance.
+
+The **Site Banner** section contains four configuration fields that can be customized:
+
+-   **Enabled** can be toggled on/off to enable and disable the **Site Banner**.
+-   **Banner Color** can be used to set the color of your banner. Admins select colors from a color wheel or input the color code using RGB, HSL, or Hexadecimal.
+-   **Banner Text** is used to capture the text that will be displayed on the banner. This is a text field that accepts HTML formatted text. The HTML format allows admins to insert links into the site banner.
+-   **Preview** will display an example of what your banner will look like so that admins can review their changes before clicking **Save**.
+
+Once all of your changes have been made in the **Site Banner** section, admins must click the **Save** button to save all changes. Clicking the **Save** button will save and instantly publish all changes to site.
+
+![Figure 31: Site Banner](../../assets/admin-guide/AdministrationTab_Security_SiteBanner.png "Figure 31: Site Banner")
+
+##### Login Banner
+
+The **Login Banner** section contains four configuration fields that can be customized:
+
+-   **Enabled** can be toggled on/off to enable and disable the **Login Banner**.
+-   **Banner Title** is used to define the title of your **Login Banner**.
+-   **Banner Text** is used to capture the text that will be displayed on the banner. This is a text field that accepts HTML formatted text. The HTML format allows admins to insert links into the site banner
+-   **Banner Mode** is a drop-down menu that allows admins to choose between two different banner types: **Checkbox** or **Popup Window**
+
+An example of each **Banner Mode** can be found the screenshots below.
+
+When **Checkbox** is selected as the **Banner Mode**, users will need select the checkbox on the login screen before they are able to sign-in.
+
+![Figure 32: Login Banner - Checkbox](../../assets/admin-guide/AdministrationTab_Security_LoginBannerCheckbox.png "Figure 32: Login Banner - Checkbox")
+
+When **Popup Window** is selected as the **Banner Mode**, users will be presented with the **Login Banner** at the login screen. Users will need to click **OK** button to acknowledge that they read the **Login Banner**.
+
+![Figure 33: Login Banner - Popup Window](../../assets/admin-guide/AdministrationTab_Security_LoginBannerPopup1.png "Figure 33: Login Banner - Popup Window")
+
+#### Authentication
+
+Authentication settings can be configured from the **Auth** page of the **Administration** tab. Administrators have the ability to configure TIR to use authentication providers such as Lightweight Directory Access Protocol (LDAP) and OpenID Connect (OIDC). For local TIR accounts, administrators can configure password length and complexity constraints. Our authentication settings are organized into three sections: Local Auth, LDAP Auth, and OIDC Auth. For details about each authentication method, please see the to the **Local Auth**, **LDAP Auth**, and **OIDC Auth** sections below.
+
+##### Local Auth
+
+The **Local Auth** section will allow admins to set the password length and complexity requirements for their TIR instance. These settings will only apply to the local accounts that were created from within the **Users** page. This applies to the default accounts that were setup during deployment (user@tir.local and admin@tir.local). Local Auth can be enabled and disabled using the toggle (found in Figure 34). If permitted, the **Local Auth** can remain enabled so that administrators can use the admin@tir.local account as a backup admin account.
+
+![Figure 34: Authentication - Local Auth](../../assets/admin-guide/AdministrationTab_LocalAuth.png "Figure 34: Authentication - Local Auth") 
+
+##### LDAP Auth
+
+Lightweight Directory Access Protocol (LDAP)
+
+-   **Enabled** can be toggled on/off to enable and disable the **LDAP Auth**.
+-   **LDAP URL** 
+-   **Bind DN**
+-   **Password**
+-   **Base DN**
+
+![Figure 35: Authentication - LDAP](../../assets/admin-guide/AdministrationTab_LDAPAuth.png "Figure 35: Authentication - LDAP") 
+
+##### OIDC Auth
+
+To configure Single Sign-On with TIR, an administrator will need to enable OpenID Connect (OIDC). Once enabled, the following fields will need to be completed: **OIDC URL**, **Client ID**, **Secret**, **Callback URL**, and **Group Mappings**. 
+
+-   **Enabled** can be toggled on/off to enable and disable the **OIDC Auth**.
+-   **OIDC URL** is the base URL of the identity provider (ex. `https://auth.example.com`)
+-   **Client ID** is the ID given when you registered the application with the authorization server
+-   **Secret** is the shared secret between the client application and the authorization server
+-   **Callback URL** (or redirect URL) is the specific web address where a user is sent after successfully authentication with an identity provider
+-   **Group Mappings** are the list of approved AD groups. The format for these group mapping are "domain/group:id" (us/tiradmins:1,us/tirusers:2). 
+    - The **domain** will be the domain where the AD group exists
+    - The **group** is the sAMAccountName in Active Directory
+    - The **id** field will be a '1' if the group is for admins and '2' if the group is for users
+
+![Figure 36: Authentication - OIDC](../../assets/admin-guide/AdministrationTab_LDAPAuth.png "Figure 36: Authentication - OIDC") 
+
 ## Libraries
 
 The **Libraries** tab provides the ability to import new STIG libraries and updated Control Correlation Identifiers (CCI) mappings for different NIST SP 800-53 revisions.
@@ -196,7 +270,7 @@ Please navigate to the **Libraries** tab by clicking the **Libraries** button at
 
 Note: The **Libraries** tab will display all of the STIG libraries that have been uploaded to your TIR instance.
 
-![Figure 31: STIG Libraries](../../assets/admin-guide/image27.png "Figure 31: STIG Libraries")
+![Figure 37: STIG Libraries](../../assets/admin-guide/image27.png "Figure 37: STIG Libraries")
 
 Once imported, the STIG libraries will follow a standardized naming convention. The naming convention will follow this template: **U\_SRG-STIG\_Library\_{year}\_{month}{revision}.zip**.
 
@@ -249,7 +323,7 @@ Please refer to the table below for more examples.
 
 ### Import STIG Libraries
 
-To import a new STIG library, please navigate to the **Libraries** page and click the **Import** button inside the **STIG Libraries** section, as seen in Figure 14. For reference, this button can be found in the top right of *Figur*e 14: STIG Libraries.
+To import a new STIG library, please navigate to the **Libraries** page and click the **Import** button inside the **STIG Libraries** section, as seen in Figure 14. For reference, this button can be found in the top right of *Figur*e 31: STIG Libraries.
 
 The **Import** button will open a file navigation window. Please navigate to the .zip file containing the STIG Library and click **Open**.
 
@@ -257,7 +331,7 @@ The **Import** button will open a file navigation window. Please navigate to the
 
 CCI mappings are provided by NIST and updated as necessary. CCI mappings different between SP 800-53 Rev 4 and Rev 5. Keeping this updated ensure more granular mapping of STIGs to applicable CCIs.
 
-![Figure 32: CCI Matrix](../../assets/admin-guide/image28.png "Figure 32: CCI Matrix")
+![Figure 38: CCI Matrix](../../assets/admin-guide/image28.png "Figure 38: CCI Matrix")
 
 #### Import CCI Matrix Updates 
 
