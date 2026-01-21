@@ -4,7 +4,8 @@ next: 09_BoundaryView.md
 title: Changing Company and Boundary Permissions
 shortTitle: 7. Changing Company and Boundary Permissions
 author: Jason Kerbelis
-headerDepth: 4
+toc:
+  levels: [2,6]
 ---
 
 To add or modify Company and Boundary permissions, select the 3 buttons to the far right of the Company or Boundary and select Manage Members.

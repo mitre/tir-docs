@@ -4,11 +4,12 @@ next: 15_BoundaryBackupAndRestore.md
 title: Exports
 shortTitle: 13. Exports
 author: Jason Kerbelis
-headerDepth: 4
+toc:
+  levels: [2,6]
 ---
 
 
 <VidStack
-  src="https://www.youtube.com/watch?v=rax3dXQxIvA&list=PLm1Nyfu8s-DeXpRg8B5bqnrLH7HXetzWn&index=13"
+  src="https://www.youtube.com/watch?v=6hgOQw_sU44&list=PLm1Nyfu8s-DeXpRg8B5bqnrLH7HXetzWn&index=14"
   poster="../../assets/training-videos/Exports.jpg"
 />

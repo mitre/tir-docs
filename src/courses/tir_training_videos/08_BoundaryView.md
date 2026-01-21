@@ -1,10 +1,11 @@
 ---
-order: 9
-next: 10_VulnerabilityView.md
+order: 8
+next: 09_VulnerabilityView.md
 title: Boundary View
-shortTitle: 8. Boundary View
+shortTitle: 7. Boundary View
 author: Jason Kerbelis
-headerDepth: 4
+toc:
+  levels: [2,6]
 ---
 
 

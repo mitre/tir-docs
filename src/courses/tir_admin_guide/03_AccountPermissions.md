@@ -4,7 +4,8 @@ next: 04_Configuration.md
 title: Account Permissions
 shortTitle: 2. Account Permissions
 author: Jason Kerbelis
-headerDepth: 4
+toc:
+  levels: [2,6]
 ---
 
 TIR has two types of users, Administrators and Users. Administrators have access to the **Administration,** **Libraries**, and **Boundary** tabs. Users only have access to Libraries and Boundary tabs. TIR is setup as a hierarchical system with Companies and Boundaries. Users can be granted permissions to be Owners, Reviewers, and Editors for

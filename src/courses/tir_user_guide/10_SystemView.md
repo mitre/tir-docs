@@ -4,7 +4,8 @@ next: 11_VulnerabilityView.md
 title: System View
 shortTitle: 9. System View
 author: Jason Kerbelis
-headerDepth: 4
+toc:
+  levels: [2,6]
 ---
 
 The **System View** tab shows you a list of all the systems inside your boundary, the number of STIGs applied to each system, and the total status counts for all of the checks applied to that system.

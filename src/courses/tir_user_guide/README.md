@@ -4,7 +4,8 @@ next: 02_References.md
 title: Test Ingest Repository User Guide
 shortTitle: TIR User Guide
 author: Jason Kerbelis
-headerDepth: 4
+toc:
+  levels: [2,6]
 ---
 
 ## Purpose

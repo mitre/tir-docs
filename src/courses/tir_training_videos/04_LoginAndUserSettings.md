@@ -4,7 +4,8 @@ next: 05_Navigation.md
 title: Login and User Settings
 shortTitle: 3. Login and User Settings
 author: Jason Kerbelis
-headerDepth: 4
+toc:
+  levels: [2,6]
 ---
 
 

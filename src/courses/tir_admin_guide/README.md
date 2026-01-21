@@ -4,7 +4,8 @@ next: 02_AdminLogin.md
 title: Test Ingest Repository Admin Guide
 shortTitle: TIR Admin Guide
 author: Jason Kerbelis
-headerDepth: 4
+toc:
+  levels: [2,6]
 ---
 
 ## Purpose

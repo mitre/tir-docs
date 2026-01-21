@@ -4,7 +4,8 @@ next: 13_SystemStatusesAndSeveritiesWithOverrides.md
 title: SCTM View
 shortTitle: 11. SCTM View
 author: Jason Kerbelis
-headerDepth: 4
+toc:
+  levels: [2,6]
 ---
 
 ## SCTM View

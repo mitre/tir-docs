@@ -4,7 +4,8 @@ next: 06_ImportingScanData.md
 title: Creating your Work Environment
 shortTitle: 4. Creating your Work Environment
 author: Jason Kerbelis
-headerDepth: 4
+toc:
+  levels: [2,6]
 ---
 
 The Test Ingest Repository is designed to a store your boundary composition in a hierarchical format. Before you can begin your cyber assessment, you will need to create the path to store your boundary’s scan data.

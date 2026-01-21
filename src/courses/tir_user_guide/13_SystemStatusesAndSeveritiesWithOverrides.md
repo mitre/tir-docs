@@ -4,7 +4,8 @@ next: 14_Exports.md
 title: System Statuses and Severities with Overrides
 shortTitle: 12. System Statuses and Severities with Overrides
 author: Jason Kerbelis
-headerDepth: 4
+toc:
+  levels: [2,6]
 ---
 
 The **System** button is available in the **Boundary View** and **Vulnerability View**. From this view you will be able to update the status and severities of each system in your boundary. Additionally, you have the ability to apply overrides for each of these updates. Override rules can be set on findings so that the status you assign to a finding will persist on the selected systems when new test data is imported in the future. This override feature should be used almost exclusively to set statuses of **Not Applicable** for checks that are deemed **Not Applicable** to your boundary. Using this feature to get an override status of **NotAFinding** could cause you to miss a potential open finding in the future if security settings or Group Policy Objects (GPOs) are disabled or removed. 

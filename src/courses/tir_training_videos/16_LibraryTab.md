@@ -1,10 +1,11 @@
 ---
-order: 6
-next: 07_CreatingCompaniesAndBoundaries.md
+order: 16
+next: 17_AdminAccessPermissions.md
 title: Library Tab
-shortTitle: 5. Library Tab
+shortTitle: 15. Library Tab
 author: Jason Kerbelis
-headerDepth: 4
+toc:
+  levels: [2,6]
 ---
 
 

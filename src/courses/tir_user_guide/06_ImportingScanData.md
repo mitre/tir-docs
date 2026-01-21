@@ -4,7 +4,8 @@ next: 07_DeltaSTIGs.md
 title: Importing Scan Data
 shortTitle: 5. Importing Scan Data
 author: Jason Kerbelis
-headerDepth: 4
+toc:
+  levels: [2,6]
 ---
 
 Once your Boundary and systems have been created, you will be able to import test data into your Boundary. If you have existing scan data in your boundary and are importing new scan results, the new scan results will overwrite the existing data. To do this, navigate to your Boundary and click the **Import Results** button.

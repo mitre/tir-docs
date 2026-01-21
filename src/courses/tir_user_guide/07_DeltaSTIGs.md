@@ -4,7 +4,8 @@ next: 08_ChangingCompanyAndBoundaryPermissions.md
 title: Delta STIGs
 shortTitle: 6. Delta STIGs
 author: Jason Kerbelis
-headerDepth: 4
+toc:
+  levels: [2,6]
 ---
 
 TIR has the ability to show you which STIG checks have been added or updated when newer STIG Libraries are imported. Users have the option to select the STIG baseline that they want to use for each boundary. When a boundary is moves from older baseline to a newer baseline, there might be some applicable STIG checks that have been added or modified. The following section will show you how to update your STIG baseline and identify the deltas.

@@ -1,10 +1,11 @@
 ---
-order: 8
-next: 09_BoundaryView.md
+order: 7
+next: 08_BoundaryView.md
 title: Adding Systems
-shortTitle: 7. Adding Systems
+shortTitle: 6. Adding Systems
 author: Jason Kerbelis
-headerDepth: 4
+toc:
+  levels: [2,6]
 ---
 
 

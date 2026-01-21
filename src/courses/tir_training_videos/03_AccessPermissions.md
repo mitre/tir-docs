@@ -4,7 +4,8 @@ next: 04_LoginAndUserSettings.md
 title: Access Permissions
 shortTitle: 2. Access Permissions
 author: Jason Kerbelis
-headerDepth: 4
+toc:
+  levels: [2,6]
 ---
 
 

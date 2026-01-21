@@ -3,7 +3,8 @@ order: 4
 title: Configuration
 shortTitle: 3. Configuration
 author: Jason Kerbelis
-headerDepth: 4
+toc:
+  levels: [2,6]
 ---
 
 ## Administrator Login

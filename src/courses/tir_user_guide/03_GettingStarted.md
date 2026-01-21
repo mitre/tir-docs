@@ -4,7 +4,8 @@ next: 04_Interfaces.md
 title: Getting Started
 shortTitle: 2. Getting Started
 author: Jason Kerbelis
-headerDepth: 4
+toc:
+  levels: [2,6]
 ---
 
 TIR is a repository that will store and manage your system or network’s STIG compliance and Plans of Actions and Milestones (POA&M). Your TIR instance should be deployed and configured by your System Administrator, and access through a web browser. For information about deploying TIR to a new environment please see the Test Ingest Repository (TIR) Deployment Guide.

@@ -4,7 +4,8 @@ next: 16_BackupAndRestore.md
 title: POA&M Management
 shortTitle: 14. POA&M Management
 author: Jason Kerbelis
-headerDepth: 4
+toc:
+  levels: [2,6]
 ---
 
 The Plan of Action and Milestones (POA&M) export will compile all your scan data along with the addition information you have provided about each open finding and organize it into a spreadsheet. The purpose of a POA&M is to document all of the security findings for your boundary and explain them in terms of the Risk Management Framework (RMF). The POA&M provides details of each finding and the risk associated with the finding. Additionally, the POA&M provides a method to explain why these findings exist and a path forward to addressing the findings (if possible). To fully cover all items on a POA&M, each finding needs to be addressed individually.

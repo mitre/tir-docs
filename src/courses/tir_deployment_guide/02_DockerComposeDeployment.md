@@ -4,7 +4,8 @@ next: 03_CertificateImportAndVerification.md
 title: Deployment Using Docker-Compose
 shortTitle: 1. Docker Compose Deployment
 author: Jason Kerbelis
-headerDepth: 4
+toc:
+  levels: [2,6]
 ---
 
 1.  On the target host system, create a target deployment folder (i.e. /opt/tir).

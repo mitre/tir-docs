@@ -1,10 +1,11 @@
 ---
 order: 5
-next: 06_LibraryTab.md
+next: 06_CreatingCompaniesAndBoundaries.md
 title: Navigation
 shortTitle: 4. Navigation
 author: Jason Kerbelis
-headerDepth: 4
+toc:
+  levels: [2,6]
 ---
 
 
